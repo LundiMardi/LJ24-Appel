@@ -1,0 +1,208 @@
+// variables
+:root {
+
+  --green: #7BFA3B;
+  --blue: #5743FB;
+  --black: #000000;
+  --white: #ffffff;
+
+
+  // font-sizes
+  --fs-s: 0.9375rem ; // 15pts
+  --fs-m: 1.25rem ; // 20pts
+  --fs-l: 1.625rem ; // 26pts
+  --fs-xl: 2.875rem ; // 46pts
+
+  // letter-spacing
+  --narrow: -5;
+  --tight: -20;
+  
+  // soft grid
+  --unit: 8px ;
+  --window-padding: 16px;
+}
+
+
+// Base
+
+html {
+  background-color: var(--green);
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: var(--fs-s);
+  line-height: 1.1;
+  
+}
+
+p {
+  margin-block-end: 1em;
+}
+
+a {
+  color: var(--blue);
+  text-decoration: none ;
+}
+.context-blue a {
+  color: var(--green);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+h2, h3 {
+  font-size: var(--fs-m);
+}
+p + h2, ul + h2 {
+  margin-block-start: 3rem;
+}
+
+ul {
+  padding-inline-start: 16px;
+  list-style-position: outside;
+}
+
+
+// table
+table {
+  border-collapse: collapse;
+  padding-block-end: 1em;
+}
+td {
+  // border-top: 1px solid var(--black);
+  vertical-align: top ;
+  height: 2rem;
+  padding-top: var(--unit);
+  padding-bottom: var(--unit);
+}
+tr, tr:last-child {
+  border-bottom: 1px solid var(--black);
+}
+
+// Utilities
+.window-padding-h {
+ padding-left: var(--window-padding) ;
+ padding-right: var(--window-padding) ;
+}
+
+//  Component
+
+.lj-button {
+  display: inline-block;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  line-height: 1;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 9999px;
+
+  &:hover {
+    transform: scale(1.2);
+    // background-color: white;
+  }
+}
+
+.context-blue .lj-button {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.link-table {
+  ul {padding-inline-start: 0;}
+  li {
+    list-style-type: none;
+    border-top: 1px solid var(--blue);
+    
+    &:last-child {
+      border-bottom: 1px solid var(--blue);
+    }
+  }
+  .context-blue li,
+  .context-blue li:last-child {
+    border-color: var(--green);
+  }
+
+  li > a {
+    display: flex;
+    justify-content: space-between;
+    
+    font-size: var(--fs-m);
+    padding-top: 0.5em ;
+    padding-bottom : 0.5em ;
+    
+    em {
+      align-self: flex-end;
+      
+      font-style: normal;
+      font-size: var(--fs-s) ;
+    }
+  }
+}
+.context-blue {}
+
+
+// markdown hacks
+
+h6 {
+  display: block;
+}
+
+h6 > a {
+
+  font-size: var(--fs-s);
+  @extend .lj-button ;
+}
+
+h6 + h6 {
+  margin-top: -1em ;
+}
+// Layout
+
+
+
+section#Competition {
+  // pour text intro
+  > p:first-of-type { font-size: var(--fs-m); }
+
+}
+#previous-websites {
+  p {
+    padding-bottom: 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  ul li {
+    @extend .lj-button;
+    margin-bottom: 4px;
+  }
+}
+
+section#Concept {
+
+
+  
+  p:nth-child(2n) {
+    color: var(--blue);
+    font-size: var(--fs-m);
+  }
+  p:nth-child(2n+1) {
+    margin-left: 2em;
+  }
+}
+
+section#About {
+
+}
+
+
+.context-blue {
+  background-color: var(--blue) ;
+  color: var(--white);
+}
