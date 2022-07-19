@@ -162,6 +162,32 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/source\/images\/RUSH_N&V_Sub_19_1.jpg" : {
+      "ft" : 16384,
+      "iS" : 1417856,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/RUSH_N&V_Sub_19_1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/video-cover-dummy.jpg" : {
+      "ft" : 16384,
+      "iS" : 743593,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/video-cover-dummy.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     }
   },
   "hooks" : [
