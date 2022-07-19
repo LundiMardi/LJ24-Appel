@@ -132,6 +132,36 @@
       "oA" : 0,
       "oAP" : "\/build\/fr\/index.html",
       "oF" : 0
+    },
+    "\/source\/images\/logo-lj24__bottom.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/images\/logo-lj24__bottom.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/source\/images\/logo-lj24__top.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/images\/logo-lj24__top.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/source\/images\/logo-lj24.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/images\/logo-lj24.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     }
   },
   "hooks" : [
