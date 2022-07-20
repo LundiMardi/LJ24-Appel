@@ -32,6 +32,7 @@
 } 
 
 html {
+  scroll-behavior: smooth;
   background-color: var(--green);
 }
 body {
@@ -134,6 +135,24 @@ tr, tr:last-child {
   color: var(--green);
 }
 
+.menu--item.lj-button {
+  background-color: var(--blue);
+  color: var(--green);
+  border: none;
+}
+.context-blue .menu--item.lj-button {
+  background-color: var(--green);
+  color: var(--blue);
+}
+
+.menu--item.is-current {
+  background-color: var(--black);
+}
+.context-blue .menu--item.is-current {
+  background-color: var(--white);
+}
+
+
 .link-table {
   ul {padding-inline-start: 0;}
   li {
@@ -187,13 +206,25 @@ h6 + h6 {
 // Layout
 
 
-nav#main-nav {
+#main-nav {
  position: sticky;
  top: 0px;
 
  padding-top: var(--unit);
  padding-bottom: var(--unit);
  background-color: var(--green);
+}
+#main-nav.context-blue {
+  background-color: var(--blue);
+  color: var(--white) ;
+}
+
+a.menu-logo svg {
+  fill:var(--black);
+  height: 64px ;
+}
+.context-blue a.menu-logo svg {
+  fill:var(--white);
 }
 
 section#quick-access {
