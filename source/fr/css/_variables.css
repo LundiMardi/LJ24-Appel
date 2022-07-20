@@ -1,0 +1,26 @@
+// variables
+:root {
+
+  --green: #7BFA3B;
+  --blue: #5743FB;
+  --black: #000000;
+  --white: #ffffff;
+
+
+  // font-sizes
+  --fs-s: 0.9375rem ; // 15pts
+  --fs-m: 1.25rem ; // 20pts
+  --fs-l: 1.625rem ; // 26pts
+  --fs-xl: 2.875rem ; // 46pts
+
+  // letter-spacing
+  --narrow: -5;
+  --tight: -20;
+  
+  // soft grid
+  --unit: 8px ;
+  --window-padding: 16px;
+
+  // ease functions
+  --easeOutBack: cubic-bezier(0.34, 1.56, 0.64, 1) ;
+}

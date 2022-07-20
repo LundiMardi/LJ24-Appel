@@ -1,116 +1,385 @@
 {
   "AAInfo" : "This is a CodeKit 3 project config file. EDITING THIS FILE IS A POOR LIFE DECISION. Doing so may cause CodeKit to crash and\/or corrupt your project. Several critical values in this file are 64-bit integers, which JavaScript JSON parsers do not support because JavaScript cannot handle 64-bit integers. These values will be corrupted if the file is parsed with JavaScript. This file is not backwards-compatible with CodeKit 1 or 2. For details, see https:\/\/codekitapp.com\/",
   "buildSteps" : [
-    {
-      "name" : "Process All Remaining Files and Folders",
-      "stepType" : 1,
-      "uuidString" : "8A0E9E22-FF23-4737-9399-3EFCEBB0DD0C"
-    }
+
   ],
   "creatorBuild" : "34365",
   "files" : {
-    "\/build" : {
-      "ft" : 65536,
+    "\/gulpfile.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/build\/build",
-      "oF" : 0
-    },
-    "\/Source\/fr\/Content\/_About_fr.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 0,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/build\/fr\/Content\/_About_fr.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 1,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/Source\/fr\/Content\/_Competition_fr.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 0,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/build\/fr\/Content\/_Competition_fr.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 1,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/source\/fr\/content\/_Competition-downloads_fr.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 0,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/build\/fr\/content\/_Competition-downloads_fr.html",
+      "oAP" : "\/gulpfile-min.js",
       "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 1,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
+      "sC" : 3,
+      "tS" : 0
     },
-    "\/source\/fr\/content\/_Competition-previous-websites_fr.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 0,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
+    "\/lib\/jquery.waypoints.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/build\/fr\/content\/_Competition-previous-websites_fr.html",
+      "oAP" : "\/lib\/jquery.waypoints-min.js",
       "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 1,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
+      "sC" : 3,
+      "tS" : 0
     },
-    "\/Source\/fr\/Content\/_Concept_fr.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 0,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
+    "\/lib\/jquery.waypoints.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/build\/fr\/Content\/_Concept_fr.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 1,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
+      "oAP" : "\/lib\/jquery.waypoints.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
-    "\/source\/fr\/css\/_variables.css" : {
+    "\/lib\/noframework.waypoints.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/lib\/noframework.waypoints-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/lib\/noframework.waypoints.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/lib\/noframework.waypoints.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/lib\/shortcuts\/infinite.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/lib\/shortcuts\/infinite-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/lib\/shortcuts\/infinite.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/lib\/shortcuts\/infinite.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/lib\/shortcuts\/inview.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/lib\/shortcuts\/inview-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/lib\/shortcuts\/inview.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/lib\/shortcuts\/inview.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/lib\/shortcuts\/sticky.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/lib\/shortcuts\/sticky-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/lib\/shortcuts\/sticky.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/lib\/shortcuts\/sticky.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/lib\/waypoints.debug.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/lib\/waypoints.debug-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/lib\/zepto.waypoints.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/lib\/zepto.waypoints-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/lib\/zepto.waypoints.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/lib\/zepto.waypoints.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/adapters\/jquery-zepto-fn-extension.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/adapters\/jquery-zepto-fn-extension-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/adapters\/jquery.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/adapters\/jquery-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/adapters\/noframework.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/adapters\/noframework-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/adapters\/zepto.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/adapters\/zepto-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/context.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/context-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/debug.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/debug-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/group.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/group-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/shortcuts\/infinite.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/shortcuts\/infinite-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/shortcuts\/inview.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/shortcuts\/inview-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/shortcuts\/sticky.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/shortcuts\/sticky-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/waypoint.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/waypoint-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/test\/adapter-fn-spec.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/test\/adapter-fn-spec-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/test\/context-spec.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/test\/context-spec-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/test\/debug-spec.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/test\/debug-spec-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/test\/group-spec.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/test\/group-spec-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/test\/infinite-spec.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/test\/infinite-spec-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/test\/inview-spec.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/test\/inview-spec-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/test\/lib\/coffee-script.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/test\/lib\/coffee-script-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/test\/lib\/jasmine-html.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/test\/lib\/jasmine-html-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/test\/lib\/jasmine-jquery.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/test\/lib\/jasmine-jquery-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/test\/lib\/jasmine.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -118,103 +387,75 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/fr\/css\/_variables-min.css",
+      "oAP" : "\/test\/lib\/jasmine-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/source\/fr\/css\/style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/fr\/css\/style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/source\/fr\/index.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/fr\/index.html",
-      "oF" : 0
-    },
-    "\/source\/images\/logo-lj24__bottom.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/build\/images\/logo-lj24__bottom.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/source\/images\/logo-lj24__top.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/build\/images\/logo-lj24__top.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/source\/images\/logo-lj24.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/build\/images\/logo-lj24.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/source\/images\/RUSH_N&V_Sub_19_1.jpg" : {
-      "ft" : 16384,
-      "iS" : 1417856,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/images\/RUSH_N&V_Sub_19_1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/source\/javascript\/onLoader.js" : {
+    "\/test\/lib\/jasmine.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/build\/javascript\/onLoader-min.js",
+      "oA" : 1,
+      "oAP" : "\/test\/lib\/jasmine-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/source\/javascript\/sectionsEvents.js" : {
+    "\/test\/lib\/require.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/build\/javascript\/sectionsEvents-min.js",
+      "oA" : 1,
+      "oAP" : "\/test\/lib\/require-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/source\/libs" : {
-      "ft" : 65536,
-      "oA" : 2,
-      "oAP" : "\/build\/libs",
-      "oF" : 1
+    "\/test\/lib\/testloader.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/test\/lib\/testloader-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/test\/settings.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/test\/settings-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/test\/sticky-spec.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/test\/sticky-spec-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/test\/waypoint-spec.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/test\/waypoint-spec-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     }
   },
   "hooks" : [
@@ -224,12 +465,11 @@
 
   },
   "projectAttributes" : {
-    "creationDate" : 679855638.51155901,
-    "displayValue" : "LausanneJardin24-appel",
+    "creationDate" : 680042241.93511701,
+    "displayValue" : "waypoints-master",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets_gray",
-    "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 680042985.07211101
+    "iconImageName" : "brackets-verd",
+    "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -523,14 +763,14 @@
     "bowerUseExactVersion" : 0,
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
-    "buildEnvironment" : 1,
-    "buildFolderActive" : 1,
+    "buildEnvironment" : 0,
+    "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
-      "NODE_ENV:::development"
+      "NODE_ENV:::production"
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,
@@ -1615,11 +1855,11 @@
       "enableLabels" : 1,
       "enableSmartQuotes" : 1,
       "htmlMinifierStyle" : 0,
-      "maskEmailAddresses" : 0,
+      "maskEmailAddresses" : 1,
       "outputFormat" : 0,
       "outputStyle" : 0,
       "parseMetadata" : 1,
-      "processHTML" : 1,
+      "processHTML" : 0,
       "randomFootnoteNumbers" : 0,
       "shouldRunCacheBuster" : 0,
       "useCompatibilityMode" : 0
@@ -1782,7 +2022,7 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
-    "skippedFoldersString" : "cache,logs,log,\/storage\/framework\/sessions,.idea,\/source\/libs,node_modules,_logs,_cache",
+    "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
     "tsAllowSyntheticDefaultImports" : 0,
@@ -2108,7 +2348,7 @@
     "webpPresets" : {
 
     },
-    "websiteRelativeRoot" : "build"
+    "websiteRelativeRoot" : ""
   },
   "settingsFileVersion" : "3"
 }
