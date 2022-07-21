@@ -23,6 +23,14 @@
       "oAP" : "\/build\/index.html",
       "oF" : 0
     },
+    "\/source\/fr\/_menu.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/fr\/_menu.html",
+      "oF" : 0
+    },
     "\/Source\/fr\/Content\/_About_fr.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -195,6 +203,17 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/source\/javascript\/mobileMenu.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/javascript\/mobileMenu-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/source\/javascript\/onLoader.js" : {
       "bF" : 0,

@@ -1,1 +1,1 @@
-window.onload=function(){colorReverser()};
+window.onload=function(){colorReverser(),mobileMenu()};
