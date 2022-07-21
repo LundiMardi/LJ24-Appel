@@ -15,6 +15,14 @@
       "oAP" : "\/build\/build",
       "oF" : 0
     },
+    "\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/index.html",
+      "oF" : 0
+    },
     "\/Source\/fr\/Content\/_About_fr.md" : {
       "cB" : 0,
       "cS" : 0,
