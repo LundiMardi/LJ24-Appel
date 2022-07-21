@@ -1,192 +1,19 @@
-// variables
-:root {
-
-  --green: #7BFA3B;
-  --blue: #5743FB;
-  --black: #000000;
-  --white: #ffffff;
+@use "_variables";
+@use "_base";
+@use "_componants";
 
 
-  // font-sizes
-  --fs-s: 0.9375rem ; // 15pts
-  --fs-m: 1.25rem ; // 20pts
-  --fs-l: 1.625rem ; // 26pts
-  --fs-xl: 2.875rem ; // 46pts
-
-  // letter-spacing
-  --narrow: -5;
-  --tight: -20;
-  
-  // soft grid
-  --unit: 8px ;
-  --window-padding: 16px;
-
-  // ease functions
-  --easeOutBack: cubic-bezier(0.34, 1.56, 0.64, 1) ;
-}
-
-
-// Base
-* {  
-  box-sizing: border-box;
-} 
-
-html {
-  scroll-behavior: smooth;
-  background-color: var(--green);
-}
-body {
-  margin: 0;
-  font-family: 'LL Riforma', Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: var(--fs-s);
-  line-height: 1.1;
-  
-}
-
-p {
-  margin-block-end: 1em;
-}
-
-a {
-  color: var(--blue);
-  text-decoration: none ;
-}
-.context-blue a {
-  color: var(--green);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
-  margin-block-start: 1rem;
-  margin-block-end: 1rem;
-}
-
-h2, h3 {
-  font-size: var(--fs-m);
-}
-p + h2, ul + h2 {
-  margin-block-start: 3rem;
-}
-
-ul {
-  padding-inline-start: 16px;
-  list-style-position: outside;
-}
-
-
-// table
-table {
-  border-collapse: collapse;
-  padding-block-end: 1em;
-}
-td {
-  // border-top: 1px solid var(--black);
-  vertical-align: top ;
-  height: 2rem;
-  padding-top: var(--unit);
-  padding-bottom: var(--unit);
-}
-tr, tr:last-child {
-  border-bottom: 1px solid var(--black);
-}
-
-// Utilities
-.window-padding-h {
- padding-left: var(--window-padding) ;
- padding-right: var(--window-padding) ;
-}
-
-.visually-hidden { 
-  /* Contain text within 1px box */
-  height: 1px; 
-  overflow: hidden;
-  width: 1px;
-  /* Keep the layout */  
-  position: absolute;
-  /* Remove any visible trace (e.g. background color) */
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  clip-path: inset(50%); /* browsers in the future */
-  /* Prevent the screen reader to skip spaces between words */
-  white-space: nowrap;
-}
-
-//  Component
-
-.lj-button {
-  display: inline-block;
-  border: 1px solid var(--blue);
-  color: var(--blue);
-  line-height: 1;
-  padding: 8px 16px;
-  text-decoration: none;
-  border-radius: 9999px;
-
-  &:hover {
-    transform: scale(1.2);
-    // background-color: white;
-  }
-}
-
-.context-blue .lj-button {
-  border-color: var(--green);
-  color: var(--green);
-}
-
-.menu--item.lj-button {
-  background-color: var(--blue);
-  color: var(--green);
-  border: none;
-}
-.context-blue .menu--item.lj-button {
-  background-color: var(--green);
-  color: var(--blue);
-}
-
-.menu--item.is-current {
-  background-color: var(--black);
-}
-.context-blue .menu--item.is-current {
-  background-color: var(--white);
-}
-
-
-.link-table {
-  ul {padding-inline-start: 0;}
-  li {
-    list-style-type: none;
-    border-top: 1px solid var(--blue);
-    
-    &:last-child {
-      border-bottom: 1px solid var(--blue);
-    }
-  }
-  .context-blue li,
-  .context-blue li:last-child {
-    border-color: var(--green);
-  }
-
-  li > a {
-    display: flex;
-    justify-content: space-between;
-    
-    font-size: var(--fs-m);
-    padding-top: 0.5em ;
-    padding-bottom : 0.5em ;
-    
-    em {
-      align-self: flex-end;
-      
-      font-style: normal;
-      font-size: var(--fs-s) ;
-    }
+@media (prefers-contrast: more) {
+  .contrast {
+    outline: 2px solid black;
   }
 }
 
 
-// markdown hacks
+
+
+
+// Markdown hacks
 
 h6 {
   display: block;
@@ -238,7 +65,7 @@ section#quick-access {
   padding-right: calc(var(--unit) * 2)  ;
   padding-left: calc(var(--unit) * 2)  ;
   
-  @media screen and (min-aspect-ratio: 1/1) {
+  @media screen and (min-aspect-ratio:   var(--ratio-switch)) {
     padding-top: calc(var(--unit) * 2)  ;
     padding-right: calc(var(--unit) * 2)  ;
     padding-left: calc(var(--unit) * 2)  ;
@@ -255,7 +82,7 @@ section#quick-access {
     // font-size: 12vw;
     border-radius: 10vh ;
     
-    @media screen and (min-aspect-ratio: 1/1) {
+    @media screen and (min-aspect-ratio:   var(--ratio-switch)) {
       border-radius: 17vh ;
 
     }
@@ -335,7 +162,7 @@ section#quick-access {
   font-size: var(--fs-l);
 }
 
-@media screen and (min-aspect-ratio: 1/1)  {
+@media screen and (min-aspect-ratio:   var(--ratio-switch))  {
   #hero-logo {
     display: none;
   }

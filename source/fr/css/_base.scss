@@ -1,0 +1,86 @@
+// Base
+* {  
+  box-sizing: border-box;
+} 
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--green);
+}
+body {
+  margin: 0;
+  font-family: 'LL Riforma', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--fs-s);
+  line-height: 1.1;
+  
+}
+
+p {
+  margin-block-end: 1em;
+}
+
+a {
+  color: var(--blue);
+  text-decoration: none ;
+}
+.context-blue a {
+  color: var(--green);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+h2, h3 {
+  font-size: var(--fs-m);
+}
+p + h2, ul + h2 {
+  margin-block-start: 3rem;
+}
+
+ul {
+  padding-inline-start: 16px;
+  list-style-position: outside;
+}
+
+
+// table
+table {
+  border-collapse: collapse;
+  padding-block-end: 1em;
+}
+td {
+  // border-top: 1px solid var(--black);
+  vertical-align: top ;
+  height: 2rem;
+  padding-top: var(--unit);
+  padding-bottom: var(--unit);
+}
+tr, tr:last-child {
+  border-bottom: 1px solid var(--black);
+}
+
+// Utilities
+.window-padding-h {
+ padding-left: var(--window-padding) ;
+ padding-right: var(--window-padding) ;
+}
+
+.visually-hidden { 
+  /* Contain text within 1px box */
+  height: 1px; 
+  overflow: hidden;
+  width: 1px;
+  /* Keep the layout */  
+  position: absolute;
+  /* Remove any visible trace (e.g. background color) */
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%); /* browsers in the future */
+  /* Prevent the screen reader to skip spaces between words */
+  white-space: nowrap;
+}

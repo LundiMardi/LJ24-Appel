@@ -1,0 +1,75 @@
+//  Component
+
+
+.lj-button {
+  display: inline-block;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  line-height: 1;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 9999px;
+
+  &:hover {
+    transform: scale(1.2);
+    // background-color: white;
+  }
+}
+
+.context-blue .lj-button {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.link-table {
+  ul {padding-inline-start: 0;}
+  li {
+    list-style-type: none;
+    border-top: 1px solid var(--blue);
+    
+    &:last-child {
+      border-bottom: 1px solid var(--blue);
+    }
+  }
+  .context-blue li,
+  .context-blue li:last-child {
+    border-color: var(--green);
+  }
+
+  li > a {
+    display: flex;
+    justify-content: space-between;
+    
+    font-size: var(--fs-m);
+    padding-top: 0.5em ;
+    padding-bottom : 0.5em ;
+    
+    em {
+      align-self: flex-end;
+      
+      font-style: normal;
+      font-size: var(--fs-s) ;
+    }
+  }
+}
+
+@media screen and (MIN-WIDTH:500px) {
+  
+
+  .menu--item.lj-button {
+    background-color: var(--blue);
+    color: var(--green);
+    border: none;
+  }
+  .context-blue .menu--item.lj-button {
+    background-color: var(--green);
+    color: var(--blue);
+  }
+
+  .menu--item.is-current {
+    background-color: var(--black);
+  }
+  .context-blue .menu--item.is-current {
+    background-color: var(--white);
+  }
+}
