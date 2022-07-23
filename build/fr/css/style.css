@@ -103,6 +103,13 @@ tr, tr:last-child {
   white-space: nowrap;
 }
 
+i.icon {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  padding: 4px;
+}
+
 #main-nav {
   position: sticky;
   top: 0px;
@@ -129,7 +136,6 @@ a.menu-logo svg {
 #bt-mobile-menu-hide {
   cursor: pointer;
   display: block;
-  position: absolute;
   right: 16px;
   top: 16px;
   border: 0;
@@ -137,6 +143,7 @@ a.menu-logo svg {
 }
 
 #bt-mobile-menu {
+  position: absolute;
   background-color: var(--blue);
   transition-property: all;
   transition-duration: 300ms;
@@ -158,6 +165,7 @@ a.menu-logo svg {
 }
 
 #bt-mobile-menu-hide {
+  position: fixed;
   width: 56px;
   height: 56px;
   background-color: var(--green);
@@ -231,6 +239,25 @@ ul.mobile-menu--list li a {
   display: inline-block;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+}
+
+span.menu-secondary {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  line-height: 1;
+}
+
+a.menu--icon {
+  display: block;
+}
+
+#mobile-menu svg * {
+  fill: var(--green);
+}
+
+#mobile-menu a {
+  color: var(--green);
 }
 
 .lj-button, h6 > a, #previous-websites ul li {
