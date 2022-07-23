@@ -213,6 +213,59 @@
       "oAP" : "\/build\/fr\/index.html",
       "oF" : 0
     },
+    "\/source\/images\/Group 52.jpg" : {
+      "ft" : 16384,
+      "iS" : 3342,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/Group 52.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/icon-cross--32.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/images\/icon-cross--32.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/source\/images\/icon-facebook--24.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/images\/icon-facebook--24.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/source\/images\/icon-instagram--24.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/images\/icon-instagram--24.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/source\/images\/icon-menu--32.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/images\/icon-menu--32.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/source\/images\/logo-lj24__bottom.svg" : {
       "ft" : 2097152,
       "miP" : 0,

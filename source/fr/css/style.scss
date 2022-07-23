@@ -10,9 +10,6 @@
 }
 
 
-
-
-
 // Markdown hacks
 
 h6 {
@@ -31,27 +28,12 @@ h6 + h6 {
 
 
 // Layout
+h1 {
+  font-size: var(--fs-xl);
+  position: sticky;
+  top: 200px;
 
-
-#main-nav {
- position: sticky;
- top: 0px;
-
- padding-top: var(--unit);
- padding-bottom: var(--unit);
- background-color: var(--green);
-}
-#main-nav.context-blue {
-  background-color: var(--blue);
-  color: var(--white) ;
-}
-
-a.menu-logo svg {
-  fill:var(--black);
-  height: 64px ;
-}
-.context-blue a.menu-logo svg {
-  fill:var(--white);
+  z-index: -1;
 }
 
 section#quick-access {
@@ -65,7 +47,7 @@ section#quick-access {
   padding-right: calc(var(--unit) * 2)  ;
   padding-left: calc(var(--unit) * 2)  ;
   
-  @media screen and (min-aspect-ratio:   var(--ratio-switch)) {
+  @media screen and (min-aspect-ratio: 1/1) {
     padding-top: calc(var(--unit) * 2)  ;
     padding-right: calc(var(--unit) * 2)  ;
     padding-left: calc(var(--unit) * 2)  ;
@@ -82,7 +64,7 @@ section#quick-access {
     // font-size: 12vw;
     border-radius: 10vh ;
     
-    @media screen and (min-aspect-ratio:   var(--ratio-switch)) {
+    @media screen and (min-aspect-ratio: 1/1) {
       border-radius: 17vh ;
 
     }
@@ -162,7 +144,7 @@ section#quick-access {
   font-size: var(--fs-l);
 }
 
-@media screen and (min-aspect-ratio:   var(--ratio-switch))  {
+@media screen and (min-aspect-ratio:   1/1)  {
   #hero-logo {
     display: none;
   }

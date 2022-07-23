@@ -19,8 +19,9 @@
   
   // soft grid
   --unit: 8px ;
+  $unit: 8px ;
   --window-padding: 16px;
-
+  
   // ease functions
   --easeOutBack: cubic-bezier(0.34, 1.56, 0.64, 1) ;
 
