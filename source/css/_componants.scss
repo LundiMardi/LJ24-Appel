@@ -78,7 +78,7 @@ a.menu-logo svg {
   border: 0;
   border-radius: 28px;
 
-  @media screen and (MIN-WIDTH:500px) {
+  @media screen and (MIN-WIDTH:1234px) {
     display: none;
   }
 }
@@ -191,11 +191,6 @@ ul.mobile-menu--list {
 .menu--item {
   font-size: var(--fs-m);
 }
-@media screen and (MIN-WIDTH: 500px) {
-  .menu--item {
-    font-size: var(--fs-l);
-  }
-}
 
 .menu--item.lj-button {
   padding: 20px 40px;
@@ -285,7 +280,7 @@ a.menu--icon {
   color: var(--white);
 }
 
-@media screen and (MIN-WIDTH:500px) {
+@media screen and (MIN-WIDTH:1234px) {
   
 
   .menu--item.lj-button {

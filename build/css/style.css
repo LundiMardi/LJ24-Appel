@@ -7,10 +7,10 @@
   --ink: var(--black) ;
   --accent: var(--blue) ;
   --active: var(--black) ;
-  --fs-s: 0.9375rem ;
-  --fs-m: 1.25rem ;
-  --fs-l: 1.625rem ;
-  --fs-xl: 2.875rem ;
+  --fs-s: clamp(0.9375rem, 3.75vw, 1.5rem) ;
+  --fs-m: clamp(1.25rem, 5vw, 2rem) ;
+  --fs-l: clamp(1.625rem, 6.5vw, 3.75rem) ;
+  --fs-xl: clamp(2.875rem, 11.5vw, 10rem) ;
   --narrow: -5;
   --tight: -20;
   --unit: 8px ;
@@ -188,7 +188,7 @@ a.menu-logo svg {
   border: 0;
   border-radius: 28px;
 }
-@media screen and (MIN-WIDTH: 500px) {
+@media screen and (MIN-WIDTH: 1234px) {
   #bt-mobile-menu,
 #bt-mobile-menu-hide {
     display: none;
@@ -298,11 +298,6 @@ ul.mobile-menu--list li a {
   font-size: var(--fs-m);
 }
 
-@media screen and (MIN-WIDTH: 500px) {
-  .menu--item {
-    font-size: var(--fs-l);
-  }
-}
 .menu--item.lj-button, h6 > a.menu--item, #previous-websites ul li.menu--item {
   padding: 20px 40px;
   height: 64px;
@@ -378,7 +373,7 @@ a.menu--icon {
   color: var(--white);
 }
 
-@media screen and (MIN-WIDTH: 500px) {
+@media screen and (MIN-WIDTH: 1234px) {
   .menu--item.lj-button, h6 > a.menu--item, #previous-websites ul li.menu--item {
     background-color: var(--blue);
     color: var(--green);
