@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 
+<!-- $nav-competition = Concours -->
+<!-- $nav-concept = Concept -->
+<!-- $nav-about = À propos -->
+
 <html lang="fr">
   <head>
     <title>Lausanne Jardins</title>
@@ -80,25 +84,37 @@
 
 
     <section id="Competition" class="window-padding-h">
-      <!-- @compile "content/_Competition_fr.md" -->
-      <div class="link-table">
-        <!-- @compile "content/_Competition-downloads_fr.md" -->
+      <article>
+        <!-- @compile "content/_Competition_fr.md" -->
+      </article>
+      <aside class="aside-content">
+        <div class="link-table">
+          <!-- @compile "content/_Competition-downloads_fr.md" -->
+        </div>
+        <div id="previous-websites">
+          <!-- @compile "content/_Competition-previous-websites_fr.md" -->
+        </div>
+      </aside>
+    </section>
 
-        <!-- <a href="#">Documents concours  <span class="bit-size">70 MB</span></a>
-        <a href="#">Questions fréquentes <span class="bit-size">70 MB</span></a> -->
-      </div>
-      <div id="previous-websites">
-        <!-- @compile "content/_Competition-previous-websites_fr.md" -->
-      </div>
-    </section>
     <section id="Concept" class="window-padding-h">
-      <!-- @compile "content/_Concept_fr.md" -->
-      
-      
+      <article>
+
+        <h1><!-- $nav-concept --></h1>
+        <!-- @compile "content/_Concept_fr.md" -->
+      </article>
     </section>
+
     <section id="About" class="context-blue window-padding-h" >
-      <!-- @compile "content/_About_fr.md" -->
-      
+      <article>
+        <h1><!-- $nav-about --></h1>
+        <!-- @compile "content/_About_fr.md" -->
+      </article>
+      <aside class="aside-content">
+        <address>
+          <!-- @compile "content/_About-contact_fr.md" -->
+        </address>
+      </aside>
     </section>
   </body>
   <script src="../javascript/sectionsEvents-min.js"></script>

@@ -118,6 +118,25 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/source\/fr\/content\/_About-contact_fr.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 0,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/fr\/content\/_About-contact_fr.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 1,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
     "\/source\/fr\/content\/_Competition_fr.md" : {
       "cB" : 0,
       "cS" : 0,

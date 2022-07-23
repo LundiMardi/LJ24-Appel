@@ -1,13 +1,4 @@
-# À propos 
- 
- Contact
- Association Jardin Urbain
-c/o Service des parcs et domaines
-Avenue du Chablais 46
-Case postale 80
-1000 Lausanne 23
- info@lausannejardins.ch
- Lausanne Jardins est un événement culturel mêlant paysagisme et réflexion sur la ville. Le temps d’un été, la manifestation propose d’insérer des jardins dans l’espace urbain : rues, places, terrains délaissés, façades de bâtiments ou toitures. Une trentaine de jardins contemporains issus d’un concours international, qui se suivent le long d’une promenade thématique. L’accès est gratuit, 24h sur 24, pendant quatre mois, de la mi- juin à la mi-octobre.
+Lausanne Jardins est un événement culturel mêlant paysagisme et réflexion sur la ville. Le temps d’un été, la manifestation propose d’insérer des jardins dans l’espace urbain : rues, places, terrains délaissés, façades de bâtiments ou toitures. Une trentaine de jardins contemporains issus d’un concours international, qui se suivent le long d’une promenade thématique. L’accès est gratuit, 24h sur 24, pendant quatre mois, de la mi- juin à la mi-octobre.
 
 
 ## L’équipe
