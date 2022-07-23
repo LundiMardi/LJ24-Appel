@@ -21,22 +21,21 @@ i.icon {
   padding-bottom: var(--unit);
   padding-right: var(--window-padding);
   padding-left: var(--window-padding);
-  background-color: var(--green);
 
   .icon svg * {
     fill: var(--blue);
    }
- }
- #main-nav.context-blue {
-   background-color: var(--blue);
-   color: var(--white) ;
+}
+#main-nav.context-blue {
+  background-color: var(--blue);
+  color: var(--white) ;
 
-   .icon svg * {
-    fill: var(--green);
-   }
- }
- 
- a.menu-logo {
+  .icon svg * {
+  fill: var(--green);
+  }
+}
+
+a.menu-logo {
   display: inline-block;
   // margin: calc(var(--unit) * 2) ;
 }
@@ -44,11 +43,30 @@ i.icon {
 a.menu-logo svg {
   fill:var(--black);
   height: 64px ;
- }
- .context-blue a.menu-logo svg {
-   fill:var(--white);
- }
+}
+.context-blue a.menu-logo svg {
+  fill:var(--white);
+}
 
+
+// States
+#main-nav {
+  background-color: transparent ;
+
+  .menu-logo,
+  .lj-button {
+    opacity: 0;
+  }
+}
+#main-nav.is-nav-visible  {
+  background-color: var(--paper);
+
+  .menu-logo,
+  .lj-button {
+    opacity: 1;
+  }
+
+}
  
 #bt-mobile-menu, 
 #bt-mobile-menu-hide {

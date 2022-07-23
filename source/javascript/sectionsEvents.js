@@ -4,6 +4,7 @@ var colorReverser = function() {
   // trouve l'élément à modifier 
   var nav = document.getElementById('main-nav');
   
+  // Sets the color of navbar
   if (nav !== null ) {
     var menuColorReverser = new Waypoint.Inview({
       element: document.getElementById('About'),
@@ -34,106 +35,123 @@ var colorReverser = function() {
           }
       }
     });
+
+    // hide show nav bar content based on scroll position
+    new Waypoint.Inview({
+      element: document.getElementById('quick-access'),
+      enter: function(direction) {
+          if (direction == 'up') {
+            nav.classList.remove('is-nav-visible');
+            console.log('Enter triggered with direction ' + direction);
+          }
+      }
+      , exited: function(direction) {
+          if (direction == 'down') {
+            nav.classList.add('is-nav-visible');
+            console.log('Exited triggered with direction ' + direction);
+          }
+      }
+    });
   }
 
   // find active section and mark menu item
 
-  var nav1 = document.getElementById('nav-competition');
+  var menuCompetiton = document.getElementById('nav-competition');
   
-  if (nav1 !== null ) {
+  if (menuCompetiton !== null ) {
     new Waypoint.Inview({
       element: document.getElementById('Competition'),
       // offset: '-100%',
       entered: function(direction) {
         if (direction == 'up') {
-          nav1.classList.remove('is-current');
-          console.log('Entered triggered with direction ' + direction);
+          menuCompetiton.classList.remove('is-current');
+          // console.log('Entered triggered with direction ' + direction);
         }
       }
       , enter: function(direction) {
           if (direction == 'up') {
-            nav1.classList.add('is-current');
-            console.log('Enter triggered with direction ' + direction);
+            menuCompetiton.classList.add('is-current');
+            // console.log('Enter triggered with direction ' + direction);
           }
       }
       , exit: function(direction) {
           if (direction == 'down') {
-            nav1.classList.add('is-current');
-            console.log('Exit triggered with direction ' + direction);
+            menuCompetiton.classList.add('is-current');
+            // console.log('Exit triggered with direction ' + direction);
           }
       }
       , exited: function(direction) {
           if (direction == 'down') {
-            nav1.classList.remove('is-current');
-            console.log('Exited triggered with direction ' + direction);
+            menuCompetiton.classList.remove('is-current');
+            // console.log('Exited triggered with direction ' + direction);
           }
       }
     });
   }
 
 
-  var nav2 = document.getElementById('nav-concept');
+  var menuConcept = document.getElementById('nav-concept');
   
-  if (nav2 !== null ) {
+  if (menuConcept !== null ) {
     new Waypoint.Inview({
       element: document.getElementById('Concept'),
       // offset: '-100%',
       entered: function(direction) {
         if (direction == 'up') {
-          nav2.classList.remove('is-current');
-          console.log('Entered triggered with direction ' + direction);
+          menuConcept.classList.remove('is-current');
+          // console.log('Entered triggered with direction ' + direction);
         }
       }
       , enter: function(direction) {
           if (direction == 'up') {
-            nav2.classList.add('is-current');
-            console.log('Enter triggered with direction ' + direction);
+            menuConcept.classList.add('is-current');
+            // console.log('Enter triggered with direction ' + direction);
           }
       }
       , exit: function(direction) {
           if (direction == 'down') {
-            nav2.classList.add('is-current');
-            console.log('Exit triggered with direction ' + direction);
+            menuConcept.classList.add('is-current');
+            // console.log('Exit triggered with direction ' + direction);
           }
       }
       , exited: function(direction) {
           if (direction == 'down') {
-            nav2.classList.remove('is-current');
-            console.log('Exited triggered with direction ' + direction);
+            menuConcept.classList.remove('is-current');
+            // console.log('Exited triggered with direction ' + direction);
           }
       }
     });
   }
 
 
-  var nav3 = document.getElementById('nav-about');
+  var menuAbout = document.getElementById('nav-about');
   
-  if (nav3 !== null ) {
+  if (menuAbout !== null ) {
     new Waypoint.Inview({
       element: document.getElementById('About'),
       // offset: '-100%',
       entered: function(direction) {
         if (direction == 'up') {
-          nav3.classList.remove('is-current');
-          console.log('Entered triggered with direction ' + direction);
+          menuAbout.classList.remove('is-current');
+          // console.log('Entered triggered with direction ' + direction);
         }
       }
       , enter: function(direction) {
           if (direction == 'up') {
-            nav3.classList.add('is-current');
-            console.log('Enter triggered with direction ' + direction);
+            menuAbout.classList.add('is-current');
+            // console.log('Enter triggered with direction ' + direction);
           }
       }
       , exit: function(direction) {
           if (direction == 'down') {
-            nav3.classList.add('is-current');
-            console.log('Exit triggered with direction ' + direction);
+            menuAbout.classList.add('is-current');
+            // console.log('Exit triggered with direction ' + direction);
           }
       }
       , exited: function(direction) {
           if (direction == 'down') {
-            nav3.classList.remove('is-current');
-            console.log('Exited triggered with direction ' + direction);
+            menuAbout.classList.remove('is-current');
+            // console.log('Exited triggered with direction ' + direction);
           }
       }
     });

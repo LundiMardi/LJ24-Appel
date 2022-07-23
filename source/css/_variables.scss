@@ -6,6 +6,10 @@
   --black: #000000;
   --white: #ffffff;
 
+  --paper: var(--green) ;
+  --ink: var(--black) ;
+  --accent: var(--blue) ;
+  --active: var(--black) ;
 
   // font-sizes
   --fs-s: 0.9375rem ; // 15pts
@@ -27,4 +31,11 @@
 
   // media queries
   --ratio-switch: 1/1;
+}
+
+.context-blue {
+  --paper: var(--blue) ;
+  --ink: var(--white) ;
+  --accent: var(--green) ;
+  --active: var(--white) ;
 }

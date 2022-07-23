@@ -3,6 +3,10 @@
   --blue: #5743FB;
   --black: #000000;
   --white: #ffffff;
+  --paper: var(--green) ;
+  --ink: var(--black) ;
+  --accent: var(--blue) ;
+  --active: var(--black) ;
   --fs-s: 0.9375rem ;
   --fs-m: 1.25rem ;
   --fs-l: 1.625rem ;
@@ -13,6 +17,13 @@
   --window-padding: 16px;
   --easeOutBack: cubic-bezier(0.34, 1.56, 0.64, 1) ;
   --ratio-switch: 1/1;
+}
+
+.context-blue {
+  --paper: var(--blue) ;
+  --ink: var(--white) ;
+  --accent: var(--green) ;
+  --active: var(--white) ;
 }
 
 * {
@@ -120,7 +131,6 @@ i.icon {
   padding-bottom: var(--unit);
   padding-right: var(--window-padding);
   padding-left: var(--window-padding);
-  background-color: var(--green);
 }
 #main-nav .icon svg * {
   fill: var(--blue);
@@ -145,6 +155,28 @@ a.menu-logo svg {
 
 .context-blue a.menu-logo svg {
   fill: var(--white);
+}
+
+#main-nav {
+  background-color: transparent;
+}
+#main-nav .menu-logo,
+#main-nav .lj-button,
+#main-nav h6 > a,
+#main-nav #previous-websites ul li,
+#previous-websites ul #main-nav li {
+  opacity: 0;
+}
+
+#main-nav.is-nav-visible {
+  background-color: var(--paper);
+}
+#main-nav.is-nav-visible .menu-logo,
+#main-nav.is-nav-visible .lj-button,
+#main-nav.is-nav-visible h6 > a,
+#main-nav.is-nav-visible #previous-websites ul li,
+#previous-websites ul #main-nav.is-nav-visible li {
+  opacity: 1;
 }
 
 #bt-mobile-menu,
