@@ -34,7 +34,15 @@ h1 {
   top: 20px;
 
   z-index: -1;
+  color: var(--blue);
+  @media screen and (MIN-WIDTH:500px) {
+    opacity: 0;
+  }
 }
+.context-blue h1 {
+  color: var(--green);
+}
+
 
 section#quick-access {
   display: grid;
@@ -131,6 +139,7 @@ section#quick-access {
 }
 
 #secondary-nav {
+  position: sticky ;
   grid-column: 1 / -1 ;
   grid-row: 14 / span 1 ;
   display: flex;

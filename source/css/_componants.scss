@@ -11,20 +11,34 @@ i.icon {
 
 #main-nav {
   position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
   top: 0px;
   
   padding-top: var(--unit);
   padding-bottom: var(--unit);
+  padding-right: var(--window-padding);
+  padding-left: var(--window-padding);
   background-color: var(--green);
+
+  .icon svg * {
+    fill: var(--blue);
+   }
  }
  #main-nav.context-blue {
    background-color: var(--blue);
    color: var(--white) ;
+
+   .icon svg * {
+    fill: var(--green);
+   }
  }
  
  a.menu-logo {
   display: inline-block;
-  margin: calc(var(--unit) * 2) ;
+  // margin: calc(var(--unit) * 2) ;
 }
 
 a.menu-logo svg {
@@ -163,6 +177,11 @@ ul.mobile-menu--list {
   .menu--item {
     font-size: var(--fs-l);
   }
+}
+
+.menu--item.lj-button {
+  padding: 20px 40px;
+  height: 64px;
 }
 
 span.menu-secondary {
