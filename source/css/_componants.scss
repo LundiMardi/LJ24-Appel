@@ -144,11 +144,24 @@ ul.mobile-menu--list {
 }
 
 // menu-secondary
+
+
+.menu--item {
+  font-size: var(--fs-m);
+}
+@media screen and (MIN-WIDTH: 500px) {
+  .menu--item {
+    font-size: var(--fs-l);
+  }
+}
+
 span.menu-secondary {
   display: flex;
-  justify-content: center;
-  align-items: baseline;
-  line-height: 1 ;
+  justify-content: left;
+  align-items: center;
+  line-height: 1.5 ;
+  gap: calc(var(--unit) * 2);
+  padding-inline-start: var(--unit);
 }
 
 a.menu--icon {
@@ -162,6 +175,8 @@ a.menu--icon {
   color: var(--green);
 
 }
+ 
+
 
 
 
