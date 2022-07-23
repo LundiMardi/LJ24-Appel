@@ -1,3 +1,5 @@
+# Concept
+
 Lausanne Jardins est un événement culturel mêlant paysagisme et réflexion sur la ville. La manifestation est organisée conjointement par l’Association Jardin urbain et le Service des parcs et domaines de la Ville de Lausanne.
 
 Tous les cinq ans, le temps d’un été, Lausanne Jardins présente une série de jardins éphémères disséminés sur le territoire lausannois, dont certains sont amenés à préfigurer les transformations urbanistiques et paysagères de la ville. Un site d’accueil et un thème transversal sont définis à chaque édition afin de donner une cohérence d’ensemble à la manifestation et au parcours.
