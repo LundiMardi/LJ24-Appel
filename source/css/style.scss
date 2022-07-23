@@ -1,0 +1,213 @@
+@use "_variables";
+@use "_base";
+@use "_componants";
+
+
+@media (prefers-contrast: more) {
+  .contrast {
+    outline: 2px solid black;
+  }
+}
+
+
+// Markdown hacks
+
+h6 {
+  display: block;
+}
+
+h6 > a {
+
+  font-size: var(--fs-s);
+  @extend .lj-button ;
+}
+
+h6 + h6 {
+  margin-top: -1em ;
+}
+
+
+// Layout
+h1 {
+  font-size: var(--fs-xl);
+  position: sticky;
+  top: 200px;
+
+  z-index: -1;
+}
+
+section#quick-access {
+  display: grid;
+  grid-template-columns: auto 2fr auto auto;
+  grid-template-rows: auto repeat(12, 1fr) 48px ;
+  height: 100vh ;
+  // height: clamp(400px, 100vh, 800px);
+
+  padding-top: var(--unit)  ;
+  padding-right: calc(var(--unit) * 2)  ;
+  padding-left: calc(var(--unit) * 2)  ;
+  
+  @media screen and (min-aspect-ratio: 1/1) {
+    padding-top: calc(var(--unit) * 2)  ;
+    padding-right: calc(var(--unit) * 2)  ;
+    padding-left: calc(var(--unit) * 2)  ;
+  }
+
+  .lj-home-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue);
+    color: var(--green);
+    font-size: 30px;
+    // font-size: 12vw;
+    border-radius: 10vh ;
+    
+    @media screen and (min-aspect-ratio: 1/1) {
+      border-radius: 17vh ;
+
+    }
+
+  }
+  .bt-label {
+    text-align: center;
+  }
+}
+#hero-logo {
+  grid-column:1 / -1 ;
+  grid-row:1 / 2;
+  width: 100%;
+  height: 35vw ;
+}
+
+#hero-logo__top {
+  grid-column:1 / 2 ;
+  grid-row:2 / -2 ;
+  // width: 100%;
+  width: 16vh;
+  height: 100%;
+  object-fit: contain;
+  margin-right: calc( var(--unit) * 2 );
+}
+#hero-logo__bottom {
+  grid-column:-1 / -2 ;
+  grid-row: 2 / -2 ;
+  
+  // width: 100%;
+  width: 16vh;
+  height: 100%;
+  object-fit: contain;
+  margin-left: calc( var(--unit) * 2 );
+
+}
+#hero-logo__top, #hero-logo__bottom {
+  display: none;
+}
+
+#bt-competition {
+  grid-column: 1 / -1 ;
+  grid-row:2 / span 6 ;
+    // background-color: #000000;
+    transition-property: all;
+    transition-duration: 100ms ;
+    transition-timing-function: --e;
+  background-image: url(../images/RUSH_N&V_Sub_19_1.jpg);
+  background-size: cover;
+  &:hover {
+    // background-color: #ffffff;
+    // grid-row:1 / 3 ; 
+    margin-left: -16vh;
+
+  }
+}
+#bt-concept {
+  grid-column: 1 / -1 ;
+  grid-row: 8 / span 3;
+}
+#bt-about {
+  grid-column: 1 / -1 ;
+  grid-row: 11 / span 3 ;
+}
+
+#secondary-nav {
+  grid-column: 1 / -1 ;
+  grid-row: 14 / span 1 ;
+  display: flex;
+
+  align-self: center ;
+  justify-self: flex-end ;
+
+
+}
+.menu--item {
+  font-size: var(--fs-l);
+}
+
+@media screen and (min-aspect-ratio:   1/1)  {
+  #hero-logo {
+    display: none;
+  }
+  #hero-logo__top, #hero-logo__bottom {
+    display: block;
+  }
+  #bt-competition {
+    grid-column: 2 / 4 ;
+    grid-row: 2 / span 8 ;
+  }
+  #bt-concept {
+    grid-column: 2 / 3;
+    grid-row: 10 / span 4 ;
+  }
+  #bt-about {
+    grid-column: 3 / 4;
+    grid-row: 10 / span 4 ;
+
+    aspect-ratio: 1/1;
+    width: calc(33vh - 3px); //magic number, logic didn't happen
+    
+    // height: 100%; DOnt do thiS will break everything
+  }
+}
+
+section#Competition {
+  // pour text intro
+  > p:first-of-type { font-size: var(--fs-m); }
+
+}
+#previous-websites {
+  p {
+    padding-bottom: 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  ul li {
+    @extend .lj-button;
+    margin-bottom: 4px;
+  }
+}
+
+section#Concept {
+
+
+  
+  p:nth-child(2n) {
+    color: var(--blue);
+    font-size: var(--fs-m);
+  }
+  p:nth-child(2n+1) {
+    margin-left: 2em;
+  }
+}
+
+section#About {
+
+}
+
+
+.context-blue {
+  background-color: var(--blue) ;
+  color: var(--white);
+}
