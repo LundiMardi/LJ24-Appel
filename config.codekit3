@@ -244,9 +244,9 @@
       "ft" : 16384,
       "iS" : 288123,
       "jF" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/build\/images\/01_basemap_ville.jpg",
-      "oF" : 0,
+      "oF" : 1,
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
@@ -401,7 +401,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets_gray",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 680296957.82737696
+    "lastBuiltDate" : 680396565.53178406
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
