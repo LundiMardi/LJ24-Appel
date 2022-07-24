@@ -4,6 +4,8 @@ Tous les cinq ans, le temps d’un été, Lausanne Jardins présente une série 
 
 Le temps d’un été, est proposé au public une promenade paysagère singulière, incitant à la flânerie et à la découverte de lieux insolites sur sol lausannois.
 
+![Vue aérienne du site 2024](../../images/01_basemap_ville.jpg)
+
 Avec ses installations éphémères, issues notamment d’un concours international, Lausanne Jardins se prête de manière idéale à la fonction de laboratoire urbain, en testant, grandeur nature, des propositions d’amélioration de la qualité d’usage et de l’esthétique des sites choisis. Il s’agit de traiter le jardin comme un outil de transformation, d’animation et de fabrication de la ville. L’accès est gratuit, 24h sur 24, pendant quatre mois, de la mi- juin à la mi-octobre. En renouvelant l’héritage des six précédentes éditions de Lausanne Jardins, en 1997, 2000, 2004, 2009, 2014 et 2019, la manifestation contribue à faire rayonner l’image de Lausanne, lui conférant une renommée internationale dans le domaine de l’art du jardin.
 
 Cette nouvelle édition en 2024, proposée sur un site inédit, celui des rives du lac, exactement soixante ans après Expo 64, est l’occasion de réfléchir aux enjeux futurs d’un grand parc urbain.

@@ -35,7 +35,7 @@ h1 {
 
   z-index: -1;
   color: var(--blue);
-  @media screen and (MIN-WIDTH:500px) {
+  @media screen and (MIN-WIDTH:1234px) {
     opacity: 0;
     height: 0;
     position: absolute ;
@@ -263,7 +263,8 @@ section#Concept {
 }
 
 section#About {
-
+  z-index: -10;
+  position: relative;
 }
 
 

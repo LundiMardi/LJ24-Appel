@@ -116,6 +116,20 @@ address {
   font-style: normal;
 }
 
+article figure {
+  margin-left: calc(var(--window-padding) * -1);
+  margin-right: calc(var(--window-padding) * -1);
+}
+article figure img {
+  width: 100%;
+}
+article figure figcaption {
+  font-size: var(--fs-s);
+  color: var(--ink);
+  margin-left: var(--window-padding);
+  margin-right: var(--window-padding);
+}
+
 .window-padding-h {
   padding-left: var(--window-padding);
   padding-right: var(--window-padding);
@@ -148,7 +162,8 @@ i.icon {
 #main-nav {
   position: relative;
   display: flex;
-  align-items: end;
+  align-items: baseline;
+  z-index: 100;
   padding-top: var(--unit);
   padding-bottom: var(--unit);
   padding-right: var(--window-padding);
@@ -157,22 +172,14 @@ i.icon {
 #main-nav .icon svg * {
   fill: var(--accent);
 }
-@media screen and (MIN-WIDTH: 1000px) {
+#main-nav .menu-logo svg {
+  margin-bottom: -20px;
+}
+@media screen and (MIN-WIDTH: 1234px) {
   #main-nav {
     position: sticky;
     top: 0px;
   }
-}
-
-#main-nav.context-blue ~ #bt-mobile-menu {
-  background-color: var(--green);
-}
-#main-nav.context-blue ~ #bt-mobile-menu .icon svg * {
-  fill: var(--blue);
-}
-
-#main-nav.context-blue ~ #bt-mobile-menu > * {
-  fill: var(--blue);
 }
 
 a.menu-logo {
@@ -185,22 +192,23 @@ a.menu-logo svg {
   height: 64px;
 }
 
-#main-nav span.menu-secondary {
+#main-nav > span.menu-secondary {
   margin-left: auto;
 }
 
 #main-nav {
   background-color: transparent;
 }
-#main-nav .menu-logo,
+#main-nav > .menu-logo,
 #main-nav .lj-button,
 #main-nav h6 > a,
 #main-nav #previous-websites ul li,
 #previous-websites ul #main-nav li {
   opacity: 0;
+  display: none;
 }
 
-@media screen and (MIN-WIDTH: 1000px) {
+@media screen and (MIN-WIDTH: 1234px) {
   #main-nav.is-nav-visible {
     background-color: var(--paper);
   }
@@ -210,8 +218,15 @@ a.menu-logo svg {
 #main-nav.is-nav-visible #previous-websites ul li,
 #previous-websites ul #main-nav.is-nav-visible li {
     opacity: 1;
+    display: inline-block;
   }
 }
+.wrapper.hamburger-button {
+  position: sticky;
+  right: 0;
+  top: 0;
+}
+
 #bt-mobile-menu,
 #bt-mobile-menu-hide {
   cursor: pointer;
@@ -229,27 +244,40 @@ a.menu-logo svg {
 }
 
 #bt-mobile-menu {
-  position: fixed;
-  right: 0;
-  top: 0;
-  background-color: var(--accent);
+  position: absolute;
+  z-index: 50;
   transition-property: all;
   transition-duration: 300ms;
   width: 50vw;
   height: 105vh;
   transform: scale(2);
   transform-origin: 90% bottom;
+  background-color: var(--blue);
 }
 #bt-mobile-menu svg * {
-  fill: var(--paper);
+  fill: var(--blue);
 }
 
 #bt-mobile-menu.mobile-menu__is-closed {
+  background-color: var(--blue);
   transition-property: all;
   transition-duration: 100ms;
   width: 56px;
   height: 56px;
   transform: scale(1);
+}
+#bt-mobile-menu.mobile-menu__is-closed svg * {
+  fill: var(--green);
+}
+
+#main-nav.context-blue ~ div.hamburger-button #bt-mobile-menu.mobile-menu__is-closed {
+  background-color: var(--green);
+}
+#main-nav.context-blue ~ div.hamburger-button #bt-mobile-menu.mobile-menu__is-closed svg * {
+  fill: var(--blue);
+}
+#main-nav.context-blue ~ div.hamburger-button #bt-mobile-menu {
+  background-color: var(--blue);
 }
 
 #bt-mobile-menu-hide {
@@ -280,17 +308,26 @@ a.menu-logo svg {
 
 #mobile-menu {
   position: fixed;
+  display: flex;
+  flex-direction: column;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
   overflow-y: auto;
-  background-color: var(--blue);
   color: var(--green);
   transform: translateX(0);
   transition-property: opacity, transform;
   transition-delay: 100ms, 0ms;
   transition-duration: 100ms, 0ms;
+}
+#mobile-menu a.menu-logo {
+  margin-top: var(--window-padding);
+  margin-left: var(--window-padding);
+  margin-bottom: calc(var(--unit) * 4);
+}
+#mobile-menu a.menu-logo svg {
+  margin-bottom: 0;
 }
 
 #mobile-menu.mobile-menu__is-closed {
@@ -302,6 +339,9 @@ a.menu-logo svg {
 }
 
 ul.mobile-menu--list {
+  margin-top: auto;
+  margin-bottom: calc(var(--unit) * 4);
+  padding-inline-start: calc(var(--unit) * 2);
   padding-inline-end: calc(var(--unit) * 2);
 }
 ul.mobile-menu--list ul {
@@ -452,7 +492,7 @@ h1 {
   z-index: -1;
   color: var(--blue);
 }
-@media screen and (MIN-WIDTH: 500px) {
+@media screen and (MIN-WIDTH: 1234px) {
   h1 {
     opacity: 0;
     height: 0;
@@ -666,6 +706,11 @@ section#Concept p:nth-child(2n) {
     margin-left: 50%;
     padding-left: var(--window-padding);
   }
+}
+
+section#About {
+  z-index: -10;
+  position: relative;
 }
 
 .context-blue {

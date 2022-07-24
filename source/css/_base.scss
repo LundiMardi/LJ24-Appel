@@ -95,6 +95,19 @@ address {
   font-style: normal ;
 }
 
+article figure {
+  margin-left: calc( var(--window-padding) * -1 ) ;
+  margin-right: calc( var(--window-padding) * -1 ) ;
+
+  img {width: 100%;}
+  figcaption {
+    font-size: var(--fs-s);
+    color: var(--ink);
+    margin-left: var(--window-padding);
+    margin-right: var(--window-padding);
+  }
+}
+
 
 // Utilities
 .window-padding-h {
