@@ -3,25 +3,27 @@ Lausanne Jardins est un événement culturel mêlant paysagisme et réflexion su
 
 ## L’équipe
 
-- Monique Keller 
-  - Commissaire générale, Architecte EPFL SIA, journaliste
-- Florence Ineichen
-  - Adjointe/animation, communication, partenaires, Historienne de l’art, médiatrice culturelle 
-- Lucia Sillig
-  - Rédaction, site web, Physicienne EPFL, journaliste et illustratice, RTS
+Monique Keller 
+: Commissaire générale, Architecte EPFL SIA, journaliste
 
+Florence Ineichen
+: Adjointe/animation, communication, partenaires, Historienne de l’art, médiatrice culturelle 
+
+Lucia Sillig
+: Rédaction, site web, Physicienne EPFL, journaliste et illustratice, 
+: RTS
 
 Valérie Hoffmeyer 
-Architecte-paysagiste
-Journaliste, Paysage n’co
+: Architecte-paysagiste
+: Journaliste, Paysage n’co
 
 Christelle Schüpfer 
-Architecte-paysagiste
-Paysagestion
+: Architecte-paysagiste
+: Paysagestion
 
 François Dupuy
-Architecte-paysagiste
-Spadom
+: Architecte-paysagiste
+: Spadom
 
 ## L’association
 
@@ -38,30 +40,35 @@ Etre membre de l’AJU signifie soutenir l’association par votre cotisation an
 
 ## Le comité 
 
-- Ariane Widmer
-  - Présidente, architecte urbaniste
-- Natacha Litzistorf
-  - Directrice du logement, de l’environnement et de l’architecture, Ville de Lausanne 
-- Etienne Balestra
-  - Chef du Service des parcs et domaines, Ville de Lausanne 
+Ariane Widmer
+: Présidente, architecte urbaniste
+
+Natacha Litzistorf
+: Directrice du logement, de l’environnement et de l’architecture, Ville de Lausanne 
+
+Etienne Balestra
+: Chef du Service des parcs et domaines, Ville de Lausanne 
 
 Nicole Christe
-Cheffe du Service d’architecture, Ville de Lausanne 
+: Cheffe du Service d’architecture, Ville de Lausanne 
 
 Alexis Georgacopoulos
-Directeur de l’ECAL 
+: Directeur de l’ECAL 
 
 Nathalie Noverraz
-Secrétaire générale de Prométerre 
+: Secrétaire générale de Prométerre 
 
 Steeve Pasche
-Directeur de Lausanne Tourisme 
+: Directeur de Lausanne Tourisme 
 
 Chantal Prod’hom
-Directrice du MUDAC 
+: Directrice du MUDAC 
+
 Laurent Rivier
+: Directeur Rivier scientific consulting 
+
 Nicolas Rochat
-Directeur Mover Sportswear
+: Directeur Mover Sportswear
 
 ## Newsletter
 

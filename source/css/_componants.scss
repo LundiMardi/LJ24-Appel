@@ -261,14 +261,12 @@ a.menu--icon {
   li > a {
     display: flex;
     justify-content: space-between;
-    
     font-size: var(--fs-m);
-    padding-top: 0.5em ;
-    padding-bottom : 0.5em ;
+    padding-top: 4px;
+    align-items: center;
+    min-height: 44px;
     
-    em {
-      align-self: flex-end;
-      
+    em {      
       font-style: normal;
       font-size: var(--fs-s) ;
     }

@@ -72,8 +72,13 @@ p + h2, ul + h2 {
 }
 
 ul {
-  padding-inline-start: 16px;
+  padding-inline-start: 1em;
   list-style-position: outside;
+}
+@media screen and (MIN-WIDTH: 1000px) {
+  ul {
+    padding-inline-start: 0;
+  }
 }
 
 table {
@@ -90,6 +95,25 @@ td {
 
 tr, tr:last-child {
   border-bottom: 1px solid var(--black);
+}
+
+dl {
+  display: grid;
+  grid-auto-columns: auto;
+  column-gap: var(--window-padding);
+}
+
+dt {
+  grid-column: 1/2;
+}
+
+dd {
+  grid-column: 2/3;
+  margin-left: 0;
+}
+
+address {
+  font-style: normal;
 }
 
 .window-padding-h {
@@ -360,11 +384,11 @@ a.menu--icon {
   display: flex;
   justify-content: space-between;
   font-size: var(--fs-m);
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 4px;
+  align-items: center;
+  min-height: 44px;
 }
 .link-table li > a em {
-  align-self: flex-end;
   font-style: normal;
   font-size: var(--fs-s);
 }
@@ -452,7 +476,6 @@ section#quick-access .lj-home-button {
   justify-content: center;
   background-color: var(--blue);
   color: var(--green);
-  font-size: 30px;
   border-radius: 10vh;
 }
 @media screen and (min-aspect-ratio: 1/1) {
@@ -501,9 +524,29 @@ section#quick-access .bt-label {
   transition-timing-function: --e;
   background-image: url(../images/RUSH_N&V_Sub_19_1.jpg);
   background-size: cover;
+  font-size: clamp(2rem, 14vw, 10rem);
 }
 #bt-competition:hover {
   margin-left: -16vh;
+}
+#bt-competition span {
+  color: var(--white);
+}
+@media screen and (min-aspect-ratio: 1/2) {
+  #bt-competition {
+    font-size: 7vh;
+  }
+  #bt-competition span {
+    color: var(--blue);
+  }
+}
+@media screen and (min-aspect-ratio: 1/1) {
+  #bt-competition {
+    font-size: 11vh;
+  }
+  #bt-competition span {
+    color: var(--green);
+  }
 }
 
 #bt-concept {
@@ -589,15 +632,34 @@ section#Competition > p:first-of-type {
   margin-bottom: 4px;
 }
 
-section#Concept p:nth-child(2n) {
+section#Concept p:nth-child(2n+1) {
   color: var(--blue);
   font-size: var(--fs-m);
+  max-width: 20em;
 }
-section#Concept p:nth-child(2n+1) {
-  margin-left: 2em;
+@media screen and (MIN-WIDTH: 1000px) {
+  section#Concept p:nth-child(2n+1) {
+    max-width: none;
+    margin-right: 33.3333333333%;
+    padding-right: var(--window-padding);
+  }
+}
+section#Concept p:nth-child(2n) {
+  margin-left: auto;
+  padding-left: var(--window-padding);
+  max-width: 20em;
+}
+@media screen and (MIN-WIDTH: 1000px) {
+  section#Concept p:nth-child(2n) {
+    max-width: none;
+    margin-left: 50%;
+    padding-left: var(--window-padding);
+  }
 }
 
 .context-blue {
   background-color: var(--blue);
   color: var(--white);
 }
+
+/*# sourceMappingURL=style.css.map */

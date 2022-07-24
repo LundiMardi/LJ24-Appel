@@ -70,7 +70,7 @@ section#quick-access {
     justify-content: center;
     background-color: var(--blue);
     color: var(--green);
-    font-size: 30px;
+    // font-size: 30px; 
     // font-size: 12vw;
     border-radius: 10vh ;
     
@@ -128,7 +128,19 @@ section#quick-access {
     // background-color: #ffffff;
     // grid-row:1 / 3 ; 
     margin-left: -16vh;
+  }
 
+
+  font-size: clamp(2rem, 14vw, 10rem );
+  span {color: var(--white);}
+
+  @media screen and (min-aspect-ratio: 1/2) {
+    font-size: 7vh;
+    span {color: var(--blue); }
+  }
+  @media screen and (min-aspect-ratio: 1/1) {
+    font-size: 11vh;
+    span {color: var(--green);}
   }
 }
 #bt-concept {
@@ -224,12 +236,29 @@ section#Concept {
 
 
   
-  p:nth-child(2n) {
+  p:nth-child(2n +1) {
     color: var(--blue);
     font-size: var(--fs-m);
+
+    max-width: 20em;
+
+    @media screen and (MIN-WIDTH: 1000px) {
+      max-width: none;
+      margin-right: calc(100% / 12 * 4);
+      padding-right: var(--window-padding);
+    }
   }
-  p:nth-child(2n+1) {
-    margin-left: 2em;
+  p:nth-child(2n) {
+    // margin-left: calc(100% / 12 * 3);
+    margin-left: auto;
+    padding-left: var(--window-padding);
+    max-width: 20em;
+    
+    @media screen and (MIN-WIDTH: 1000px) {
+      max-width: none;
+      margin-left: 50%;
+      padding-left: var(--window-padding);
+    }
   }
 }
 
