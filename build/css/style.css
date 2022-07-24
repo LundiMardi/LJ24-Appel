@@ -146,39 +146,47 @@ i.icon {
 }
 
 #main-nav {
-  position: sticky;
+  position: relative;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  top: 0px;
+  align-items: end;
   padding-top: var(--unit);
   padding-bottom: var(--unit);
   padding-right: var(--window-padding);
   padding-left: var(--window-padding);
 }
 #main-nav .icon svg * {
+  fill: var(--accent);
+}
+@media screen and (MIN-WIDTH: 1000px) {
+  #main-nav {
+    position: sticky;
+    top: 0px;
+  }
+}
+
+#main-nav.context-blue ~ #bt-mobile-menu {
+  background-color: var(--green);
+}
+#main-nav.context-blue ~ #bt-mobile-menu .icon svg * {
   fill: var(--blue);
 }
 
-#main-nav.context-blue {
-  background-color: var(--blue);
-  color: var(--white);
-}
-#main-nav.context-blue .icon svg * {
-  fill: var(--green);
+#main-nav.context-blue ~ #bt-mobile-menu > * {
+  fill: var(--blue);
 }
 
 a.menu-logo {
   display: inline-block;
+  margin-right: auto;
 }
 
 a.menu-logo svg {
-  fill: var(--black);
+  fill: var(--active);
   height: 64px;
 }
 
-.context-blue a.menu-logo svg {
-  fill: var(--white);
+#main-nav span.menu-secondary {
+  margin-left: auto;
 }
 
 #main-nav {
@@ -192,17 +200,18 @@ a.menu-logo svg {
   opacity: 0;
 }
 
-#main-nav.is-nav-visible {
-  background-color: var(--paper);
-}
-#main-nav.is-nav-visible .menu-logo,
+@media screen and (MIN-WIDTH: 1000px) {
+  #main-nav.is-nav-visible {
+    background-color: var(--paper);
+  }
+  #main-nav.is-nav-visible .menu-logo,
 #main-nav.is-nav-visible .lj-button,
 #main-nav.is-nav-visible h6 > a,
 #main-nav.is-nav-visible #previous-websites ul li,
 #previous-websites ul #main-nav.is-nav-visible li {
-  opacity: 1;
+    opacity: 1;
+  }
 }
-
 #bt-mobile-menu,
 #bt-mobile-menu-hide {
   cursor: pointer;
@@ -220,8 +229,10 @@ a.menu-logo svg {
 }
 
 #bt-mobile-menu {
-  position: absolute;
-  background-color: var(--blue);
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: var(--accent);
   transition-property: all;
   transition-duration: 300ms;
   width: 50vw;
@@ -230,7 +241,7 @@ a.menu-logo svg {
   transform-origin: 90% bottom;
 }
 #bt-mobile-menu svg * {
-  fill: var(--green);
+  fill: var(--paper);
 }
 
 #bt-mobile-menu.mobile-menu__is-closed {
@@ -350,20 +361,20 @@ a.menu--icon {
 
 .lj-button, h6 > a, #previous-websites ul li {
   display: inline-block;
-  border: 1px solid var(--blue);
-  color: var(--blue);
+  border: 1px solid var(--accent);
+  color: var(--accent);
   line-height: 1;
   padding: 8px 16px;
   text-decoration: none;
   border-radius: 9999px;
+  transition-property: padding;
+  transform-origin: left center;
+  transition-duration: 100ms;
+  transition-timing-function: var(--easeOutBack);
 }
 .lj-button:hover, h6 > a:hover, #previous-websites ul li:hover {
-  transform: scale(1.2);
-}
-
-.context-blue .lj-button, .context-blue h6 > a, .context-blue #previous-websites ul li, #previous-websites ul .context-blue li {
-  border-color: var(--green);
-  color: var(--green);
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .link-table ul {

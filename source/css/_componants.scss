@@ -10,44 +10,54 @@ i.icon {
 
 
 #main-nav {
-  position: sticky;
+  position: relative;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  top: 0px;
+  align-items: end;
+  // justify-content: space-between;
+  
   
   padding-top: var(--unit);
   padding-bottom: var(--unit);
   padding-right: var(--window-padding);
   padding-left: var(--window-padding);
-
+  
   .icon svg * {
-    fill: var(--blue);
-   }
-}
-#main-nav.context-blue {
-  background-color: var(--blue);
-  color: var(--white) ;
-
-  .icon svg * {
-  fill: var(--green);
+    fill: var(--accent);
   }
+  
+  @media screen and (MIN-WIDTH:1000px ) {
+    position: sticky;
+    top: 0px;
+  }
+}
+
+// color the button when main-nav gets a blue bg
+#main-nav.context-blue ~ #bt-mobile-menu {
+  background-color: var(--green);
+  .icon svg * {
+  fill: var(--blue);
+  }
+}
+#main-nav.context-blue ~ #bt-mobile-menu > * {
+  fill: var(--blue);
 }
 
 a.menu-logo {
   display: inline-block;
   // margin: calc(var(--unit) * 2) ;
+  margin-right: auto ;
 }
 
 a.menu-logo svg {
-  fill:var(--black);
+  fill:var(--active);
   height: 64px ;
 }
-.context-blue a.menu-logo svg {
-  fill:var(--white);
+// .context-blue a.menu-logo svg {
+//   fill:var(--white);
+// }
+#main-nav span.menu-secondary {
+  margin-left: auto ;
 }
-
 
 // States
 #main-nav {
@@ -58,15 +68,18 @@ a.menu-logo svg {
     opacity: 0;
   }
 }
-#main-nav.is-nav-visible  {
-  background-color: var(--paper);
+@media screen and (MIN-WIDTH:1000px ) {
+  #main-nav.is-nav-visible  {
+    background-color: var(--paper);
 
-  .menu-logo,
-  .lj-button {
-    opacity: 1;
+    .menu-logo,
+    .lj-button {
+      opacity: 1;
+    }
   }
-
 }
+  
+
  
 #bt-mobile-menu, 
 #bt-mobile-menu-hide {
@@ -84,15 +97,19 @@ a.menu-logo svg {
 }
 
 #bt-mobile-menu {
-  position: absolute ;
-  background-color: var(--blue);
+  // position: absolute ;
+
+    position: fixed;
+    right: 0;
+    top: 0;
+  background-color: var(--accent);
   transition-property: all;
   transition-duration: 300ms;
   width: 50vw;
   height: 105vh;
   transform: scale(2);
   transform-origin: 90% bottom;
-  svg * { fill:var(--green); }
+  svg * { fill:var(--paper); }
 }
 #bt-mobile-menu.mobile-menu__is-closed {
   transition-property: all;
@@ -225,23 +242,30 @@ a.menu--icon {
 
 .lj-button {
   display: inline-block;
-  border: 1px solid var(--blue);
-  color: var(--blue);
+  border: 1px solid var(--accent);
+  color: var(--accent);
   line-height: 1;
   padding: 8px 16px;
   text-decoration: none;
   border-radius: 9999px;
 
+  transition-property: padding ;
+  transform-origin: left center ;
+  transition-duration: 100ms ;
+  transition-timing-function: var(--easeOutBack);
+
   &:hover {
-    transform: scale(1.2);
+    // transform: scaleX(1.2);
+    padding-left: 32px;
+    padding-right: 32px;
     // background-color: white;
   }
 }
 
-.context-blue .lj-button {
-  border-color: var(--green);
-  color: var(--green);
-}
+// .context-blue .lj-button {
+//   border-color: var(--green);
+//   color: var(--green);
+// }
 
 .link-table {
   ul {padding-inline-start: 0;}
