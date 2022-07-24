@@ -248,7 +248,7 @@
       "oAP" : "\/build\/images\/01_basemap_ville.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -344,7 +344,7 @@
       "oAP" : "\/build\/images\/RUSH_N&V_Sub_21_1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
