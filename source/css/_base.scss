@@ -18,7 +18,8 @@ body {
   
 }
 
-p {
+p, h6 {
+  margin-block-start: 1em;
   margin-block-end: 1em;
 }
 
@@ -29,12 +30,14 @@ a {
 a:hover {
   color: var(--active);
 }
-.context-blue a {
-  color: var(--green);
-}
+// .context-blue a {
+//   color: var(--green);
+// }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
+}
+h1, h2, h3, h4, h5 {
   margin-block-start: 1rem;
   margin-block-end: 1rem;
 }

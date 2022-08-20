@@ -299,6 +299,8 @@ a.menu--icon {
   color: var(--accent);
   line-height: 1;
   padding: 8px 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
   text-decoration: none;
   border-radius: 9999px;
 
@@ -311,12 +313,20 @@ a.menu--icon {
     // transform: scaleX(1.2);
     // padding-left: 32px;
     // padding-right: 32px;
-    background-color: var(--active) !important;
+    // background-color: var(--active) !important;
     border-color: var(--active) !important;
   }
   &:hover > a {
-    color: var(--paper) !important;
+    color: var(--active) !important;
   }
+}
+
+// fake button for markdown
+strong a {
+
+  font-size: var(--fs-s);
+  font-weight: normal;
+  @extend .lj-button ;
 }
 
 // .context-blue .lj-button {
@@ -378,4 +388,11 @@ a.menu--icon {
   .context-blue .menu--item.is-current {
     background-color: var(--white);
   }
+}
+
+
+article > img {
+  width: calc(var(--window-padding) * 2 + 100%);
+  margin-left: calc(var(--window-padding) * -1) ;
+  margin-right: calc(var(--window-padding) * -1) ;
 }

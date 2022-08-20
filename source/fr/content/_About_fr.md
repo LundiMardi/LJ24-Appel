@@ -1,4 +1,4 @@
-Lausanne Jardins est un événement culturel mêlant paysagisme et réflexion sur la ville. Le temps d’un été, la manifestation propose d’insérer des jardins dans l’espace urbain : rues, places, terrains délaissés, façades de bâtiments ou toitures. Une trentaine de jardins contemporains issus d’un concours international, qui se suivent le long d’une promenade thématique. L’accès est gratuit, 24h sur 24, pendant quatre mois, de la mi- juin à la mi-octobre.
+###### Lausanne Jardins est un événement culturel mêlant paysagisme et réflexion sur la ville. Le temps d’un été, la manifestation propose d’insérer des jardins dans l’espace urbain : rues, places, terrains délaissés, façades de bâtiments ou toitures. Une trentaine de jardins contemporains issus d’un concours international, qui se suivent le long d’une promenade thématique. L’accès est gratuit, 24h sur 24, pendant quatre mois, de la mi- juin à la mi-octobre.
 
 
 ## L’équipe
@@ -36,7 +36,7 @@ pour être tenu informé et participer aux moments forts de la manifestation.
 
 Etre membre de l’AJU signifie soutenir l’association par votre cotisation annuelle de Fr. 50.-, mais également avoir la possibilité de participer aux assemblées générales qui accompagnent le travail du comité et de l’équipe de pilotage de Lausanne Jardins. C’est être tenu informé du développement de la manifestation et des événements pendant Lausanne Jardins. C’est aussi l’occasion d’être [invité](#) aux événements de lancement et de clôture de Lausanne Jardins, et de participer à des visites guidées spéciales pour ses membres. 
 
-###### [Devenir membre]()
+**[Devenir membre]()**
 
 ## Le comité 
 
@@ -74,5 +74,5 @@ Nicolas Rochat
 
 Si vous voulez être tenu au courant de la préparation de Lausanne Jardins 2024 pas à pas, des dates-clé ou encore des réflexions menées autour des thèmes du jardin, de la ville et des espaces publics, inscrivez-vous à notre newsletter.
 
-[Abonnez-vous à la newsletter](#)
-[Voir les archives des newsletters](#)
+**[Abonnez-vous à la newsletter](#)**
+**[Voir les archives des newsletters](#)**
