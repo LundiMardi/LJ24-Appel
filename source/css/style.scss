@@ -40,9 +40,15 @@ h6 + h6 {
   scroll-snap-type: y proximity; 
   width: 100vw;
   height: 100vh;
+  scroll-padding-top: calc(90px + 1rem);
 }
 .section-snap {
-  scroll-snap-align: start;
+  // scroll-snap-align: start;
+}
+
+// snap to 0 instead of default padding
+section {
+  scroll-margin-top: calc(-90px - 1rem);
 }
 
 h1.section-heading {
@@ -54,6 +60,7 @@ h1.section-heading {
   display: flex;
   align-items: center;
   padding-bottom: 0.4rem;
+  margin-bottom: 20vh;
   background-color: var(--paper);
   color: var(--accent);
   z-index: 10;
@@ -214,8 +221,8 @@ section#quick-access {
 section#Competition,
 section#Concept,
 section#About {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  // padding-top: 200px;
+  padding-bottom: 20vh;
 }
 
 @media screen and (MIN-WIDTH: 1000px) {

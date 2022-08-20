@@ -558,10 +558,11 @@ h6 + h6 {
   scroll-snap-type: y proximity;
   width: 100vw;
   height: 100vh;
+  scroll-padding-top: calc(90px + 1rem);
 }
 
-.section-snap {
-  scroll-snap-align: start;
+section {
+  scroll-margin-top: calc(-90px - 1rem);
 }
 
 h1.section-heading {
@@ -573,6 +574,7 @@ h1.section-heading {
   display: flex;
   align-items: center;
   padding-bottom: 0.4rem;
+  margin-bottom: 20vh;
   background-color: var(--paper);
   color: var(--accent);
   z-index: 10;
@@ -733,8 +735,7 @@ section#quick-access .bt-label {
 section#Competition,
 section#Concept,
 section#About {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 20vh;
 }
 
 @media screen and (MIN-WIDTH: 1000px) {
@@ -813,3 +814,5 @@ section#About {
   background-color: var(--blue);
   color: var(--white);
 }
+
+/*# sourceMappingURL=style.css.map */

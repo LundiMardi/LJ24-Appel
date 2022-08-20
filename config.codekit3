@@ -98,7 +98,7 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 1,
       "oA" : 0,
       "oAP" : "\/build\/css\/style.css",
       "oF" : 0,
@@ -756,7 +756,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets_gray",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 682641851.49347699
+    "lastBuiltDate" : 682675056.80731404
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
