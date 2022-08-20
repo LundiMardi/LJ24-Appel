@@ -7,6 +7,7 @@
   --ink: var(--black) ;
   --accent: var(--blue) ;
   --active: var(--black) ;
+  --reactive: var(--white) ;
   --fs-s: clamp(0.9375rem, 3.75vw, 1.5rem) ;
   --fs-m: clamp(1.25rem, 5vw, 2rem) ;
   --fs-l: clamp(1.625rem, 6.5vw, 3.75rem) ;
@@ -24,6 +25,7 @@
   --ink: var(--white) ;
   --accent: var(--green) ;
   --active: var(--white) ;
+  --reactive: var(--black) ;
 }
 
 /*
@@ -80,7 +82,8 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: var(--green);
+  background-color: var(--paper);
+  color: var(--ink);
 }
 
 body {
@@ -226,7 +229,7 @@ i.icon {
   padding-left: var(--window-padding);
 }
 #main-nav .icon svg * {
-  fill: var(--accent);
+  fill: var(--paper);
 }
 @media screen and (MIN-WIDTH: 1880px) {
   #main-nav {
@@ -324,14 +327,14 @@ strong #main-nav.is-nav-visible a {
   height: 105vh;
   transform: scale(2);
   transform-origin: 90% bottom;
-  background-color: var(--blue);
+  background-color: var(--accent);
 }
 #bt-mobile-menu svg * {
-  fill: var(--blue);
+  fill: var(--accent);
 }
 
 #bt-mobile-menu.mobile-menu__is-closed {
-  background-color: var(--blue);
+  background-color: var(--accent);
   transition-property: all;
   transition-duration: 100ms;
   width: 56px;
@@ -339,24 +342,14 @@ strong #main-nav.is-nav-visible a {
   transform: scale(1);
 }
 #bt-mobile-menu.mobile-menu__is-closed svg * {
-  fill: var(--green);
-}
-
-#main-nav.context-blue ~ div.hamburger-button #bt-mobile-menu.mobile-menu__is-closed {
-  background-color: var(--green);
-}
-#main-nav.context-blue ~ div.hamburger-button #bt-mobile-menu.mobile-menu__is-closed svg * {
-  fill: var(--blue);
-}
-#main-nav.context-blue ~ div.hamburger-button #bt-mobile-menu {
-  background-color: var(--blue);
+  fill: var(--paper);
 }
 
 #bt-mobile-menu-hide {
   position: fixed;
   width: 56px;
   height: 56px;
-  background-color: var(--green);
+  background-color: var(--paper);
   z-index: 10;
   scale: 1;
   opacity: 1;
@@ -366,7 +359,7 @@ strong #main-nav.is-nav-visible a {
   transition-timing-function: cubic-bezier(0.48, 0.55, 0.69, 1.76), ease-in;
 }
 #bt-mobile-menu-hide svg * {
-  fill: var(--blue);
+  fill: var(--accent);
 }
 
 #bt-mobile-menu-hide.mobile-menu__is-closed {
@@ -387,7 +380,8 @@ strong #main-nav.is-nav-visible a {
   right: 0;
   left: 0;
   overflow-y: auto;
-  color: var(--green);
+  background-color: var(--accent);
+  color: var(--paper);
   transform: translateX(0);
   transition-property: opacity, transform;
   transition-delay: 100ms, 0ms;
@@ -421,18 +415,18 @@ ul.mobile-menu--list ul {
   margin-bottom: calc(var(--fs-m) * 1.35 + 1em);
 }
 ul.mobile-menu--list ul li a {
-  border-bottom: 1px solid var(--green);
+  border-bottom: 1px solid var(--paper);
 }
 ul.mobile-menu--list > li > a {
-  border-top: 1px solid var(--green);
-  border-bottom: 1px solid var(--green);
+  border-top: 1px solid var(--paper);
+  border-bottom: 1px solid var(--paper);
 }
 ul.mobile-menu--list li {
   list-style: none;
 }
 ul.mobile-menu--list li a {
   font-size: var(--fs-m);
-  color: var(--green);
+  color: var(--paper);
   width: 100%;
   display: inline-block;
   padding-top: 0.5em;
@@ -457,11 +451,11 @@ a.menu--icon {
 }
 
 #mobile-menu svg * {
-  fill: var(--green);
+  fill: var(--paper);
 }
 
 #mobile-menu a {
-  color: var(--green);
+  color: var(--paper);
 }
 
 .lj-button, #previous-websites ul li, strong a {
@@ -519,7 +513,7 @@ strong a {
 }
 
 #mobile-menu a.menu--item.is-current {
-  color: var(--white);
+  color: var(--reactive);
 }
 
 @media screen and (MIN-WIDTH: 1880px) {
@@ -860,8 +854,8 @@ section#Concept p {
 }
 
 .context-blue {
-  background-color: var(--blue);
-  color: var(--white);
+  background-color: var(--paper);
+  color: var(--ink);
 }
 
 #about-sub-nav {
@@ -878,3 +872,5 @@ section#Concept p {
 .aside-content strong > a {
   width: calc(66.6666666667% - var(--window-padding));
 }
+
+/*# sourceMappingURL=style.css.map */

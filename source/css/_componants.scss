@@ -21,7 +21,7 @@ i.icon {
   padding-left: var(--window-padding);
   
   .icon svg * {
-    fill: var(--accent);
+    fill: var(--paper);
   }
   // .menu-logo svg {
   //   margin-bottom: -20px; 
@@ -131,13 +131,13 @@ a.menu-logo svg {
   height: 105vh;
   transform: scale(2);
   transform-origin: 90% bottom;
-  background-color: var(--blue);
-  svg * { fill:var(--blue); }
+  background-color: var(--accent);
+  svg * { fill:var(--accent); }
 }
 #bt-mobile-menu.mobile-menu__is-closed {
 
-  background-color: var(--blue);
-  svg * { fill:var(--green); }
+  background-color: var(--accent);
+  svg * { fill:var(--paper); }
   transition-property: all;
   transition-duration: 100ms;
   // width: calc(100vw + 20px);
@@ -147,21 +147,19 @@ a.menu-logo svg {
   height: 56px;
   transform: scale(1);
 }
+
 // color the button when main-nav gets a blue bg
-#main-nav.context-blue ~ div.hamburger-button {
-  #bt-mobile-menu.mobile-menu__is-closed {
-    background-color: var(--green);
-    svg * {
-    fill: var(--blue);
-    }
-  }
-  #bt-mobile-menu {
-    background-color: var(--blue);
-    // svg * {
-    // fill: var(--green);
-    // }
-  }
-}
+// #main-nav.context-blue ~ div.hamburger-button {
+//   #bt-mobile-menu.mobile-menu__is-closed {
+//     background-color: var(--green);
+//     svg * {
+//     fill: var(--blue);
+//     }
+//   }
+//   #bt-mobile-menu {
+//     background-color: var(--blue);
+//   }
+// }
 
 
 
@@ -170,7 +168,7 @@ a.menu-logo svg {
 
   width: 56px;
   height: 56px;
-  background-color: var(--green);
+  background-color: var(--paper);
   z-index: 10;
   scale: 1;
   opacity: 1;
@@ -179,7 +177,7 @@ a.menu-logo svg {
   transition-delay: 100ms, 100ms;
   transition-timing-function: cubic-bezier(0.48,0.55,0.69,1.76), ease-in;
 
-  svg * { fill:var(--blue); }  
+  svg * { fill:var(--accent); }  
 }
 #bt-mobile-menu-hide.mobile-menu__is-closed {
 
@@ -204,8 +202,8 @@ a.menu-logo svg {
   right: 0;
   left: 0;
   overflow-y: auto;
-  // background-color: var(--blue);
-  color: var(--green);
+  background-color: var(--accent);
+  color: var(--paper);
   transform: translateX(0);
   transition-property: opacity, transform;
   transition-delay: 100ms, 0ms;
@@ -239,20 +237,20 @@ ul.mobile-menu--list {
     padding-inline-start: calc(var(--unit) * 4) ;
     margin-bottom: calc( (var(--fs-m) * 1.35 ) + 1em);
 
-    li a { border-bottom: 1px solid var(--green); }
-    // li:not(:last-of-type) a { border-bottom: 1px solid var(--green); }
+    li a { border-bottom: 1px solid var(--paper); }
+    // li:not(:last-of-type) a { border-bottom: 1px solid var(--paper); }
   }
   > li > a {
-    border-top: 1px solid var(--green);
-    border-bottom: 1px solid var(--green);
+    border-top: 1px solid var(--paper);
+    border-bottom: 1px solid var(--paper);
   } 
-  // > li:last-child li:last-child a { border-bottom: 1px solid var(--green); }
+  // > li:last-child li:last-child a { border-bottom: 1px solid var(--paper); }
   li {
     list-style: none;
   }
   li a {
     font-size: var(--fs-m);
-    color: var(--green);
+    color: var(--paper);
     // background-color: blue;
     width: 100%;
     display: inline-block;
@@ -282,10 +280,10 @@ a.menu--icon {
 }
 
 #mobile-menu svg * {
-  fill: var(--green);
+  fill: var(--paper);
 }
 #mobile-menu a {
-  color: var(--green);
+  color: var(--paper);
 
 }
  
@@ -367,7 +365,7 @@ strong a {
 
 // context-blue
 #mobile-menu a.menu--item.is-current {
-  color: var(--white);
+  color: var(--reactive);
 }
 
 @media screen and (MIN-WIDTH:1880px) {

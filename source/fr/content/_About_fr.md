@@ -74,5 +74,5 @@ Nicolas Rochat
 
 Si vous voulez être tenu au courant de la préparation de Lausanne Jardins 2024 pas à pas, des dates-clé ou encore des réflexions menées autour des thèmes du jardin, de la ville et des espaces publics, inscrivez-vous à notre newsletter.
 
-**[Abonnez-vous à la newsletter](https://lausannejardins.us5.list-manage.com/subscribe?u=4e331970f865e88c60558fab4&id=be32bcf42d)**
+**[Abonnez-vous à la newsletter](https://lausannejardins.us5.list-manage.com/subscribe?u=4e331970f865e88c60558fab4&id=be32bcf42d)**  
 **[Voir les archives des newsletters](https://us5.campaign-archive.com/home/?u=4e331970f865e88c60558fab4&id=be32bcf42d)**
