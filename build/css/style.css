@@ -693,7 +693,10 @@ section#quick-access .bt-label {
 
 #bgvid {
   height: 100%;
+  width: 100vw;
+  object-fit: cover;
   mix-blend-mode: multiply;
+  align-self: end;
 }
 
 #bt-concept {

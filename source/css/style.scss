@@ -176,8 +176,10 @@ section#quick-access {
 
 #bgvid {
   height: 100%;
-  // width: 100%;
+  width: 100vw;
+  object-fit: cover;
   mix-blend-mode: multiply;
+  align-self: end;
 }
 
 
