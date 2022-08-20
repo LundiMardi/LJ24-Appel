@@ -158,7 +158,8 @@ section#quick-access {
     transition-duration: 100ms ;
     transition-timing-function: --e;
   // background-image: url(../images/RUSH_N&V_Sub_19_1.jpg);
-  background-size: cover;
+  // background-size: cover;
+  -webkit-mask-image: radial-gradient(white, black);
 
   @media screen and (min-aspect-ratio: 1/1) {
     

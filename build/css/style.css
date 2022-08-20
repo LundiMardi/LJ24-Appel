@@ -675,7 +675,7 @@ section#quick-access .bt-label {
   transition-property: all;
   transition-duration: 100ms;
   transition-timing-function: --e;
-  background-size: cover;
+  -webkit-mask-image: radial-gradient(white, black);
 }
 @media screen and (min-aspect-ratio: 1/1) {
   #bt-competition:hover {
