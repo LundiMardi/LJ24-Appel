@@ -36,7 +36,7 @@ pour être tenu informé et participer aux moments forts de la manifestation.
 
 Etre membre de l’AJU signifie soutenir l’association par votre cotisation annuelle de Fr. 50.-, mais également avoir la possibilité de participer aux assemblées générales qui accompagnent le travail du comité et de l’équipe de pilotage de Lausanne Jardins. C’est être tenu informé du développement de la manifestation et des événements pendant Lausanne Jardins. C’est aussi l’occasion d’être [invité](#) aux événements de lancement et de clôture de Lausanne Jardins, et de participer à des visites guidées spéciales pour ses membres. 
 
-**[Devenir membre]()**
+<strong><a href="mailto:no-one@snai1mai1.com?subject=Inscription association Lausanne Jardins&body=Bonjour,%0D%0A %0D%0AJe souhaite rejoindre l'association.%0D%0A %0D%0A Nom :%0D%0APrénom :%0D%0AProfession :%0D%0AEntreprise :%0D%0AAdresse postale :">Devenir membre</a></strong>
 
 ## Le comité 
 
@@ -74,5 +74,5 @@ Nicolas Rochat
 
 Si vous voulez être tenu au courant de la préparation de Lausanne Jardins 2024 pas à pas, des dates-clé ou encore des réflexions menées autour des thèmes du jardin, de la ville et des espaces publics, inscrivez-vous à notre newsletter.
 
-**[Abonnez-vous à la newsletter](#)**
-**[Voir les archives des newsletters](#)**
+**[Abonnez-vous à la newsletter](https://lausannejardins.us5.list-manage.com/subscribe?u=4e331970f865e88c60558fab4&id=be32bcf42d)**
+**[Voir les archives des newsletters](https://us5.campaign-archive.com/home/?u=4e331970f865e88c60558fab4&id=be32bcf42d)**

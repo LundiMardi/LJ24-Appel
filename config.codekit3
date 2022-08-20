@@ -98,7 +98,7 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 1,
+      "ma" : 0,
       "oA" : 0,
       "oAP" : "\/build\/css\/style.css",
       "oF" : 0,
@@ -677,6 +677,14 @@
       "opt" : 1,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/source\/images\/Placeholder-doc.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/Placeholder-doc.pdf",
+      "oF" : 0
     },
     "\/source\/images\/RUSH_N&V_Sub_19_1.jpg" : {
       "ft" : 16384,

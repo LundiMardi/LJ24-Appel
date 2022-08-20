@@ -1,8 +1,8 @@
 
 #### Téléchargements
 
-- [Documents concours  *70 MB*](lundimardi.info)
-- [Questions fréquentes *70 MB*](lundimardi.info)
+- [Documents concours  *70 MB*](../images/Placeholder-doc.pdf)
+- [Questions fréquentes *70 MB*](../images/Placeholder-doc.pdf)
 
 **[Vidéo de présentation](#video)**
 **[Plan de situation](#plan)**
