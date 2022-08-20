@@ -264,7 +264,7 @@ a.menu-logo svg {
   background-color: transparent;
   margin-top: -54px;
 }
-#main-nav .menu-logo,
+#main-nav .wrapper .menu-logo,
 #main-nav .lj-button,
 #main-nav h6 > a,
 #main-nav #previous-websites ul li,
@@ -278,7 +278,7 @@ a.menu-logo svg {
     background-color: var(--paper);
     margin-top: auto;
   }
-  #main-nav.is-nav-visible .menu-logo,
+  #main-nav.is-nav-visible .wrapper .menu-logo,
 #main-nav.is-nav-visible .lj-button,
 #main-nav.is-nav-visible h6 > a,
 #main-nav.is-nav-visible #previous-websites ul li,
@@ -557,6 +557,7 @@ h6 + h6 {
 
 #body-lining {
   overflow-y: scroll;
+  scroll-behavior: smooth;
   scroll-snap-type: y proximity;
   width: 100vw;
   height: 100vh;
@@ -766,6 +767,13 @@ section#Competition,
 section#Concept,
 section#About {
   padding-bottom: 20vh;
+}
+@media screen and (MIN-WIDTH: 1880px) {
+  section#Competition,
+section#Concept,
+section#About {
+    padding-top: 25vh;
+  }
 }
 
 @media screen and (MIN-WIDTH: 1000px) {

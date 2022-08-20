@@ -72,7 +72,7 @@ a.menu-logo svg {
   background-color: transparent ;
   margin-top: -54px;
   
-  .menu-logo,
+  .wrapper .menu-logo,
   .lj-button {
     opacity: 0;
     display: none;
@@ -85,7 +85,7 @@ a.menu-logo svg {
     margin-top: auto;
 
 
-    .menu-logo,
+    .wrapper .menu-logo,
     .lj-button {
       opacity: 1;
       display: flex;

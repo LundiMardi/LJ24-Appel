@@ -36,11 +36,13 @@ h6 + h6 {
 
 #body-lining {
   overflow-y: scroll;
+  scroll-behavior: smooth ;
   // scroll-snap-type: y mandatory;
   scroll-snap-type: y proximity; 
   width: 100vw;
   height: 100vh;
   scroll-padding-top: calc(90px + 1rem);
+
 }
 .section-snap {
   // scroll-snap-align: start;
@@ -265,8 +267,10 @@ section#quick-access {
 section#Competition,
 section#Concept,
 section#About {
-  // padding-top: 200px;
   padding-bottom: 20vh;
+  @media screen and (MIN-WIDTH: 1880px) {
+    padding-top: 25vh;
+  }
 }
 
 @media screen and (MIN-WIDTH: 1000px) {
