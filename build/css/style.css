@@ -262,8 +262,9 @@ a.menu-logo svg {
 
 #main-nav {
   background-color: transparent;
+  margin-top: -54px;
 }
-#main-nav > .menu-logo,
+#main-nav .menu-logo,
 #main-nav .lj-button,
 #main-nav h6 > a,
 #main-nav #previous-websites ul li,
@@ -275,6 +276,7 @@ a.menu-logo svg {
 @media screen and (MIN-WIDTH: 1880px) {
   #main-nav.is-nav-visible {
     background-color: var(--paper);
+    margin-top: auto;
   }
   #main-nav.is-nav-visible .menu-logo,
 #main-nav.is-nav-visible .lj-button,
@@ -662,7 +664,6 @@ section#quick-access .bt-label {
   transition-timing-function: --e;
   background-image: url(../images/RUSH_N&V_Sub_19_1.jpg);
   background-size: cover;
-  font-size: clamp(2rem, 14vw, 10rem);
 }
 #bt-competition:hover {
   margin-left: -16vh;
@@ -670,26 +671,11 @@ section#quick-access .bt-label {
 #bt-competition span {
   color: var(--white);
 }
-@media screen and (min-aspect-ratio: 1/2) {
-  #bt-competition {
-    font-size: 7vh;
-  }
-  #bt-competition span {
-    color: var(--blue);
-  }
-}
-@media screen and (min-aspect-ratio: 1/1) {
-  #bt-competition {
-    font-size: 11vh;
-  }
-  #bt-competition span {
-    color: var(--green);
-  }
-}
 
 #bt-concept {
   grid-column: 1/-1;
   grid-row: 8/span 3;
+  font-size: clamp(2rem, 14vw, 10rem);
 }
 
 #bt-about {
@@ -697,6 +683,35 @@ section#quick-access .bt-label {
   grid-row: 11/span 3;
 }
 
+#bt-competition,
+#bt-concept,
+#bt-about {
+  font-size: clamp(2rem, 13vw, 10rem);
+}
+@media screen and (min-aspect-ratio: 1/2) {
+  #bt-competition,
+#bt-concept,
+#bt-about {
+    font-size: 6.6vh;
+  }
+}
+@media screen and (min-aspect-ratio: 1/1) {
+  #bt-competition,
+#bt-concept,
+#bt-about {
+    font-size: clamp(7vh, 9.5vw, 14vh);
+  }
+}
+
+@media screen and (min-aspect-ratio: 1/1) {
+  #bt-concept {
+    font-size: clamp(5.4vh, 20vw - 10rem, 14vh);
+  }
+
+  #bt-about {
+    font-size: 5.4vh;
+  }
+}
 #secondary-nav {
   position: sticky;
   grid-column: 1/-1;
@@ -729,7 +744,7 @@ section#quick-access .bt-label {
     grid-column: 3/4;
     grid-row: 10/span 4;
     aspect-ratio: 1/1;
-    width: calc(33vh - 3px);
+    width: calc(33vh - 18px);
   }
 }
 section#Competition,

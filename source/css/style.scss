@@ -160,26 +160,49 @@ section#quick-access {
   }
 
 
-  font-size: clamp(2rem, 14vw, 10rem );
   span {color: var(--white);}
-
-  @media screen and (min-aspect-ratio: 1/2) {
-    font-size: 7vh;
-    span {color: var(--blue); }
-  }
-  @media screen and (min-aspect-ratio: 1/1) {
-    font-size: 11vh;
-    span {color: var(--green);}
-  }
 }
 #bt-concept {
   grid-column: 1 / -1 ;
   grid-row: 8 / span 3;
+
+  font-size: clamp(2rem, 14vw, 10rem );  
 }
 #bt-about {
   grid-column: 1 / -1 ;
   grid-row: 11 / span 3 ;
+  
 }
+#bt-competition,
+#bt-concept,
+#bt-about {
+  font-size: clamp(2rem, 13vw, 10rem );  
+
+  @media screen and (min-aspect-ratio: 1/2) {
+    font-size: 6.6vh;
+    // span {color:lightgoldenrodyellow; }
+  }
+  @media screen and (min-aspect-ratio: 1/1) {
+    // font-size: clamp(9vh, 9.5vw, 14vh) ; BEST FOR COMPETITION TITLE
+    font-size: clamp(7vh, 9.5vw, 14vh) ;
+  }
+}
+
+@media screen and (min-aspect-ratio: 1/1) {
+  #bt-concept {
+    font-size: clamp(5.4vh, 20vw - 10rem, 14vh) ;
+  }
+  #bt-about {
+    font-size: 5.4vh;
+  }
+}
+
+// Consistent with ABOUT font size, from available space and UP 
+// @media screen and (min-aspect-ratio: 14/11) {
+//   #bt-concept  {
+//     font-size: clamp(7vh, 9.5vw, 14vh) ;
+//   }
+// }
 
 #secondary-nav {
   position: sticky ;
@@ -212,7 +235,7 @@ section#quick-access {
     grid-row: 10 / span 4 ;
 
     aspect-ratio: 1/1;
-    width: calc(33vh - 3px); //magic number, logic didn't happen
+    width: calc(33vh - 18px); //magic number, logic failed
     
     // height: 100%; DOnt do thiS will break everything
   }

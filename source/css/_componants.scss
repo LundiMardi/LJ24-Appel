@@ -70,16 +70,20 @@ a.menu-logo svg {
 // States
 #main-nav {
   background-color: transparent ;
-
-  > .menu-logo,
+  margin-top: -54px;
+  
+  .menu-logo,
   .lj-button {
     opacity: 0;
     display: none;
   }
 }
 @media screen and (MIN-WIDTH:1880px ) {
+  
   #main-nav.is-nav-visible  {
     background-color: var(--paper);
+    margin-top: auto;
+
 
     .menu-logo,
     .lj-button {
