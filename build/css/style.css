@@ -97,7 +97,7 @@ p {
 }
 
 a {
-  color: var(--blue);
+  color: var(--accent);
   text-decoration: none;
 }
 
@@ -119,7 +119,7 @@ h2, h3, h6 {
   font-size: var(--fs-m);
 }
 
-p + h2, ul + h2 {
+p + h2, ul + h2, h6 + h2 {
   margin-block-start: 3rem;
 }
 
@@ -214,7 +214,7 @@ i.icon {
 #main-nav {
   position: relative;
   display: flex;
-  align-items: baseline;
+  align-items: center;
   z-index: 100;
   padding-top: var(--unit);
   padding-bottom: var(--unit);
@@ -223,9 +223,6 @@ i.icon {
 }
 #main-nav .icon svg * {
   fill: var(--accent);
-}
-#main-nav .menu-logo svg {
-  margin-bottom: -20px;
 }
 @media screen and (MIN-WIDTH: 1234px) {
   #main-nav {
@@ -270,7 +267,7 @@ a.menu-logo svg {
 #main-nav.is-nav-visible #previous-websites ul li,
 #previous-websites ul #main-nav.is-nav-visible li {
     opacity: 1;
-    display: inline-block;
+    display: flex;
   }
 }
 .wrapper.hamburger-button {
@@ -428,8 +425,10 @@ ul.mobile-menu--list li a {
 }
 
 .menu--item.lj-button, h6 > a.menu--item, #previous-websites ul li.menu--item {
-  padding: 20px 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   height: 64px;
+  align-items: center;
 }
 
 span.menu-secondary {
@@ -467,8 +466,11 @@ a.menu--icon {
   transition-timing-function: var(--easeOutBack);
 }
 .lj-button:hover, h6 > a:hover, #previous-websites ul li:hover {
-  padding-left: 32px;
-  padding-right: 32px;
+  background-color: var(--active) !important;
+  border-color: var(--active) !important;
+}
+.lj-button:hover > a, h6 > a:hover > a, #previous-websites ul li:hover > a {
+  color: var(--paper) !important;
 }
 
 .link-table ul {
@@ -541,7 +543,7 @@ h6 + h6 {
 
 #body-lining {
   overflow-y: scroll;
-  scroll-snap-type: y proximity;
+  scroll-snap-type: y mandatory;
   width: 100vw;
   height: 100vh;
 }

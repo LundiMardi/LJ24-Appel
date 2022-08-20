@@ -32,7 +32,7 @@ h6 + h6 {
 
 #body-lining {
   overflow-y: scroll;
-  scroll-snap-type: y proximity;
+  scroll-snap-type: y mandatory; // proximity
   width: 100vw;
   height: 100vh;
 }

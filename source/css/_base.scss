@@ -23,7 +23,7 @@ p {
 }
 
 a {
-  color: var(--blue);
+  color: var(--accent);
   text-decoration: none ;
 }
 .context-blue a {
@@ -42,7 +42,7 @@ h1 {
 h2, h3, h6 {
   font-size: var(--fs-m);
 }
-p + h2, ul + h2 {
+p + h2, ul + h2, h6 + h2 {
   margin-block-start: 3rem;
 }
 

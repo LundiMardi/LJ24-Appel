@@ -12,7 +12,7 @@ i.icon {
 #main-nav {
   position: relative;
   display: flex;
-  align-items: baseline;
+  align-items: center;
   z-index: 100;
   
   padding-top: var(--unit);
@@ -23,9 +23,10 @@ i.icon {
   .icon svg * {
     fill: var(--accent);
   }
-  .menu-logo svg {
-    margin-bottom: -20px; // align on baseline
-  }
+  // .menu-logo svg {
+  //   margin-bottom: -20px; 
+  // align on baseline
+  // }
   
   @media screen and (MIN-WIDTH:1234px ) {
     position: sticky;
@@ -68,7 +69,7 @@ a.menu-logo svg {
     .menu-logo,
     .lj-button {
       opacity: 1;
-      display: inline-block;
+      display: flex;
     }
   }
 }
@@ -245,8 +246,10 @@ ul.mobile-menu--list {
 }
 
 .menu--item.lj-button {
-  padding: 20px 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   height: 64px;
+  align-items: center ;
 }
 
 span.menu-secondary {
@@ -291,9 +294,13 @@ a.menu--icon {
 
   &:hover {
     // transform: scaleX(1.2);
-    padding-left: 32px;
-    padding-right: 32px;
-    // background-color: white;
+    // padding-left: 32px;
+    // padding-right: 32px;
+    background-color: var(--active) !important;
+    border-color: var(--active) !important;
+  }
+  &:hover > a {
+    color: var(--paper) !important;
   }
 }
 
