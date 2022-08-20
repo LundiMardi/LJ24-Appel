@@ -1,6 +1,6 @@
 :root {
-  --green: #7BFA3B;
-  --blue: #5743FB;
+  --green: #b4ff46;
+  --blue: #6304fa;
   --black: #000000;
   --white: #ffffff;
   --paper: var(--green) ;
@@ -10,7 +10,7 @@
   --fs-s: clamp(0.9375rem, 3.75vw, 1.5rem) ;
   --fs-m: clamp(1.25rem, 5vw, 2rem) ;
   --fs-l: clamp(1.625rem, 6.5vw, 3.75rem) ;
-  --fs-xl: clamp(2.875rem, 11.5vw, 10rem) ;
+  --fs-xl: clamp(2.875rem, 11.5vw, 4.5rem) ;
   --narrow: -5;
   --tight: -20;
   --unit: 8px ;
@@ -26,6 +26,54 @@
   --active: var(--white) ;
 }
 
+/*
+ * Legal Disclaimer for Web licence
+ *
+ * Licence to use self-hosted webfonts for displaying dynamic text on specified website domains. Our package includes WOFF and WOFF2 font formats.
+ *
+ * Should the license page views limit be exceeded the license holder will be required to contact Lineto.com for an upgrade.
+ * 
+ * It is strictly prohibited to rename the font and to download or use these fonts in any other media. 
+ * 
+ * These Web fonts are licensed exclusively for the use on the following domain(s) and their subdomains:
+ *
+ * www.lausannejardins.ch (monthly pageviews: <50K)
+ *
+ */
+/* complete */
+/* subset */
+@font-face {
+  font-family: "RiformaLLSub-Regular";
+  src: url("../fonts/RiformaLLSub-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "RiformaLLSub-Regular";
+  src: url("../fonts/RiformaLLSub-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "RiformaLLSub-Medium";
+  src: url("../fonts/RiformaLLSub-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "RiformaLLSub-Medium";
+  src: url("../fonts/RiformaLLSub-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "RiformaLLSub-Italic";
+  src: url("../fonts/RiformaLLSub-Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "RiformaLLSub-Italic";
+  src: url("../fonts/RiformaLLSub-Italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "RiformaLLSub-MediumItalic";
+  src: url("../fonts/RiformaLLSub-MediumItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "RiformaLLSub-MediumItalic";
+  src: url("../fonts/RiformaLLSub-MediumItalic.woff2") format("woff2");
+}
 * {
   box-sizing: border-box;
 }
@@ -37,7 +85,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "LL Riforma", Arial, Helvetica, sans-serif;
+  font-family: "RiformaLLSub-Regular", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: var(--fs-s);
@@ -63,7 +111,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-block-end: 1rem;
 }
 
-h2, h3 {
+h1 {
+  font-size: var(--fs-xl);
+}
+
+h2, h3, h6 {
   font-size: var(--fs-m);
 }
 
@@ -225,6 +277,7 @@ a.menu-logo svg {
   position: sticky;
   right: 0;
   top: 0;
+  z-index: 50;
 }
 
 #bt-mobile-menu,
@@ -259,6 +312,9 @@ a.menu-logo svg {
 }
 
 #bt-mobile-menu.mobile-menu__is-closed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--blue);
   transition-property: all;
   transition-duration: 100ms;
@@ -340,21 +396,19 @@ a.menu-logo svg {
 
 ul.mobile-menu--list {
   margin-top: auto;
-  margin-bottom: calc(var(--unit) * 4);
+  margin-bottom: 0;
   padding-inline-start: calc(var(--unit) * 2);
   padding-inline-end: calc(var(--unit) * 2);
 }
 ul.mobile-menu--list ul {
   padding-inline-start: calc(var(--unit) * 4);
+  margin-bottom: calc(var(--fs-m) * 1.35 + 1em);
 }
-ul.mobile-menu--list ul li:not(:last-of-type) a {
+ul.mobile-menu--list ul li a {
   border-bottom: 1px solid var(--green);
 }
 ul.mobile-menu--list > li > a {
   border-top: 1px solid var(--green);
-  border-bottom: 1px solid var(--green);
-}
-ul.mobile-menu--list > li:last-child li:last-child a {
   border-bottom: 1px solid var(--green);
 }
 ul.mobile-menu--list li {
@@ -485,22 +539,38 @@ h6 + h6 {
   margin-top: -1em;
 }
 
-h1 {
+#body-lining {
+  overflow-y: scroll;
+  scroll-snap-type: y proximity;
+  width: 100vw;
+  height: 100vh;
+}
+
+.section-snap {
+  scroll-snap-align: start;
+}
+
+h1.section-heading {
   font-size: var(--fs-xl);
   position: sticky;
-  top: 20px;
-  z-index: -1;
-  color: var(--blue);
+  top: 0px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.4rem;
+  background-color: var(--paper);
+  color: var(--accent);
+  z-index: 10;
 }
 @media screen and (MIN-WIDTH: 1234px) {
-  h1 {
+  h1.section-heading {
     opacity: 0;
     height: 0;
     position: absolute;
   }
 }
 
-.context-blue h1 {
+.context-blue h1.section-heading {
   color: var(--green);
 }
 
@@ -683,25 +753,28 @@ section#Competition > p:first-of-type {
   margin-bottom: 4px;
 }
 
-section#Concept p:nth-child(2n+1) {
-  color: var(--blue);
+section#Concept {
   font-size: var(--fs-m);
+}
+section#Concept h6 {
+  color: var(--blue);
+  font-size: var(--fs-l);
   max-width: 20em;
 }
 @media screen and (MIN-WIDTH: 1000px) {
-  section#Concept p:nth-child(2n+1) {
+  section#Concept h6 {
     max-width: none;
     margin-right: 33.3333333333%;
     padding-right: var(--window-padding);
   }
 }
-section#Concept p:nth-child(2n) {
+section#Concept p {
   margin-left: auto;
   padding-left: var(--window-padding);
   max-width: 20em;
 }
 @media screen and (MIN-WIDTH: 1000px) {
-  section#Concept p:nth-child(2n) {
+  section#Concept p {
     max-width: none;
     margin-left: 50%;
     padding-left: var(--window-padding);

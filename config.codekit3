@@ -61,6 +61,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/source\/css\/_fonts.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/css\/_fonts.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/source\/css\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -90,6 +105,346 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/source\/fonts\/01_IMPORTANT_License_Notice_Web.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/01_IMPORTANT_License_Notice_Web.txt",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-Bold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-Bold.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-Bold.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-BoldItalic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-BoldItalic.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-BoldItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-BoldItalic.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-Heavy.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-Heavy.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-Heavy.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-Heavy.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-HeavyItalic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-HeavyItalic.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-HeavyItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-HeavyItalic.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-Italic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-Italic.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-Italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-Italic.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-Light.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-Light.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-Light.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-Light.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-LightItalic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-LightItalic.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-LightItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-LightItalic.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-Medium.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-Medium.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-Medium.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-Medium.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-MediumItalic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-MediumItalic.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-MediumItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-MediumItalic.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-Regular.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-Regular.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLSub-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLSub-Regular.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-Bold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-Bold.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-Bold.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-BoldItalic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-BoldItalic.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-BoldItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-BoldItalic.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-Heavy.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-Heavy.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-Heavy.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-Heavy.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-HeavyItalic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-HeavyItalic.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-HeavyItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-HeavyItalic.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-Italic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-Italic.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-Italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-Italic.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-Light.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-Light.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-Light.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-Light.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-LightItalic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-LightItalic.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-LightItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-LightItalic.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-Medium.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-Medium.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-Medium.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-Medium.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-MediumItalic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-MediumItalic.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-MediumItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-MediumItalic.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-Regular.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-Regular.woff",
+      "oF" : 0
+    },
+    "\/source\/fonts\/RiformaLLWeb-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/RiformaLLWeb-Regular.woff2",
+      "oF" : 0
+    },
+    "\/source\/fonts\/stylesheet.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/fonts\/stylesheet-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/source\/fr\/_menu.kit" : {
       "cB" : 0,
@@ -401,7 +756,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets_gray",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 680396565.53178406
+    "lastBuiltDate" : 682641851.49347699
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

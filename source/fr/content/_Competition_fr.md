@@ -1,6 +1,4 @@
-# Concours
-
-Comme pour les éditions précédentes, la création des œuvres de l’édition 2019 a fait l’objet d’un concours international afin de maintenir le niveau d’excellence de Lausanne jardins et le prestige acquis dans les milieux du paysage et de la ville. L’appel à candidatures a été lancé le jeudi 24 août 2017. Le règlement détaillé et le descriptif des sites retenus peuvent être téléchargés sur cette page.
+###### Comme pour les éditions précédentes, la création des œuvres de l’édition 2019 a fait l’objet d’un concours international afin de maintenir le niveau d’excellence de Lausanne jardins et le prestige acquis dans les milieux du paysage et de la ville. L’appel à candidatures a été lancé le jeudi 24 août 2017. Le règlement détaillé et le descriptif des sites retenus peuvent être téléchargés sur cette page.
 
 ## Les objectifs du projet
 

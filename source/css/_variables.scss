@@ -1,8 +1,8 @@
 // variables
 :root {
 
-  --green: #7BFA3B;
-  --blue: #5743FB;
+  --green: #b4ff46;
+  --blue: #6304fa;
   --black: #000000;
   --white: #ffffff;
 
@@ -19,7 +19,7 @@
   --fs-s: clamp(0.9375rem, 3.75vw, 1.5rem) ; // 15 à 24 pts
   --fs-m: clamp(1.25rem, 5vw, 2rem) ; // 20 à 32 pts
   --fs-l: clamp(1.625rem, 6.5vw, 3.75rem) ; // 26 à 60 pts
-  --fs-xl: clamp(2.875rem, 11.5vw, 10rem) ; // 46 à 160 pts
+  --fs-xl: clamp(2.875rem, 11.5vw, 4.5rem) ; // 46 à 160 pts
 
   // letter-spacing
   --narrow: -5;

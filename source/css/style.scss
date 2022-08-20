@@ -1,4 +1,5 @@
 @use "_variables";
+@use "_fonts";
 @use "_base";
 @use "_componants";
 
@@ -28,20 +29,35 @@ h6 + h6 {
 
 
 // Layout
-h1 {
+
+#body-lining {
+  overflow-y: scroll;
+  scroll-snap-type: y proximity;
+  width: 100vw;
+  height: 100vh;
+}
+.section-snap {
+  scroll-snap-align: start;
+}
+
+h1.section-heading {
   font-size: var(--fs-xl);
   position: sticky;
-  top: 20px;
-
-  z-index: -1;
-  color: var(--blue);
+  top: 0px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.4rem;
+  background-color: var(--paper);
+  color: var(--accent);
+  z-index: 10;
   @media screen and (MIN-WIDTH:1234px) {
     opacity: 0;
     height: 0;
     position: absolute ;
   }
 }
-.context-blue h1 {
+.context-blue h1.section-heading {
   color: var(--green);
 }
 
@@ -234,11 +250,11 @@ section#Competition {
 
 section#Concept {
 
-
+font-size: var(--fs-m);
   
-  p:nth-child(2n +1) {
+  h6 {
     color: var(--blue);
-    font-size: var(--fs-m);
+    font-size: var(--fs-l);
 
     max-width: 20em;
 
@@ -248,7 +264,7 @@ section#Concept {
       padding-right: var(--window-padding);
     }
   }
-  p:nth-child(2n) {
+  p {
     // margin-left: calc(100% / 12 * 3);
     margin-left: auto;
     padding-left: var(--window-padding);

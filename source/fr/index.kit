@@ -27,102 +27,107 @@
   </head>
 
   <body>
-    <section id="quick-access" class="window-padding-h">
-      <h1 class="visually-hidden">Lausanne Jardins 24</h1>
-      <img id="hero-logo" src="../images/logo-lj24.svg" alt="">
-      <img id="hero-logo__top" src="../images/logo-lj24__top.svg" alt="">
-      <img id="hero-logo__bottom" src="../images/logo-lj24__bottom.svg" alt="">
-      <a id="bt-competition"class="lj-home-button" href="">
-        <span class="bt-label">Concours international 
-          <br>
-          Appel à candidature</span> 
-      </a>
-      <a id="bt-concept"class="lj-home-button" href="">
-        <span class="bt-label">Concept</span>
-      </a>
-      <a id="bt-about"class="lj-home-button" href="">
-        <span class="bt-label">À propos</span>
-      </a>
-      <!-- <nav id="secondary-nav">
-        <a href="" class="menu--item menu--icon"><i class="icon icon--facebook"></i></a>
-        <a href="" class="menu--item menu--icon"><i class="icon icon--instagram"></i></a>
-        <a href="" class="menu--item ">FR</a>
-        <a href="" class="menu--item ">EN</a>
-      </nav> -->
-      <nav id="secondary-nav">
-      </nav>
-    </section>
-    <nav id="main-nav">
+    <div id="body-lining">
 
-      <a href="#quick-access" id="menu-logo" class="menu-logo">
-        <!-- <img src="../images/logo-lj24.svg" alt="Accueil"> -->
-        <!-- @import ../images/logo-lj24.svg -->
-      </a>
-      <a id="nav-competition" href="#Competition" class="menu--item lj-button">Concours</a>
-      <a id="nav-concept" href="#Concept" class="menu--item lj-button">Concept</a>
-      <a id="nav-about" href="#About" class="menu--item lj-button">À propos</a>
-      <span class="menu-secondary">
-        <a href="" class="menu--item menu--icon"><i class="icon icon--facebook">
-          <!-- @import ../images/icon-facebook--24.svg -->
-        </i></a>
-        <a href="" class="menu--item menu--icon"><i class="icon icon--instagram">
-          <!-- @import ../images/icon-instagram--24.svg -->
-        </i></a>
-        <a href="" class="menu--item ">FR</a>
-        <a href="" class="menu--item ">EN</a>
-      </span>
+      <section id="quick-access" class="window-padding-h section-snap">
+        <h1 class="visually-hidden">Lausanne Jardins 24</h1>
+        <img id="hero-logo" src="../images/logo-lj24.svg" alt="">
+        <img id="hero-logo__top" src="../images/logo-lj24__top.svg" alt="">
+        <img id="hero-logo__bottom" src="../images/logo-lj24__bottom.svg" alt="">
+        <a id="bt-competition"class="lj-home-button" href="">
+          <span class="bt-label">Concours<br>international<br>Appel à<br>candidature</span> 
+        </a>
+        <a id="bt-concept"class="lj-home-button" href="">
+          <span class="bt-label">Concept</span>
+        </a>
+        <a id="bt-about"class="lj-home-button" href="">
+          <span class="bt-label">À propos</span>
+        </a>
+        <!-- <nav id="secondary-nav">
+          <a href="" class="menu--item menu--icon"><i class="icon icon--facebook"></i></a>
+          <a href="" class="menu--item menu--icon"><i class="icon icon--instagram"></i></a>
+          <a href="" class="menu--item ">FR</a>
+          <a href="" class="menu--item ">EN</a>
+        </nav> -->
+        <nav id="secondary-nav">
+        </nav>
+      </section>
+      <nav id="main-nav">
+        
+        <a href="#quick-access" id="menu-logo" class="menu-logo">
+          <!-- <img src="../images/logo-lj24.svg" alt="Accueil"> -->
+          <!-- @import ../images/logo-lj24.svg -->
+        </a>
+        <a id="nav-competition" href="#Competition" class="menu--item lj-button">Concours</a>
+        <a id="nav-concept" href="#Concept" class="menu--item lj-button">Concept</a>
+        <a id="nav-about" href="#About" class="menu--item lj-button">À propos</a>
+        <span class="menu-secondary">
+          <a href="" class="menu--item menu--icon"><i class="icon icon--facebook">
+            <!-- @import ../images/icon-facebook--24.svg -->
+          </i></a>
+          <a href="" class="menu--item menu--icon"><i class="icon icon--instagram">
+            <!-- @import ../images/icon-instagram--24.svg -->
+          </i></a>
+          <a href="" class="menu--item ">FR</a>
+          <a href="" class="menu--item ">EN</a>
+        </span>
+        
+        
+        
+        <button id="bt-mobile-menu-hide" class="mobile-menu__is-closed"><!-- @import ../images/icon-cross--32.svg --></button>
+        <div id="mobile-menu" class="mobile-menu__is-closed context-blue">
+          <a href="#quick-access" class="menu-logo"><!-- @import ../images/logo-lj24.svg --></a>
+          <!-- @import _menu.kit -->
+        </div>
       
-      
-      
-      <button id="bt-mobile-menu-hide" class="mobile-menu__is-closed"><!-- @import ../images/icon-cross--32.svg --></button>
-      <div id="mobile-menu" class="mobile-menu__is-closed context-blue">
-        <a href="#quick-access" class="menu-logo"><!-- @import ../images/logo-lj24.svg --></a>
-        <!-- @import _menu.kit -->
+      </nav>
+      <div class="wrapper hamburger-button">
+        
+        <button id="bt-mobile-menu" class="mobile-menu__is-closed"><!-- @import ../images/icon-menu--32.svg --></button>
       </div>
       
-    </nav>
-    <div class="wrapper hamburger-button">
+      <div class="section-snap">
 
-      <button id="bt-mobile-menu" class="mobile-menu__is-closed"><!-- @import ../images/icon-menu--32.svg --></button>
-    </div>
-
-
-    <section id="Competition" class="window-padding-h">
-      <article>
-        <!-- @compile "content/_Competition_fr.md" -->
-      </article>
-      <aside class="aside-content">
-        <div class="link-table">
-          <!-- @compile "content/_Competition-downloads_fr.md" -->
-        </div>
-        <div id="previous-websites">
-          <!-- @compile "content/_Competition-previous-websites_fr.md" -->
-        </div>
-      </aside>
-    </section>
-
-    <section id="Concept" class="window-padding-h">
-      <article>
-
-        <h1><!-- $nav-concept --></h1>
-        <!-- @compile "content/_Concept_fr.md" -->
-      </article>
-    </section>
-    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/482288397?h=72439b3bbe&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-    <section id="About" class="context-blue window-padding-h" >
-      <article>
-        <h1><!-- $nav-about --></h1>
-        <!-- @compile "content/_About_fr.md" -->
-      </article>
-      <aside class="aside-content">
-        <address>
-          <!-- @compile "content/_About-contact_fr.md" -->
-        </address>
-      </aside>
-    </section>
+        <section id="Competition" class="window-padding-h">
+          <article>
+            <h1 class="section-heading"><!-- $nav-competition --></h1>
+            <!-- @compile "content/_Competition_fr.md" -->
+          </article>
+          <aside class="aside-content">
+            <div class="link-table">
+              <!-- @compile "content/_Competition-downloads_fr.md" -->
+            </div>
+            <div id="previous-websites">
+              <!-- @compile "content/_Competition-previous-websites_fr.md" -->
+            </div>
+          </aside>
+        </section>
+        
+        <section id="Concept" class="window-padding-h">
+          <article>
+            
+            <h1 class="section-heading"><!-- $nav-concept --></h1>
+            <!-- @compile "content/_Concept_fr.md" -->
+          </article>
+        </section>
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/482288397?h=72439b3bbe&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        
+        <section id="About" class="context-blue window-padding-h" >
+        <article>
+          <h1 class="section-heading"><!-- $nav-about --></h1>
+          <!-- @compile "content/_About_fr.md" -->
+        </article>
+        <aside class="aside-content">
+          <address>
+            <!-- @compile "content/_About-contact_fr.md" -->
+          </address>
+        </aside>
+      </section>
+    </div> <!-- sections in .section-snap END -->
+    </div> <!-- #body-lining END -->
   </body>
   <script src="../javascript/sectionsEvents-min.js"></script>
   <script src="../javascript/mobileMenu-min.js"></script>
   <script src="../javascript/onLoader-min.js"></script>
-</html>
+  </html>
+  
