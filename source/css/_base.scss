@@ -26,6 +26,9 @@ a {
   color: var(--accent);
   text-decoration: none ;
 }
+a:hover {
+  color: var(--active);
+}
 .context-blue a {
   color: var(--green);
 }

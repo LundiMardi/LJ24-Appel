@@ -101,6 +101,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: var(--active);
+}
+
 .context-blue a {
   color: var(--green);
 }
@@ -541,6 +545,10 @@ h6 > a {
   font-size: var(--fs-s);
 }
 
+h6 > a:hover {
+  color: var(--paper);
+}
+
 h6 + h6 {
   margin-top: -1em;
 }
@@ -561,6 +569,7 @@ h1.section-heading {
   position: sticky;
   top: 0px;
   height: 90px;
+  width: 100%;
   display: flex;
   align-items: center;
   padding-bottom: 0.4rem;
@@ -721,11 +730,19 @@ section#quick-access .bt-label {
     width: calc(33vh - 3px);
   }
 }
+section#Competition,
+section#Concept,
+section#About {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 @media screen and (MIN-WIDTH: 1000px) {
   section#Competition,
 section#About {
     display: flex;
     flex-direction: row-reverse;
+    flex-wrap: wrap;
   }
   section#Competition article,
 section#About article {
@@ -796,5 +813,3 @@ section#About {
   background-color: var(--blue);
   color: var(--white);
 }
-
-/*# sourceMappingURL=style.css.map */

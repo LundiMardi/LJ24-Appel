@@ -30,15 +30,15 @@ La formation de groupes interdisciplinaires est vivement encouragée. Sur la bas
 
 ## Le calendrier du concours
 
-|  |  |  |
-|:--|--:|--:|
-| Dépôt des candidatures | 16h, | 13.10.17 |
-| Remise des dossiers aux équipes retenues |  |13.10.17  |
-| Délai pour les questions | 16h, | 31.10.17  |
-| Réponses par email |  | 17.11.17 |
-| Rendu des projets | 16h, | 20.01.18 |
-| Séance du Jury |  | 06-07.02.18 |
-| Annonce des résultats |  | 3.03.18 |
+|  |  |
+|:--|--:|
+| Dépôt des candidatures                    | 16h, 13.10.17 |
+| Remise des dossiers aux équipes retenues  |    13.10.17  |
+| Délai pour les questions                  | 16h, 31.10.17  |
+| Réponses par email                        |  17.11.17 |
+| Rendu des projets                         | 16h, 20.01.18 |
+| Séance du Jury                            |  06-07.02.18 |
+| Annonce des résultats                     | 3.03.18 |
  
 ### Candidatures à envoyer à
 
