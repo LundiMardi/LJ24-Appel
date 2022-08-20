@@ -28,7 +28,11 @@ h6 + h6 {
 
 
 // Layout
-html {  scroll-padding-top: calc(90px + 1rem);
+html {  
+  scroll-padding-top: calc(90px + 1rem);
+  scroll-snap-type: y proximity;
+}
+section {  scroll-snap-align: start;
 }
 
 #body-lining {
@@ -41,9 +45,9 @@ html {  scroll-padding-top: calc(90px + 1rem);
   scroll-padding-top: calc(90px + 1rem);
 
 }
-.section-snap {
-  // scroll-snap-align: start;
-}
+// .section-snap {
+//   scroll-snap-align: start;
+// }
 
 // snap to 0 instead of default padding
 section {
