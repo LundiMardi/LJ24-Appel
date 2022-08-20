@@ -159,10 +159,11 @@ section#quick-access {
   background-image: url(../images/RUSH_N&V_Sub_19_1.jpg);
   background-size: cover;
 
-  &:hover {
-    // background-color: #ffffff;
-    // grid-row:1 / 3 ; 
-    margin-left: -16vh;
+  @media screen and (min-aspect-ratio: 1/1) {
+    
+    &:hover {
+      margin-left: -16vh;
+    }
   }
 
 
@@ -178,9 +179,12 @@ section#quick-access {
   transition-duration: 100ms ;
   transition-timing-function: --e;
 
-  &:hover {
-    z-index: 1;
-    margin-right: -32vh;
+  @media screen and (min-aspect-ratio: 1/1) {
+
+    &:hover {
+      z-index: 1;
+      margin-right: -32vh;
+    }
   }
 }
 #bt-about {
@@ -191,11 +195,14 @@ section#quick-access {
   transition-duration: 100ms ;
   transition-timing-function: --e;
 
-  &:hover {
-    // z-index: 1;
-    margin-right: -16vh ;
-    width: calc(49vh - 18px) ;
-    aspect-ratio:initial;
+  @media screen and (min-aspect-ratio: 1/1) {
+
+    &:hover {
+      // z-index: 1;
+      margin-right: -16vh ;
+      width: calc(49vh - 18px) ;
+      aspect-ratio:initial;
+    }
   }
   
 }

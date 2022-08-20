@@ -229,7 +229,7 @@ i.icon {
   padding-left: var(--window-padding);
 }
 #main-nav .icon svg * {
-  fill: var(--paper);
+  fill: var(--accent);
 }
 @media screen and (MIN-WIDTH: 1880px) {
   #main-nav {
@@ -450,7 +450,8 @@ a.menu--icon {
   display: block;
 }
 
-#mobile-menu svg * {
+#mobile-menu svg *,
+#mobile-menu .icon svg * {
   fill: var(--paper);
 }
 
@@ -676,8 +677,10 @@ section#quick-access .bt-label {
   background-image: url(../images/RUSH_N&V_Sub_19_1.jpg);
   background-size: cover;
 }
-#bt-competition:hover {
-  margin-left: -16vh;
+@media screen and (min-aspect-ratio: 1/1) {
+  #bt-competition:hover {
+    margin-left: -16vh;
+  }
 }
 #bt-competition span {
   color: var(--white);
@@ -691,9 +694,11 @@ section#quick-access .bt-label {
   transition-duration: 100ms;
   transition-timing-function: --e;
 }
-#bt-concept:hover {
-  z-index: 1;
-  margin-right: -32vh;
+@media screen and (min-aspect-ratio: 1/1) {
+  #bt-concept:hover {
+    z-index: 1;
+    margin-right: -32vh;
+  }
 }
 
 #bt-about {
@@ -703,10 +708,12 @@ section#quick-access .bt-label {
   transition-duration: 100ms;
   transition-timing-function: --e;
 }
-#bt-about:hover {
-  margin-right: -16vh;
-  width: calc(49vh - 18px);
-  aspect-ratio: initial;
+@media screen and (min-aspect-ratio: 1/1) {
+  #bt-about:hover {
+    margin-right: -16vh;
+    width: calc(49vh - 18px);
+    aspect-ratio: initial;
+  }
 }
 
 #bt-competition,

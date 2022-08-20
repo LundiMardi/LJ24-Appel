@@ -21,7 +21,7 @@ i.icon {
   padding-left: var(--window-padding);
   
   .icon svg * {
-    fill: var(--paper);
+    fill: var(--accent);
   }
   // .menu-logo svg {
   //   margin-bottom: -20px; 
@@ -279,7 +279,8 @@ a.menu--icon {
   display: block;
 }
 
-#mobile-menu svg * {
+#mobile-menu svg *,
+#mobile-menu .icon svg * {
   fill: var(--paper);
 }
 #mobile-menu a {
