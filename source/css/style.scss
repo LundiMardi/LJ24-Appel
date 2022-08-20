@@ -103,6 +103,7 @@ section#quick-access {
     align-items: center;
     justify-content: center;
     background-color: var(--blue);
+    overflow: hidden;
     color: var(--green);
     // font-size: 30px; 
     // font-size: 12vw;
@@ -156,7 +157,7 @@ section#quick-access {
     transition-property: all;
     transition-duration: 100ms ;
     transition-timing-function: --e;
-  background-image: url(../images/RUSH_N&V_Sub_19_1.jpg);
+  // background-image: url(../images/RUSH_N&V_Sub_19_1.jpg);
   background-size: cover;
 
   @media screen and (min-aspect-ratio: 1/1) {
@@ -167,8 +168,24 @@ section#quick-access {
   }
 
 
-  span {color: var(--white);}
+  span {
+    position: absolute;
+    z-index: 1;
+    color: var(--white);
+  }
 }
+
+#bgvid {
+  height: 100%;
+  width: 100vw;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+  align-self: end;
+}
+
+
+
+
 #bt-concept {
   grid-column: 1 / -1 ;
   grid-row: 8 / span 3;

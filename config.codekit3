@@ -98,7 +98,7 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 1,
+      "ma" : 0,
       "oA" : 0,
       "oAP" : "\/build\/css\/style.css",
       "oF" : 0,
@@ -607,6 +607,14 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/source\/images\/cover-video.mp4" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/cover-video.mp4",
+      "oF" : 0
     },
     "\/source\/images\/icon-cross--32.svg" : {
       "ft" : 2097152,
