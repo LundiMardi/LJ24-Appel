@@ -298,6 +298,9 @@ strong #main-nav.is-nav-visible a {
 
 #bt-mobile-menu,
 #bt-mobile-menu-hide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   display: block;
   right: 16px;
@@ -328,9 +331,6 @@ strong #main-nav.is-nav-visible a {
 }
 
 #bt-mobile-menu.mobile-menu__is-closed {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: var(--blue);
   transition-property: all;
   transition-duration: 100ms;
@@ -737,7 +737,7 @@ section#quick-access .bt-label {
 
 @media screen and (min-aspect-ratio: 1/1) {
   #bt-concept {
-    font-size: clamp(5.4vh, 20vw - 10rem, 14vh);
+    font-size: clamp(5.4vh, 20vw - 12rem, 14vh);
   }
 
   #bt-about {

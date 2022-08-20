@@ -102,10 +102,13 @@ a.menu-logo svg {
   top: 0;
   z-index: 50;
 }
+
  
 #bt-mobile-menu, 
 #bt-mobile-menu-hide {
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   display: block;
     right: 16px;
@@ -132,9 +135,7 @@ a.menu-logo svg {
   svg * { fill:var(--blue); }
 }
 #bt-mobile-menu.mobile-menu__is-closed {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   background-color: var(--blue);
   svg * { fill:var(--green); }
   transition-property: all;
