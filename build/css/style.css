@@ -224,7 +224,7 @@ i.icon {
 #main-nav .icon svg * {
   fill: var(--accent);
 }
-@media screen and (MIN-WIDTH: 1234px) {
+@media screen and (MIN-WIDTH: 1880px) {
   #main-nav {
     position: sticky;
     top: 0px;
@@ -232,7 +232,6 @@ i.icon {
 }
 
 a.menu-logo {
-  display: inline-block;
   margin-right: auto;
 }
 
@@ -243,6 +242,18 @@ a.menu-logo svg {
 
 #main-nav > span.menu-secondary {
   margin-left: auto;
+}
+
+.menu--item.lj-button, h6 > a.menu--item, #previous-websites ul li.menu--item {
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 64px;
+  align-items: center;
+  margin-left: var(--window-padding);
+}
+
+#main-nav > .wrapper {
+  width: 50%;
 }
 
 #main-nav {
@@ -257,7 +268,7 @@ a.menu-logo svg {
   display: none;
 }
 
-@media screen and (MIN-WIDTH: 1234px) {
+@media screen and (MIN-WIDTH: 1880px) {
   #main-nav.is-nav-visible {
     background-color: var(--paper);
   }
@@ -286,7 +297,7 @@ a.menu-logo svg {
   border: 0;
   border-radius: 28px;
 }
-@media screen and (MIN-WIDTH: 1234px) {
+@media screen and (MIN-WIDTH: 1880px) {
   #bt-mobile-menu,
 #bt-mobile-menu-hide {
     display: none;
@@ -424,13 +435,6 @@ ul.mobile-menu--list li a {
   font-size: var(--fs-m);
 }
 
-.menu--item.lj-button, h6 > a.menu--item, #previous-websites ul li.menu--item {
-  padding-left: 40px;
-  padding-right: 40px;
-  height: 64px;
-  align-items: center;
-}
-
 span.menu-secondary {
   display: flex;
   justify-content: left;
@@ -504,7 +508,7 @@ a.menu--icon {
   color: var(--white);
 }
 
-@media screen and (MIN-WIDTH: 1234px) {
+@media screen and (MIN-WIDTH: 1880px) {
   .menu--item.lj-button, h6 > a.menu--item, #previous-websites ul li.menu--item {
     background-color: var(--blue);
     color: var(--green);
@@ -564,7 +568,7 @@ h1.section-heading {
   color: var(--accent);
   z-index: 10;
 }
-@media screen and (MIN-WIDTH: 1234px) {
+@media screen and (MIN-WIDTH: 1880px) {
   h1.section-heading {
     opacity: 0;
     height: 0;
