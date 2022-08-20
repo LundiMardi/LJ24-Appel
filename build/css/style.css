@@ -446,10 +446,6 @@ span.menu-secondary {
   padding-inline-start: var(--unit);
 }
 
-.langage.is-current {
-  color: var(--active);
-}
-
 a.menu--icon {
   display: block;
 }
@@ -534,7 +530,7 @@ strong a {
   }
 
   .menu--item.is-current {
-    background-color: var(--active);
+    background-color: var(--black);
   }
 
   .context-blue .menu--item.is-current {
