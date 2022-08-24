@@ -275,6 +275,10 @@ span.menu-secondary {
   padding-inline-start: var(--unit);
 }
 
+.langage.is-current {
+  color: var(--active);
+}
+
 a.menu--icon {
   display: block;
 }
@@ -382,10 +386,10 @@ strong a {
     color: var(--blue);
   }
 
-  .menu--item.is-current {
+  .menu--item.lj-button.is-current {
     background-color: var(--black);
   }
-  .context-blue .menu--item.is-current {
+  .context-blue .menu--item.lj-button.is-current {
     background-color: var(--white);
   }
 }

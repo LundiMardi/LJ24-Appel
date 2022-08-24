@@ -446,6 +446,10 @@ span.menu-secondary {
   padding-inline-start: var(--unit);
 }
 
+.langage.is-current {
+  color: var(--active);
+}
+
 a.menu--icon {
   display: block;
 }
@@ -529,11 +533,11 @@ strong a {
     color: var(--blue);
   }
 
-  .menu--item.is-current {
+  .menu--item.lj-button.is-current, #previous-websites ul li.menu--item.is-current, strong a.menu--item.is-current {
     background-color: var(--black);
   }
 
-  .context-blue .menu--item.is-current {
+  .context-blue .menu--item.lj-button.is-current, .context-blue #previous-websites ul li.menu--item.is-current, #previous-websites ul .context-blue li.menu--item.is-current, .context-blue strong a.menu--item.is-current, strong .context-blue a.menu--item.is-current {
     background-color: var(--white);
   }
 }
