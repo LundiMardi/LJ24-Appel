@@ -12,6 +12,7 @@ i.icon {
 #main-nav {
   position: relative;
   display: flex;
+  height: 80px;
   align-items: center;
   z-index: 100;
   
@@ -59,7 +60,6 @@ a.menu-logo svg {
   align-items: center ;
   margin-left: var(--window-padding) ;
   // margin-right: var(--window-padding) ;
-
 }
 
 #main-nav > .wrapper {
@@ -70,7 +70,8 @@ a.menu-logo svg {
 // States
 #main-nav {
   background-color: transparent ;
-  margin-top: -54px;
+  // margin-top: -54px;
+  transform: translateY(-60px);
   
   .wrapper .menu-logo,
   .lj-button {
@@ -83,6 +84,7 @@ a.menu-logo svg {
   #main-nav.is-nav-visible  {
     background-color: var(--paper);
     margin-top: auto;
+    transform: translateY(0);
 
 
     .wrapper .menu-logo,

@@ -221,6 +221,7 @@ i.icon {
 #main-nav {
   position: relative;
   display: flex;
+  height: 80px;
   align-items: center;
   z-index: 100;
   padding-top: var(--unit);
@@ -265,7 +266,7 @@ a.menu-logo svg {
 
 #main-nav {
   background-color: transparent;
-  margin-top: -54px;
+  transform: translateY(-60px);
 }
 #main-nav .wrapper .menu-logo,
 #main-nav .lj-button,
@@ -281,6 +282,7 @@ strong #main-nav a {
   #main-nav.is-nav-visible {
     background-color: var(--paper);
     margin-top: auto;
+    transform: translateY(0);
   }
   #main-nav.is-nav-visible .wrapper .menu-logo,
 #main-nav.is-nav-visible .lj-button,
@@ -601,6 +603,7 @@ h1.section-heading {
   h1.section-heading {
     opacity: 0;
     height: 0;
+    width: 80%;
     position: absolute;
   }
 }
@@ -893,3 +896,5 @@ section#Concept p {
 .aside-content strong > a {
   width: calc(66.6666666667% - var(--window-padding));
 }
+
+/*# sourceMappingURL=style.css.map */
