@@ -51,7 +51,15 @@ a.menu-logo svg {
 // }
 #main-nav > span.menu-secondary {
   margin-left: auto ;
+  transform: translateY(-60px);
 }
+@media screen and (MIN-WIDTH:1880px ) {
+  #main-nav.is-nav-visible > span.menu-secondary {
+    transform: translateY(0);
+  }
+} 
+
+
 
 .menu--item.lj-button {
   padding-left: 40px;
@@ -70,7 +78,6 @@ a.menu-logo svg {
 #main-nav {
   background-color: transparent ;
   // margin-top: -54px;
-  transform: translateY(-60px);
   
   .wrapper .menu-logo,
   .lj-button {
@@ -83,7 +90,7 @@ a.menu-logo svg {
   #main-nav.is-nav-visible  {
     background-color: var(--paper);
     margin-top: auto;
-    transform: translateY(0);
+    
 
 
     .wrapper .menu-logo,
@@ -93,8 +100,6 @@ a.menu-logo svg {
     }
   }
 }
-
-
 
   
 .wrapper.hamburger-button {
