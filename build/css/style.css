@@ -250,8 +250,14 @@ a.menu-logo svg {
 
 #main-nav > span.menu-secondary {
   margin-left: auto;
+  transform: translateY(-60px);
 }
 
+@media screen and (MIN-WIDTH: 1880px) {
+  #main-nav.is-nav-visible > span.menu-secondary {
+    transform: translateY(0);
+  }
+}
 .menu--item.lj-button, #previous-websites ul li.menu--item, strong a.menu--item {
   padding-left: 40px;
   padding-right: 40px;
@@ -266,7 +272,6 @@ a.menu-logo svg {
 
 #main-nav {
   background-color: transparent;
-  transform: translateY(-60px);
 }
 #main-nav .wrapper .menu-logo,
 #main-nav .lj-button,
@@ -282,7 +287,6 @@ strong #main-nav a {
   #main-nav.is-nav-visible {
     background-color: var(--paper);
     margin-top: auto;
-    transform: translateY(0);
   }
   #main-nav.is-nav-visible .wrapper .menu-logo,
 #main-nav.is-nav-visible .lj-button,
@@ -886,5 +890,3 @@ section#Concept p {
 .aside-content strong > a {
   width: calc(66.6666666667% - var(--window-padding));
 }
-
-/*# sourceMappingURL=style.css.map */
