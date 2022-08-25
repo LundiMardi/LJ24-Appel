@@ -72,6 +72,7 @@ h1.section-heading {
   @media screen and (MIN-WIDTH:1880px) {
     opacity: 0;
     height: 0;
+    width: 80%; //to prevent overflowX on html
     position: absolute ;
   }
 }
