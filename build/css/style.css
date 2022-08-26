@@ -126,7 +126,12 @@ h2, h3, h6 {
   font-size: var(--fs-m);
 }
 
-p + h2, ul + h2, h6 + h2 {
+/* p + h2,
+dl + h2, 
+ul + h2, 
+h6 + h2  */
+h2,
+h3 {
   margin-block-start: 3rem;
 }
 
