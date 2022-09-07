@@ -53,6 +53,10 @@ p + h2, ul + h2, h6 + h2 {
   margin-block-start: 3rem;
 }
 
+h4 + ul {
+  margin-top: calc( var(--unit) * -0.5 ) ;
+}
+
 ul {
   padding-inline-start: 1em;
   list-style-position: outside;
@@ -66,6 +70,7 @@ ul {
 
 // table
 table {
+  width: 100% ;
   border-collapse: collapse;
   padding-block-end: 1em;
 }

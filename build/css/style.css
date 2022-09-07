@@ -126,13 +126,12 @@ h2, h3, h6 {
   font-size: var(--fs-m);
 }
 
-/* p + h2,
-dl + h2, 
-ul + h2, 
-h6 + h2  */
-h2,
-h3 {
+p + h2, ul + h2, h6 + h2 {
   margin-block-start: 3rem;
+}
+
+h4 + ul {
+  margin-top: calc(var(--unit) * -0.5);
 }
 
 ul {
@@ -146,6 +145,7 @@ ul {
 }
 
 table {
+  width: 100%;
   border-collapse: collapse;
   padding-block-end: 1em;
 }
@@ -255,10 +255,15 @@ a.menu-logo svg {
 
 #main-nav > span.menu-secondary {
   margin-left: auto;
+  margin-right: auto;
   transform: translateY(-60px);
 }
 
 @media screen and (MIN-WIDTH: 1880px) {
+  #main-nav > span.menu-secondary {
+    margin-right: 0;
+  }
+
   #main-nav.is-nav-visible > span.menu-secondary {
     transform: translateY(0);
   }
@@ -271,10 +276,11 @@ a.menu-logo svg {
   margin-left: var(--window-padding);
 }
 
-#main-nav > .wrapper {
-  width: 50%;
+@media screen and (MIN-WIDTH: 1880px) {
+  #main-nav > .wrapper {
+    width: 50%;
+  }
 }
-
 #main-nav {
   background-color: transparent;
 }
@@ -701,7 +707,7 @@ section#quick-access .bt-label {
 #bt-competition span {
   position: absolute;
   z-index: 1;
-  color: var(--white);
+  color: var(--green);
 }
 
 #bgvid {
@@ -851,7 +857,7 @@ section#Competition > p:first-of-type {
   padding-bottom: 0;
 }
 #previous-websites ul {
-  margin: 0;
+  margin-top: calc(var(--unit) * -1.5);
   padding: 0;
 }
 #previous-websites ul li {
