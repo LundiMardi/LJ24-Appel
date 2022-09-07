@@ -1,13 +1,22 @@
-###### Lausanne Jardins est un événement culturel mêlant paysagisme et réflexion sur la ville. La manifestation est organisée conjointement par l’Association Jardin urbain et le Service des parcs et domaines de la Ville de Lausanne.
-Tous les cinq ans, le temps d’un été, Lausanne Jardins présente une série de jardins éphémères disséminés sur le territoire lausannois, dont certains sont amenés à préfigurer les transformations urbanistiques et paysagères de la ville. Un site d’accueil et un thème transversal sont définis à chaque édition afin de donner une cohérence d’ensemble à la manifestation et au parcours.
+###### Dans le contexte actuel de mutation du paysage urbain, Lausanne Jardins 2024 (LJ24) se donne pour objectif de sensibiliser le public aux enjeux liés aux changements climatiques, à l’effondrement de la biodiversité et à la finitude des ressources, afin de proposer des solutions innovantes. 
 
-###### Le temps d’un été, est proposé au public une promenade paysagère singulière, incitant à la flânerie et à la découverte de lieux insolites sur sol lausannois.
+La manifestation qui s'appuie sur une série d'installations d’art contemporain du jardin – certaines éphémères, d'autres promises à une certaine pérennité – revêt ainsi un caractère de laboratoire urbain. Les espaces d’échanges et de représentations proposés permettent de tester, grandeur nature, des méthodes visant à améliorer les usages, l’esthétique et la durabilité du paysage urbain. 
+
+###### En traitant le jardin comme un outil de transformation stratégique et agile, Lausanne Jardins cherche à renforcer la résilience de la ville et sa capacité d'adaptation – facultés déterminantes pour la qualité de vie future en milieu urbain.
 
 <img id="plan" src="../images/01_basemap_ville.jpg" alt="Vue aérienne du site 2024">
 <!-- ![Vue aérienne du site 2024](../images/01_basemap_ville.jpg) -->
 
-Avec ses installations éphémères, issues notamment d’un concours international, Lausanne Jardins se prête de manière idéale à la fonction de laboratoire urbain, en testant, grandeur nature, des propositions d’amélioration de la qualité d’usage et de l’esthétique des sites choisis. Il s’agit de traiter le jardin comme un outil de transformation, d’animation et de fabrication de la ville. L’accès est gratuit, 24h sur 24, pendant quatre mois, de la mi- juin à la mi-octobre. En renouvelant l’héritage des six précédentes éditions de Lausanne Jardins, en 1997, 2000, 2004, 2009, 2014 et 2019, la manifestation contribue à faire rayonner l’image de Lausanne, lui conférant une renommée internationale dans le domaine de l’art du jardin.
+L’édition de 2024 s’installera pour la première fois le long des rives lausannoises du Léman. Le parcours s’étend sur six kilomètres entre les deux rivières qui bordent la Ville, de la Vuachère à l’Est vers la Chamberonne à l’Ouest. 
 
-###### Cette nouvelle édition en 2024, proposée sur un site inédit, celui des rives du lac, exactement soixante ans après Expo 64, est l’occasion de réfléchir aux enjeux futurs d’un grand parc urbain.
+###### Au cours des derniers siècles, sous l’effet des processus naturels et des activités humaines, la rive s’est avancée progressivement sur le lac, gagnant ainsi en épaisseur. Si la rive constitue un continuum paysager et bioclimatique, elle offre cependant de multiples visages en fonction de son appropriation par les usagers. Soixante ans après Expo 64, ce site représente aussi une occasion de réfléchir aux enjeux futurs d’un grand parc d’agglomération.
 
-Le choix du thème de l’eau nous offre l’opportunité de repenser le rapport que la ville entretient à l’eau sous toutes ses formes, tant comme menace, que comme ressource et support de cycles métaboliques.
+Les quatre séquences qui jalonnent ce grand parc d’agglomération soulèvent divers enjeux : les écosystèmes et les infrastructures écologiques ; la pratique du sport inclusif en plein air ; l’art du spectacle vivant accessible au plus grand nombre ; l’emprise et la cohabitation des différents types de mobilité sur l’espace public. 
+
+(Film)
+
+###### Avec le thème « Entre l’eau et nous », LJ24 veut changer la perception de l’eau en ville et la réintégrer dans notre champ de vision de tous les jours. L’eau façonne nos villes. Elle est un élément essentiel de la qualité urbaine et apporte de nombreuses plus-values.
+
+En illustrant et changeant notre rapport avec l’eau en ville, LJ24 souhaite mettre en évidence cette ressource cachée sous nos pieds et les nombreux services qu’elle nous rend : non seulement l’eau potable mais aussi l’eau comme moyen de transport, lieu de loisir et de rafraichissement, biotope riche en biodiversité, source d’énergie, etc.
+
+###### L’approche “ville-éponge” illustre comment l’eau peut jouer un rôle clé face aux changements climatiques, tout en améliorant le cadre de vie, la biodiversité urbaine et le bien être des habitants. Cette notion questionne également le lien entre la ville, ses rivières urbaines et son lac.

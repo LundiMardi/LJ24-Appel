@@ -1,78 +1,105 @@
-###### Lausanne Jardins est un événement culturel mêlant paysagisme et réflexion sur la ville. Le temps d’un été, la manifestation propose d’insérer des jardins dans l’espace urbain : rues, places, terrains délaissés, façades de bâtiments ou toitures. Une trentaine de jardins contemporains issus d’un concours international, qui se suivent le long d’une promenade thématique. L’accès est gratuit, 24h sur 24, pendant quatre mois, de la mi- juin à la mi-octobre.
+###### Lausanne Jardins est un événement culturel associant architecture du paysage et réflexion sur la ville. Le temps d’un été, la manifestation propose une série de jardins éphémères disséminés sur le territoire lausannois, dont certains sont amenés à préfigurer les transformations urbanistiques et paysagères de la ville. Une vingtaine de jardins contemporains, issus d’un concours international, se suivent le long d’une promenade paysagère singulière, incitant à la flânerie et à la (re)découverte de lieux insolites. Dédiée à un large public, la manifestation est gratuite, accessible 24h sur 24, pendant quatre mois, de mi-juin à mi-octobre.
+
+Avec ses installations éphémères, issues notamment d’un concours international, des travaux des Hautes Écoles et des services de la Ville, Lausanne Jardins se prête de manière idéale à la fonction de laboratoire urbain, en testant, grandeur nature, des propositions d’amélioration de la qualité d’usage et de l’esthétique des sites choisis. Il s’agit de traiter le jardin comme un outil de transformation, d’animation et de fabrication de la ville.
+
+Depuis sa première édition, La Municipalité de Lausanne et l’Association Jardin Urbain (AJU) coorganisent Lausanne Jardins. En renouvelant l’héritage des six précédentes éditions, en 1997, 2000, 2004, 2009, 2014 et 2019, la manifestation contribue à faire rayonner l’image de Lausanne, lui conférant une renommée internationale dans le domaine de l’art du jardin.
 
 
-## L’équipe
+## L’équipe de Lausanne Jardins 2024
+
+Bureau exécutif 
 
 Monique Keller 
-: Commissaire générale, Architecte EPFL SIA, journaliste
+: Commissaire, architecte et journaliste
 
-Florence Ineichen
-: Adjointe/animation, communication, partenaires, Historienne de l’art, médiatrice culturelle 
+Antoine Vialle
+: architecte urbaniste PhD
 
-Lucia Sillig
-: Rédaction, site web, Physicienne EPFL, journaliste et illustratice, 
-: RTS
+Julie Imholz
+: architecte paysagiste, Paysagestion
 
-Valérie Hoffmeyer 
-: Architecte-paysagiste
-: Journaliste, Paysage n’co
+Identité visuelle, cartographie et vidéo
 
-Christelle Schüpfer 
-: Architecte-paysagiste
-: Paysagestion
+Notter+Vigne
+: graphistes
 
-François Dupuy
-: Architecte-paysagiste
-: Spadom
+Philipp Urech
+: architecte PhD, cartographie
 
-## L’association
+Michael Hartwell
+: architecte et vidéaste
 
-L’Association Jardin Urbain (AJU) a été fondée en 1996 dans la perspective de lancer la première édition de Lausanne Jardins en 1997. Ses buts sont de promouvoir l’art du jardin, de développer l’intérêt pour le jardin urbain et, de manière générale, pour le rapport entre espace construit et espace végétal, et de favoriser les manifestations sur le thème du jardin en ville de Lausanne. Depuis lors, l’AJU a accompagné et soutenu toutes les éditions de Lausanne Jardins.
-
-Pourquoi devenir membre?
-pour soutenir l’AJU;
-pour suivre et contribuer au développement de Lausanne Jardins;
-pour être tenu informé et participer aux moments forts de la manifestation.
-
-Etre membre de l’AJU signifie soutenir l’association par votre cotisation annuelle de Fr. 50.-, mais également avoir la possibilité de participer aux assemblées générales qui accompagnent le travail du comité et de l’équipe de pilotage de Lausanne Jardins. C’est être tenu informé du développement de la manifestation et des événements pendant Lausanne Jardins. C’est aussi l’occasion d’être [invité](#) aux événements de lancement et de clôture de Lausanne Jardins, et de participer à des visites guidées spéciales pour ses membres. 
-
-<strong><a href="mailto:no-one@snai1mai1.com?subject=Inscription association Lausanne Jardins&body=Bonjour,%0D%0A %0D%0AJe souhaite rejoindre l'association.%0D%0A %0D%0A Nom :%0D%0APrénom :%0D%0AProfession :%0D%0AEntreprise :%0D%0AAdresse postale :">Devenir membre</a></strong>
-
-## Le comité 
-
-Ariane Widmer
-: Présidente, architecte urbaniste
-
-Natacha Litzistorf
-: Directrice du logement, de l’environnement et de l’architecture, Ville de Lausanne 
+L’équipe du Service des Parcs et Domaines de la Ville de Lausanne (SPADOM)
 
 Etienne Balestra
-: Chef du Service des parcs et domaines, Ville de Lausanne 
+: chef de service
+
+Yves Lachavanne
+: chef du bureau d’étude des espaces publics (BEEP)
+
+Rémy Poisot
+: architecte paysagiste, chef de projet
+
+Bureau technique pour la phase d’exécution  
+À déterminer
+
+## L’association 	
+
+L'Association Jardin Urbain (AJU) a été fondée en 1996 dans la perspective de lancer la première édition de Lausanne Jardins en 1997. Ses buts sont de promouvoir l'art du jardin, de développer l'intérêt pour le jardin urbain et, de manière générale, pour le rapport entre espace construit et espace végétal, et de favoriser les manifestations sur le thème du jardin en ville de Lausanne. 
+Depuis lors, l’AJU a accompagné et soutenu toutes les éditions de Lausanne Jardins.
+
+Être membre de l’AJU signifie soutenir l’association par une cotisation annuelle de Fr. 50.-, mais également avoir la possibilité de participer aux assemblées générales qui accompagnent le travail du comité et de l’équipe de pilotage de Lausanne Jardins.
+
+Devenir membre de l’AJU : il suffit de nous écrire en indiquant votre nom et prénom à info@lausannejardins.ch
+Coordonnées bancaires : IBAN CH39 0900 0000 8746 1488 2, Association Jardin Urbain, Lausanne
+
+<strong><a href="mailto:info@lausannejardins.ch?subject=Inscription association Lausanne Jardins&body=Bonjour,%0D%0A %0D%0AJe souhaite rejoindre l'association.%0D%0A %0D%0A Nom :%0D%0APrénom :%0D%0AProfession :%0D%0AEntreprise :%0D%0AAdresse postale :">Devenir membre</a></strong>
+
+Les statuts de l'association (1,1 MB) A télécharger :
+
+## Les membres du Comité
+
+Agathe Caviale
+: Présidente
+: architecte paysagiste, agence Interval
+
+Natacha Litzistorf
+: Vice-présidente 
+: directrice LEA, Ville de Lausanne
+
+Etienne Balestra
+: chef du Service des parcs et domaines, Ville de Lausanne
 
 Nicole Christe
-: Cheffe du Service d’architecture, Ville de Lausanne 
+: cheffe du Service d'architecture, Ville de Lausanne	
 
 Alexis Georgacopoulos
-: Directeur de l’ECAL 
+: directeur de l'ECAL
+
+Jean-Yves Le Baron
+: architecte paysagiste, Atelier du Paysage
+
+Martial Messeiller
+: membre de la direction TL
 
 Nathalie Noverraz
-: Secrétaire générale de Prométerre 
+: secrétaire générale Prométerre	
 
 Steeve Pasche
-: Directeur de Lausanne Tourisme 
+: directeur Lausanne Tourisme		
 
-Chantal Prod’hom
-: Directrice du MUDAC 
+Olivier Rambert
+: responsable développement Suisse Romande, Mobimo
 
-Laurent Rivier
-: Directeur Rivier scientific consulting 
+Christiane von Roten
+: architecte, PONT12
 
-Nicolas Rochat
-: Directeur Mover Sportswear
+Christina Zoumboulakis
+: architecte, farra zoumboulakis & associés
 
 ## Newsletter
 
-Si vous voulez être tenu au courant de la préparation de Lausanne Jardins 2024 pas à pas, des dates-clé ou encore des réflexions menées autour des thèmes du jardin, de la ville et des espaces publics, inscrivez-vous à notre newsletter.
+Pour être tenu au courant des préparatifs et des évènements-clés de Lausanne Jardins 2024, inscrivez-vous à notre newsletter.
 
 **[Abonnez-vous à la newsletter](https://lausannejardins.us5.list-manage.com/subscribe?u=4e331970f865e88c60558fab4&id=be32bcf42d)**  
 **[Voir les archives des newsletters](https://us5.campaign-archive.com/home/?u=4e331970f865e88c60558fab4&id=be32bcf42d)**
