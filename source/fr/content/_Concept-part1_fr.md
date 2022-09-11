@@ -1,3 +1,5 @@
+<!-- vient avant la vidéo -->
+
 ###### Dans le contexte actuel de mutation du paysage urbain, Lausanne Jardins 2024 (LJ24) se donne pour objectif de sensibiliser le public aux enjeux liés aux changements climatiques, à l’effondrement de la biodiversité et à la finitude des ressources, afin de proposer des solutions innovantes. 
 
 La manifestation qui s'appuie sur une série d'installations d’art contemporain du jardin – certaines éphémères, d'autres promises à une certaine pérennité – revêt ainsi un caractère de laboratoire urbain. Les espaces d’échanges et de représentations proposés permettent de tester, grandeur nature, des méthodes visant à améliorer les usages, l’esthétique et la durabilité du paysage urbain. 
@@ -12,11 +14,3 @@ L’édition de 2024 s’installera pour la première fois le long des rives lau
 ###### Au cours des derniers siècles, sous l’effet des processus naturels et des activités humaines, la rive s’est avancée progressivement sur le lac, gagnant ainsi en épaisseur. Si la rive constitue un continuum paysager et bioclimatique, elle offre cependant de multiples visages en fonction de son appropriation par les usagers. Soixante ans après Expo 64, ce site représente aussi une occasion de réfléchir aux enjeux futurs d’un grand parc d’agglomération.
 
 Les quatre séquences qui jalonnent ce grand parc d’agglomération soulèvent divers enjeux : les écosystèmes et les infrastructures écologiques ; la pratique du sport inclusif en plein air ; l’art du spectacle vivant accessible au plus grand nombre ; l’emprise et la cohabitation des différents types de mobilité sur l’espace public. 
-
-(Film)
-
-###### Avec le thème « Entre l’eau et nous », LJ24 veut changer la perception de l’eau en ville et la réintégrer dans notre champ de vision de tous les jours. L’eau façonne nos villes. Elle est un élément essentiel de la qualité urbaine et apporte de nombreuses plus-values.
-
-En illustrant et changeant notre rapport avec l’eau en ville, LJ24 souhaite mettre en évidence cette ressource cachée sous nos pieds et les nombreux services qu’elle nous rend : non seulement l’eau potable mais aussi l’eau comme moyen de transport, lieu de loisir et de rafraichissement, biotope riche en biodiversité, source d’énergie, etc.
-
-###### L’approche “ville-éponge” illustre comment l’eau peut jouer un rôle clé face aux changements climatiques, tout en améliorant le cadre de vie, la biodiversité urbaine et le bien être des habitants. Cette notion questionne également le lien entre la ville, ses rivières urbaines et son lac.

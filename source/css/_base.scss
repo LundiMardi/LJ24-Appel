@@ -49,7 +49,11 @@ h1 {
 h2, h3, h6 {
   font-size: var(--fs-m);
 }
-p + h2, ul + h2, h6 + h2 {
+p + h2, 
+ul + h2,
+dl + h2,
+table + h2,
+h6 + h2 {
   margin-block-start: 3rem;
 }
 
@@ -87,7 +91,8 @@ tr, tr:last-child {
 
 dl {
   display: grid;
-  grid-auto-columns: auto;
+  // grid-auto-columns: auto;
+  grid-template-columns: 2fr 4fr;
   column-gap: var(--window-padding);
 }
 dt {
@@ -111,7 +116,9 @@ address {
   font-style: normal ;
 }
 
-article figure {
+.padded-content > img ,
+.padded-content figure {
+  max-width: calc( var(--window-padding) * 2 + 100% );
   margin-left: calc( var(--window-padding) * -1 ) ;
   margin-right: calc( var(--window-padding) * -1 ) ;
 

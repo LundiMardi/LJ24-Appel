@@ -98,13 +98,21 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 1,
       "oA" : 0,
       "oAP" : "\/build\/css\/style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/source\/documents\/statuts_2018_signe.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/documents\/statuts_2018_signe.pdf",
+      "oF" : 0
     },
     "\/source\/fonts\/01_IMPORTANT_License_Notice_Web.txt" : {
       "cB" : 0,
@@ -549,7 +557,7 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/fr\/content\/_Concept_fr.md" : {
+    "\/source\/fr\/content\/_Concept-part1_fr.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -559,7 +567,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/fr\/content\/_Concept_fr.html",
+      "oAP" : "\/build\/fr\/content\/_Concept-part1_fr.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -568,7 +576,7 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/fr\/content\/_menu-list.md" : {
+    "\/source\/fr\/content\/_Concept-part2_fr.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -578,7 +586,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/fr\/content\/_menu-list.html",
+      "oAP" : "\/build\/fr\/content\/_Concept-part2_fr.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -587,7 +595,7 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/fr\/content\/new.md" : {
+    "\/source\/fr\/content\/_Sponsors_fr.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -596,8 +604,8 @@
       "eSQ" : 1,
       "ft" : 4096,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/fr\/content\/new.html",
+      "oA" : 1,
+      "oAP" : "\/build\/fr\/content\/_Sponsors_fr.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -670,6 +678,16 @@
       "miP" : 0,
       "oA" : 1,
       "oAP" : "\/build\/images\/icon-menu--32.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/source\/images\/Logo-Lausanne.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/images\/Logo-Lausanne.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

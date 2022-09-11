@@ -38,14 +38,14 @@ Les dossiers de candidature (phase A) sont à envoyer jusqu’au 11 novembre 202
 | Rendu des projets         | 16h, 24 février 2023  |
 
 
-### Adresses d’envoi
+## Adresses d’envoi
 
-Phase A du concours (envoi par e-mail) :
-info@lausannejardins.ch 
+Phase A du concours (envoi par e-mail)  
+[info@lausannejardins.ch](mailto:info@lausannejardins.ch)
 
-Phase B du concours (envoi par courrier postal) :
-Association Jardin Urbain p/a
-Service des parcs et domaines, 
-Avenue du Chablais 46
-Case postale 80,
-CH-1000 Lausanne 23
+Phase B du concours (envoi par courrier postal)  
+Association Jardin Urbain p/a  
+Service des parcs et domaines,  
+Avenue du Chablais 46  
+Case postale 80,  
+CH-1000 Lausanne 23  

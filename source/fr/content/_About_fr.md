@@ -48,14 +48,15 @@ Bureau technique pour la phase d’exécution
 L'Association Jardin Urbain (AJU) a été fondée en 1996 dans la perspective de lancer la première édition de Lausanne Jardins en 1997. Ses buts sont de promouvoir l'art du jardin, de développer l'intérêt pour le jardin urbain et, de manière générale, pour le rapport entre espace construit et espace végétal, et de favoriser les manifestations sur le thème du jardin en ville de Lausanne. 
 Depuis lors, l’AJU a accompagné et soutenu toutes les éditions de Lausanne Jardins.
 
+#### Devenir membre
+
 Être membre de l’AJU signifie soutenir l’association par une cotisation annuelle de Fr. 50.-, mais également avoir la possibilité de participer aux assemblées générales qui accompagnent le travail du comité et de l’équipe de pilotage de Lausanne Jardins.
 
 Devenir membre de l’AJU : il suffit de nous écrire en indiquant votre nom et prénom à info@lausannejardins.ch
 Coordonnées bancaires : IBAN CH39 0900 0000 8746 1488 2, Association Jardin Urbain, Lausanne
 
-<strong><a href="mailto:info@lausannejardins.ch?subject=Inscription association Lausanne Jardins&body=Bonjour,%0D%0A %0D%0AJe souhaite rejoindre l'association.%0D%0A %0D%0A Nom :%0D%0APrénom :%0D%0AProfession :%0D%0AEntreprise :%0D%0AAdresse postale :">Devenir membre</a></strong>
-
-Les statuts de l'association (1,1 MB) A télécharger :
+<strong><a href="mailto:info@lausannejardins.ch?subject=Inscription association Lausanne Jardins&body=Bonjour,%0D%0A %0D%0AJe souhaite rejoindre l'association.%0D%0A %0D%0A Nom :%0D%0APrénom :%0D%0AProfession :%0D%0AEntreprise :%0D%0AAdresse postale :">Devenir membre</a></strong>  
+**[Télécharger les statuts (PDF)](../documents/statuts_2018_signe.pdf)**
 
 ## Les membres du Comité
 

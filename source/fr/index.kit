@@ -3,6 +3,10 @@
 <!-- $nav-competition = Concours -->
 <!-- $nav-concept = Concept -->
 <!-- $nav-about = À propos -->
+<!-- $id-team = #l’équipedelausannejardins2024 -->
+<!-- $id-assoc = #l’association -->
+<!-- $id-member = #devenirmembre -->
+<!-- $id-commity = #lesmembresducomité -->
 
 <html lang="fr">
   <head>
@@ -38,11 +42,10 @@
           alt=""
         />
         <a id="bt-competition" class="lj-home-button" href="#Competition">
-          <!-- <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid"> -->
-          <video playsinline autoplay muted loop  id="bgvid">
-            <!-- <source src="polina.webm" type="video/webm"> -->
+          <!-- <video poster="polina.jpg"> -->
+          <!-- <video playsinline autoplay muted loop  id="bgvid">
             <source src="../images/cover-video.mp4" type="video/mp4">
-          </video>
+          </video> -->
           <span class="bt-label"
             >Concours<br />international<br />Appel à<br />candidature</span
           >
@@ -103,7 +106,7 @@
           <article>
             <!-- @compile "content/_Competition_fr.md" -->
           </article>
-          <aside class="aside-content">
+          <aside class="aside-content padded-content">
             <div class="link-table">
               <!-- @compile "content/_Competition-downloads_fr.md" -->
             </div>
@@ -113,27 +116,33 @@
           </aside>
         </section>
 
-        <section id="Concept" class="window-padding-h">
+        <section id="Concept" >
           <article>
-            <h1 class="section-heading"><!-- $nav-concept --></h1>
-            <!-- @compile "content/_Concept_fr.md" -->
+            <div class="wrapper window-padding-h padded-content">
+              <h1 class="section-heading"><!-- $nav-concept --></h1>
+              <!-- @compile "content/_Concept-part1_fr.md" -->
+            </div>
+            <div id="video" style="padding: 56.25% 0 0 0; position: relative">
+              <iframe
+                src="https://player.vimeo.com/video/482288397?h=72439b3bbe&title=0&byline=0&portrait=0"
+                style="
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                "
+                frameborder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="wrapper window-padding-h padded-content">
+              <!-- @compile "content/_Concept-part2_fr.md" -->
+            </div>
           </article>
+
         </section>
-        <div id="video" style="padding: 56.25% 0 0 0; position: relative">
-          <iframe
-            src="https://player.vimeo.com/video/482288397?h=72439b3bbe&title=0&byline=0&portrait=0"
-            style="
-              position: absolute;
-              top: 0;
-              left: 0;
-              width: 100%;
-              height: 100%;
-            "
-            frameborder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
         <script src="https://player.vimeo.com/api/player.js"></script>
 
         <section id="About" class="context-blue window-padding-h">
@@ -141,7 +150,7 @@
           <article>
             <!-- @compile "content/_About_fr.md" -->
           </article>
-          <aside class="aside-content">
+          <aside class="aside-content padded-content">
             <nav id="about-sub-nav">
               <!-- <ul>
               <li><a href="#contact" class="menu--item">Contact</a></li>
@@ -151,15 +160,22 @@
               <li><a href="#lecomité" class="menu--item">Le comité</a></li>
             </ul> -->
               <!-- <a class="lj-button" href="#contact">Contact</a> -->
-              <a class="lj-button" href="#l’équipe">L’équipe</a>
-              <a class="lj-button" href="#l’association">L’association</a>
-              <a class="lj-button" href="#devenirmembre">Devenir membre</a>
-              <a class="lj-button" href="#lecomité">Le comité</a>
+              <a class="lj-button" href="<!-- $id-team -->">L’équipe</a>
+              <a class="lj-button" href="<!-- $id-assoc -->">L’association</a>
+              <a class="lj-button" href="<!-- $id-member -->">Devenir membre</a>
+              <a class="lj-button" href="<!-- $id-commity -->">Le comité</a>
             </nav>
             <address>
               <!-- @compile "content/_About-contact_fr.md" -->
             </address>
           </aside>
+        </section>
+        <section id="Sponsors">
+          <article>
+            <div class="logo-land">
+              <!-- @compile "content/_Sponsors_fr.md" -->
+            </div>
+          </article>
         </section>
       <!-- </div> -->
       <!-- sections in .section-snap END -->

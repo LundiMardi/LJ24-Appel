@@ -126,7 +126,11 @@ h2, h3, h6 {
   font-size: var(--fs-m);
 }
 
-p + h2, ul + h2, h6 + h2 {
+p + h2,
+ul + h2,
+dl + h2,
+table + h2,
+h6 + h2 {
   margin-block-start: 3rem;
 }
 
@@ -163,7 +167,7 @@ tr, tr:last-child {
 
 dl {
   display: grid;
-  grid-auto-columns: auto;
+  grid-template-columns: 2fr 4fr;
   column-gap: var(--window-padding);
 }
 
@@ -180,14 +184,18 @@ address {
   font-style: normal;
 }
 
-article figure {
+.padded-content > img,
+.padded-content figure {
+  max-width: calc(var(--window-padding) * 2 + 100%);
   margin-left: calc(var(--window-padding) * -1);
   margin-right: calc(var(--window-padding) * -1);
 }
-article figure img {
+.padded-content > img img,
+.padded-content figure img {
   width: 100%;
 }
-article figure figcaption {
+.padded-content > img figcaption,
+.padded-content figure figcaption {
   font-size: var(--fs-s);
   color: var(--ink);
   margin-left: var(--window-padding);
@@ -259,11 +267,12 @@ a.menu-logo svg {
   transform: translateY(-60px);
 }
 
-@media screen and (MIN-WIDTH: 1880px) {
+@media screen and (min-aspect-ratio: 1/1) {
   #main-nav > span.menu-secondary {
     margin-right: 0;
   }
-
+}
+@media screen and (MIN-WIDTH: 1880px) {
   #main-nav.is-nav-visible > span.menu-secondary {
     transform: translateY(0);
   }
@@ -525,8 +534,8 @@ strong a {
   display: flex;
   justify-content: space-between;
   font-size: var(--fs-m);
-  padding-top: 4px;
-  align-items: center;
+  padding-top: 1px;
+  align-items: baseline;
   min-height: 44px;
 }
 .link-table li > a em {
@@ -697,6 +706,8 @@ section#quick-access .bt-label {
   transition-property: all;
   transition-duration: 100ms;
   transition-timing-function: --e;
+  background-image: url(../images/RUSH_N&V_Sub_19_1.jpg);
+  background-size: cover;
   -webkit-mask-image: radial-gradient(white, black);
 }
 @media screen and (min-aspect-ratio: 1/1) {
@@ -826,22 +837,26 @@ section#About {
 }
 
 @media screen and (MIN-WIDTH: 1000px) {
-  section#Competition,
+  section#Sponsors,
+section#Competition,
 section#About {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
   }
-  section#Competition article,
+  section#Sponsors article,
+section#Competition article,
 section#About article {
     width: 50%;
     padding-left: var(--window-padding);
   }
-  section#Competition aside,
+  section#Sponsors aside,
+section#Competition aside,
 section#About aside {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: calc(var(--unit) * 3);
     padding-right: var(--window-padding);
     max-width: 32rem;
     align-self: flex-start;
@@ -892,6 +907,33 @@ section#Concept p {
   }
 }
 
+section#Sponsors {
+  background-color: var(--white);
+  padding-left: var(--window-padding);
+  padding-right: var(--window-padding);
+}
+
+.logo-land {
+  display: flex;
+  gap: 1em;
+  align-items: baseline;
+  flex-wrap: wrap;
+  padding-top: calc(var(--unit) * 2);
+  padding-bottom: calc(var(--unit) * 2);
+}
+
+.logo-land img {
+  height: 3.5em;
+}
+
+.logo-land figure {
+  margin: 0;
+}
+
+.logo-land figcaption {
+  display: none;
+}
+
 .context-blue {
   background-color: var(--paper);
   color: var(--ink);
@@ -911,3 +953,5 @@ section#Concept p {
 .aside-content strong > a {
   width: calc(66.6666666667% - var(--window-padding));
 }
+
+/*# sourceMappingURL=style.css.map */
