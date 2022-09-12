@@ -186,7 +186,7 @@ address {
 
 .padded-content > img,
 .padded-content figure {
-  max-width: calc(var(--window-padding) * 2 + 100%);
+  width: calc(var(--window-padding) * 2 + 100%);
   margin-left: calc(var(--window-padding) * -1);
   margin-right: calc(var(--window-padding) * -1);
 }
