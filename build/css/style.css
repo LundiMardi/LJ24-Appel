@@ -1,6 +1,6 @@
 :root {
-  --green: #b4ff46;
-  --blue: #6304fa;
+  --green: #76fc21;
+  --blue: #5637ff;
   --black: #000000;
   --white: #ffffff;
   --paper: var(--green) ;
@@ -135,7 +135,7 @@ h6 + h2 {
 }
 
 h4 + ul {
-  margin-top: calc(var(--unit) * -0.5);
+  margin-top: calc(var(--unit) * -1);
 }
 
 ul {
@@ -186,7 +186,7 @@ address {
 
 .padded-content > img,
 .padded-content figure {
-  max-width: calc(var(--window-padding) * 2 + 100%);
+  width: calc(var(--window-padding) * 2 + 100%);
   margin-left: calc(var(--window-padding) * -1);
   margin-right: calc(var(--window-padding) * -1);
 }
@@ -495,8 +495,8 @@ a.menu--icon {
   color: var(--accent);
   line-height: 1;
   padding: 8px 16px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 4px;
+  margin-bottom: 4px;
   text-decoration: none;
   border-radius: 9999px;
   transition-property: padding;
@@ -534,7 +534,7 @@ strong a {
   display: flex;
   justify-content: space-between;
   font-size: var(--fs-m);
-  padding-top: 1px;
+  padding-top: 2px;
   align-items: baseline;
   min-height: 44px;
 }
@@ -952,6 +952,11 @@ section#Sponsors {
 .aside-content a.lj-button,
 .aside-content strong > a {
   width: calc(66.6666666667% - var(--window-padding));
+}
+
+.aside-content > *,
+.aside-content .link-table ul {
+  margin-bottom: 5vh;
 }
 
 /*# sourceMappingURL=style.css.map */

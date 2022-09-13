@@ -1,45 +1,3 @@
-<!DOCTYPE html>
-
-<!-- $cls-FR = is-current -->
-
-<!-- $txt-call-entries = Concours<br />international<br />Appel à<br />candidature -->
-<!-- $txt-competition = Concours -->
-<!-- $txt-concept = Concept -->
-<!-- $txt-about = À propos -->
-<!-- $id-team = #l’équipedelausannejardins2024 -->
-<!-- $txt-team = L’équipe -->
-<!-- $id-assoc = #l’association -->
-<!-- $txt-assoc = L’association -->
-<!-- $id-member = #devenirmembre -->
-<!-- $txt-member = Devenir membre -->
-<!-- $id-commity = #lesmembresducomité -->
-<!-- $txt-commity = Le comité -->
-
-
-
-<html lang="fr">
-  <head>
-    <title>Lausanne Jardins</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="" />
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
-    <link rel="icon" href="img/favicon.png" />
-    <meta property="og:title" content="" />
-    <meta property="og:description" content="" />
-    <meta property="og:image" content="" />
-    <meta name="twitter:card" content="" />
-    <meta name="twitter:site" content="" />
-    <meta name="twitter:title" content="" />
-    <meta name="twitter:description" content="" />
-    <meta name="twitter:image" content="" />
-    <meta name="theme-color" content="#777" />
-
-    <script src="../libs/waypoints-master/lib/noframework.waypoints.min.js"></script>
-    <script src="../libs/waypoints-master/lib/shortcuts/inview.min.js"></script>
-  </head>
-
-  <body>
     <!-- <div id="body-lining"> -->
       <section id="quick-access" class="window-padding-h section-snap">
         <h1 class="visually-hidden">Lausanne Jardins 24</h1>
@@ -113,14 +71,15 @@
         <section id="Competition" class="window-padding-h">
           <h1 class="section-heading"><!-- $txt-competition --></h1>
           <article>
-            <!-- @compile "content/_Competition_fr.md" -->
+            <!-- @compile "content/_Competition.md" -->
           </article>
           <aside class="aside-content padded-content">
             <div class="link-table">
-              <!-- @compile "content/_Competition-downloads_fr.md" -->
+              <h4 id="downloads"><!-- $txt-downloads --></h4>
+              <!-- @compile "content/_Competition-downloads.md" -->
             </div>
             <div id="previous-websites">
-              <!-- @compile "content/_Competition-previous-websites_fr.md" -->
+              <!-- @compile "content/_Competition-previous-websites.md" -->
             </div>
           </aside>
         </section>
@@ -129,60 +88,52 @@
           <article>
             <div class="wrapper window-padding-h padded-content">
               <h1 class="section-heading"><!-- $txt-concept --></h1>
-              <!-- @compile "content/_Concept-part1_fr.md" -->
-            </div>
-            <div id="video" style="padding: 56.25% 0 0 0; position: relative">
-              <iframe
-                src="https://player.vimeo.com/video/482288397?h=72439b3bbe&title=0&byline=0&portrait=0"
-                style="
-                  position: absolute;
-                  top: 0;
-                  left: 0;
-                  width: 100%;
-                  height: 100%;
-                "
-                frameborder="0"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+              <!-- @compile "content/_Concept-part1.md" -->
             </div>
             <div class="wrapper window-padding-h padded-content">
-              <!-- @compile "content/_Concept-part2_fr.md" -->
+              <!-- @compile "content/_Concept-part2.md" -->
             </div>
           </article>
-
+          
         </section>
+        <div id="video" style="padding: 56.25% 0 0 0; position: relative">
+          <iframe
+            src="https://player.vimeo.com/video/482288397?h=72439b3bbe&title=0&byline=0&portrait=0"
+            style="
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            "
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
         <script src="https://player.vimeo.com/api/player.js"></script>
 
         <section id="About" class="context-blue window-padding-h">
           <h1 class="section-heading"><!-- $txt-about --></h1>
           <article>
-            <!-- @compile "content/_About_fr.md" -->
+            <!-- @compile "content/_About.md" -->
           </article>
           <aside class="aside-content padded-content">
             <nav id="about-sub-nav">
-              <!-- <ul>
-              <li><a href="#contact" class="menu--item">Contact</a></li>
-              <li><a href="#l’équipe" class="menu--item">L’équipe</a></li>
-              <li><a href="#l’association" class="menu--item">L’association</a></li>
-              <li><a href="#devenirmembre" class="menu--item">Devenir membre</a></li>
-              <li><a href="#lecomité" class="menu--item">Le comité</a></li>
-            </ul> -->
-              <!-- <a class="lj-button" href="#contact">Contact</a> -->
               <a class="lj-button" href="<!-- $id-team -->"><!-- $txt-team --></a>
               <a class="lj-button" href="<!-- $id-assoc -->"><!-- $txt-assoc --></a>
               <a class="lj-button" href="<!-- $id-member -->"><!-- $txt-member --></a>
-              <a class="lj-button" href="<!-- $id-commity -->"><!-- $txt-commity --></a>
+              <a class="lj-button" href="<!-- $id-commitee -->"><!-- $txt-commitee --></a>
             </nav>
             <address>
-              <!-- @compile "content/_About-contact_fr.md" -->
+              <!-- @compile "content/_About-contact.md" -->
             </address>
           </aside>
         </section>
         <section id="Sponsors">
           <article>
             <div class="logo-land">
-              <!-- @compile "content/_Sponsors_fr.md" -->
+              <!-- @compile "content/_Sponsors.md" -->
             </div>
           </article>
         </section>
@@ -190,8 +141,3 @@
       <!-- sections in .section-snap END -->
     <!-- </div> -->
     <!-- #body-lining END -->
-  </body>
-  <script src="../javascript/sectionsEvents-min.js"></script>
-  <script src="../javascript/mobileMenu-min.js"></script>
-  <script src="../javascript/onLoader-min.js"></script>
-</html>

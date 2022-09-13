@@ -13,32 +13,32 @@ Monique Keller
 : Commissaire, architecte et journaliste
 
 Antoine Vialle
-: architecte urbaniste PhD
+: Architecte urbaniste PhD
 
 Julie Imholz
-: architecte paysagiste, Paysagestion
+: Architecte paysagiste, Paysagestion
 
 Identité visuelle, cartographie et vidéo
 
 Notter+Vigne
-: graphistes
+: Graphistes
 
 Philipp Urech
-: architecte PhD, cartographie
+: Architecte PhD, cartographie
 
 Michael Hartwell
-: architecte et vidéaste
+: Architecte et vidéaste
 
-L’équipe du Service des Parcs et Domaines de la Ville de Lausanne (SPADOM)
+Service des Parcs et Domaines de la Ville de Lausanne (SPADOM)
 
 Etienne Balestra
-: chef de service
+: Chef de service
 
 Yves Lachavanne
-: chef du bureau d’étude des espaces publics (BEEP)
+: Chef du bureau d’étude des espaces publics (BEEP)
 
 Rémy Poisot
-: architecte paysagiste, chef de projet
+: Architecte paysagiste, chef de projet
 
 Bureau technique pour la phase d’exécution  
 À déterminer
@@ -52,51 +52,51 @@ Depuis lors, l’AJU a accompagné et soutenu toutes les éditions de Lausanne J
 
 Être membre de l’AJU signifie soutenir l’association par une cotisation annuelle de Fr. 50.-, mais également avoir la possibilité de participer aux assemblées générales qui accompagnent le travail du comité et de l’équipe de pilotage de Lausanne Jardins.
 
-Devenir membre de l’AJU : il suffit de nous écrire en indiquant votre nom et prénom à info@lausannejardins.ch
-Coordonnées bancaires : IBAN CH39 0900 0000 8746 1488 2, Association Jardin Urbain, Lausanne
+Devenir membre de l’AJU: il suffit de nous écrire en indiquant votre nom et prénom à info@lausannejardins.ch
+Coordonnées bancaires: IBAN CH39 0900 0000 8746 1488 2, Association Jardin Urbain, Lausanne
 
-<strong><a href="mailto:info@lausannejardins.ch?subject=Inscription association Lausanne Jardins&body=Bonjour,%0D%0A %0D%0AJe souhaite rejoindre l'association.%0D%0A %0D%0A Nom :%0D%0APrénom :%0D%0AProfession :%0D%0AEntreprise :%0D%0AAdresse postale :">Devenir membre</a></strong>  
+<strong><a href="mailto:info@lausannejardins.ch?subject=Inscription association Lausanne Jardins&body=Bonjour,%0D%0A %0D%0AJe souhaite rejoindre l'association.%0D%0A %0D%0A Nom:%0D%0APrénom:%0D%0AProfession:%0D%0AEntreprise:%0D%0AAdresse postale:">Devenir membre</a></strong>  
 **[Télécharger les statuts (PDF)](../documents/statuts_2018_signe.pdf)**
 
 ## Les membres du Comité
 
 Agathe Caviale
 : Présidente
-: architecte paysagiste, agence Interval
+: Architecte paysagiste, agence Interval
 
 Natacha Litzistorf
 : Vice-présidente 
-: directrice LEA, Ville de Lausanne
+: Directrice LEA, Ville de Lausanne
 
 Etienne Balestra
-: chef du Service des parcs et domaines, Ville de Lausanne
+: Chef du Service des parcs et domaines, Ville de Lausanne
 
 Nicole Christe
-: cheffe du Service d'architecture, Ville de Lausanne	
+: Cheffe du Service d'architecture, Ville de Lausanne	
 
 Alexis Georgacopoulos
 : directeur de l'ECAL
 
 Jean-Yves Le Baron
-: architecte paysagiste, Atelier du Paysage
+: Architecte paysagiste, Atelier du Paysage
 
 Martial Messeiller
-: membre de la direction TL
+: Membre de la direction TL
 
 Nathalie Noverraz
-: secrétaire générale Prométerre	
+: Secrétaire générale Prométerre	
 
 Steeve Pasche
-: directeur Lausanne Tourisme		
+: Directeur Lausanne Tourisme		
 
 Olivier Rambert
-: responsable développement Suisse Romande, Mobimo
+: Responsable développement Suisse Romande, Mobimo
 
 Christiane von Roten
-: architecte, PONT12
+: Architecte, PONT12
 
 Christina Zoumboulakis
-: architecte, farra zoumboulakis & associés
+: Architecte, farra zoumboulakis & associés
 
 ## Newsletter
 

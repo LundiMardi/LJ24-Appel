@@ -114,6 +114,14 @@
       "oAP" : "\/build\/documents\/statuts_2018_signe.pdf",
       "oF" : 0
     },
+    "\/source\/en\/_index--body.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/en\/_index--body.html",
+      "oF" : 0
+    },
     "\/source\/en\/_menu.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -122,7 +130,7 @@
       "oAP" : "\/build\/en\/_menu.html",
       "oF" : 0
     },
-    "\/source\/en\/content\/_About_en.md" : {
+    "\/source\/en\/content\/_About-contact.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -132,16 +140,16 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/en\/content\/_About_en.html",
+      "oAP" : "\/build\/en\/content\/_About-contact.html",
       "oF" : 0,
       "oFM" : 0,
-      "oS" : 0,
+      "oS" : 1,
       "pHT" : 1,
       "pME" : 0,
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/en\/content\/_About-contact_en.md" : {
+    "\/source\/en\/content\/_About.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -151,16 +159,16 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/en\/content\/_About-contact_en.html",
+      "oAP" : "\/build\/en\/content\/_About.html",
       "oF" : 0,
       "oFM" : 0,
-      "oS" : 0,
+      "oS" : 1,
       "pHT" : 1,
       "pME" : 0,
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/en\/content\/_Competition_en.md" : {
+    "\/source\/en\/content\/_Competition-downloads.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -170,16 +178,16 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/en\/content\/_Competition_en.html",
+      "oAP" : "\/build\/en\/content\/_Competition-downloads.html",
       "oF" : 0,
       "oFM" : 0,
-      "oS" : 0,
+      "oS" : 1,
       "pHT" : 1,
       "pME" : 0,
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/en\/content\/_Competition-downloads_en.md" : {
+    "\/source\/en\/content\/_Competition-previous-websites.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -189,16 +197,16 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/en\/content\/_Competition-downloads_en.html",
+      "oAP" : "\/build\/en\/content\/_Competition-previous-websites.html",
       "oF" : 0,
       "oFM" : 0,
-      "oS" : 0,
+      "oS" : 1,
       "pHT" : 1,
       "pME" : 0,
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/en\/content\/_Competition-previous-websites_en.md" : {
+    "\/source\/en\/content\/_Competition.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -208,16 +216,16 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/en\/content\/_Competition-previous-websites_en.html",
+      "oAP" : "\/build\/en\/content\/_Competition.html",
       "oF" : 0,
       "oFM" : 0,
-      "oS" : 0,
+      "oS" : 1,
       "pHT" : 1,
       "pME" : 0,
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/en\/content\/_Concept-part1_en.md" : {
+    "\/source\/en\/content\/_Concept-part1.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -227,16 +235,16 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/en\/content\/_Concept-part1_en.html",
+      "oAP" : "\/build\/en\/content\/_Concept-part1.html",
       "oF" : 0,
       "oFM" : 0,
-      "oS" : 0,
+      "oS" : 1,
       "pHT" : 1,
       "pME" : 0,
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/en\/content\/_Concept-part2_en.md" : {
+    "\/source\/en\/content\/_Concept-part2.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -246,10 +254,10 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/en\/content\/_Concept-part2_en.html",
+      "oAP" : "\/build\/en\/content\/_Concept-part2.html",
       "oF" : 0,
       "oFM" : 0,
-      "oS" : 0,
+      "oS" : 1,
       "pHT" : 1,
       "pME" : 0,
       "rFN" : 0,
@@ -263,7 +271,7 @@
       "oAP" : "\/build\/en\/content\/_menu.html",
       "oF" : 0
     },
-    "\/source\/en\/content\/_Sponsors_en.md" : {
+    "\/source\/en\/content\/_Sponsors.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -273,22 +281,14 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/en\/content\/_Sponsors_en.html",
+      "oAP" : "\/build\/en\/content\/_Sponsors.html",
       "oF" : 0,
       "oFM" : 0,
-      "oS" : 0,
+      "oS" : 1,
       "pHT" : 1,
       "pME" : 0,
       "rFN" : 0,
       "uCM" : 0
-    },
-    "\/source\/en\/content\/index.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/en\/content\/index.html",
-      "oF" : 0
     },
     "\/source\/en\/index.kit" : {
       "cB" : 0,
@@ -638,6 +638,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/source\/fr\/_index--body.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/fr\/_index--body.html",
+      "oF" : 0
+    },
     "\/source\/fr\/_menu.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -646,7 +654,7 @@
       "oAP" : "\/build\/fr\/_menu.html",
       "oF" : 0
     },
-    "\/source\/fr\/content\/_About_fr.md" : {
+    "\/source\/fr\/content\/_About-contact.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -656,16 +664,16 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/fr\/content\/_About_fr.html",
+      "oAP" : "\/build\/fr\/content\/_About-contact.html",
       "oF" : 0,
       "oFM" : 0,
-      "oS" : 0,
+      "oS" : 1,
       "pHT" : 1,
       "pME" : 0,
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/fr\/content\/_About-contact_fr.md" : {
+    "\/source\/fr\/content\/_About.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -675,16 +683,16 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/fr\/content\/_About-contact_fr.html",
+      "oAP" : "\/build\/fr\/content\/_About.html",
       "oF" : 0,
       "oFM" : 0,
-      "oS" : 0,
+      "oS" : 1,
       "pHT" : 1,
       "pME" : 0,
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/fr\/content\/_Competition_fr.md" : {
+    "\/source\/fr\/content\/_Competition-downloads.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -694,16 +702,16 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/fr\/content\/_Competition_fr.html",
+      "oAP" : "\/build\/fr\/content\/_Competition-downloads.html",
       "oF" : 0,
       "oFM" : 0,
-      "oS" : 0,
+      "oS" : 1,
       "pHT" : 1,
       "pME" : 0,
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/fr\/content\/_Competition-downloads_fr.md" : {
+    "\/source\/fr\/content\/_Competition-previous-websites.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -713,16 +721,16 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/fr\/content\/_Competition-downloads_fr.html",
+      "oAP" : "\/build\/fr\/content\/_Competition-previous-websites.html",
       "oF" : 0,
       "oFM" : 0,
-      "oS" : 0,
+      "oS" : 1,
       "pHT" : 1,
       "pME" : 0,
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/fr\/content\/_Competition-previous-websites_fr.md" : {
+    "\/source\/fr\/content\/_Competition.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -732,16 +740,16 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/fr\/content\/_Competition-previous-websites_fr.html",
+      "oAP" : "\/build\/fr\/content\/_Competition.html",
       "oF" : 0,
       "oFM" : 0,
-      "oS" : 0,
+      "oS" : 1,
       "pHT" : 1,
       "pME" : 0,
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/fr\/content\/_Concept-part1_fr.md" : {
+    "\/source\/fr\/content\/_Concept-part1.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -751,16 +759,16 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/fr\/content\/_Concept-part1_fr.html",
+      "oAP" : "\/build\/fr\/content\/_Concept-part1.html",
       "oF" : 0,
       "oFM" : 0,
-      "oS" : 0,
+      "oS" : 1,
       "pHT" : 1,
       "pME" : 0,
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/fr\/content\/_Concept-part2_fr.md" : {
+    "\/source\/fr\/content\/_Concept-part2.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -770,16 +778,16 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/fr\/content\/_Concept-part2_fr.html",
+      "oAP" : "\/build\/fr\/content\/_Concept-part2.html",
       "oF" : 0,
       "oFM" : 0,
-      "oS" : 0,
+      "oS" : 1,
       "pHT" : 1,
       "pME" : 0,
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/fr\/content\/_Sponsors_fr.md" : {
+    "\/source\/fr\/content\/_Sponsors.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -789,10 +797,10 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/fr\/content\/_Sponsors_fr.html",
+      "oAP" : "\/build\/fr\/content\/_Sponsors.html",
       "oF" : 0,
       "oFM" : 0,
-      "oS" : 0,
+      "oS" : 1,
       "pHT" : 1,
       "pME" : 0,
       "rFN" : 0,
@@ -2381,7 +2389,7 @@
       "htmlMinifierStyle" : 0,
       "maskEmailAddresses" : 0,
       "outputFormat" : 0,
-      "outputStyle" : 0,
+      "outputStyle" : 1,
       "parseMetadata" : 0,
       "processHTML" : 1,
       "randomFootnoteNumbers" : 0,

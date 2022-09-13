@@ -29,7 +29,8 @@ Philipp Urech
 Michael Hartwell
 : architect and video maker
 
-The SPADOM team (Department of Parks and Gardens of the City of Lausanne)
+The SPADOM team  
+(Department of Parks and Gardens of the City of Lausanne)
 
 Etienne Balestra
 : Head of Department
