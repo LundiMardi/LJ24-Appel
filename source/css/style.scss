@@ -432,8 +432,11 @@ margin: 0;
 
 }
 
-
 .aside-content > *,
 .aside-content .link-table ul {
   margin-bottom: 5vh;
+}
+
+.article-content {
+  margin-block-end: 3rem;
 }

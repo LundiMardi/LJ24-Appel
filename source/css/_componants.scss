@@ -126,7 +126,7 @@ a.menu-logo svg {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  display: block;
+  // display: block;
     right: 16px;
     top: 16px;
   border: 0;
@@ -368,13 +368,14 @@ strong a {
     display: flex;
     justify-content: space-between;
     font-size: var(--fs-m);
-    padding-top: 2px;
-    align-items: baseline ;
+    padding-bottom: 2px;
+    align-items: center ;
     min-height: 44px;
     
     em {      
       font-style: normal;
       font-size: var(--fs-s) ;
+      padding-top: 2px;
     }
   }
 }

@@ -331,7 +331,6 @@ strong #main-nav.is-nav-visible a {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  display: block;
   right: 16px;
   top: 16px;
   border: 0;
@@ -534,13 +533,14 @@ strong a {
   display: flex;
   justify-content: space-between;
   font-size: var(--fs-m);
-  padding-top: 2px;
-  align-items: baseline;
+  padding-bottom: 2px;
+  align-items: center;
   min-height: 44px;
 }
 .link-table li > a em {
   font-style: normal;
   font-size: var(--fs-s);
+  padding-top: 2px;
 }
 
 #mobile-menu a.menu--item.is-current {
@@ -957,6 +957,10 @@ section#Sponsors {
 .aside-content > *,
 .aside-content .link-table ul {
   margin-bottom: 5vh;
+}
+
+.article-content {
+  margin-block-end: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
