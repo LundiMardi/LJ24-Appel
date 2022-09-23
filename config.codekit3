@@ -915,6 +915,45 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/source\/images\/Panorama-1_b&w.jpg" : {
+      "ft" : 16384,
+      "iS" : 3713131,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/Panorama-1_b&w.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/Panorama-1_bichro.jpg" : {
+      "ft" : 16384,
+      "iS" : 700057,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/Panorama-1_bichro.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/Panorama-1_bichro.png" : {
+      "ft" : 32768,
+      "iS" : 541151,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/Panorama-1_bichro.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/source\/images\/Placeholder-doc.pdf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1001,7 +1040,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets_gray",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 684678898.66826403
+    "lastBuiltDate" : 685661709.12555206
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

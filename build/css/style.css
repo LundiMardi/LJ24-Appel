@@ -700,14 +700,45 @@ section#quick-access .bt-label {
   display: none;
 }
 
+@keyframes panPano {
+  0% {
+    background-position-x: 100%;
+    background-size: auto 120%;
+  }
+  12% {
+    background-size: auto 100%;
+  }
+  18% {
+    background-size: auto 100%;
+  }
+  30% {
+    background-size: auto 110%;
+  }
+  40% {
+    background-size: auto 110%;
+  }
+  67% {
+    background-size: auto 100%;
+  }
+  77% {
+    background-size: auto 100%;
+  }
+  90% {
+    background-size: auto 110%;
+  }
+  100% {
+    background-position-x: 0%;
+    background-size: auto 115%;
+  }
+}
 #bt-competition {
   grid-column: 1/-1;
   grid-row: 2/span 6;
   transition-property: all;
   transition-duration: 100ms;
-  transition-timing-function: --e;
-  background-image: url(../images/RUSH_N&V_Sub_19_1.jpg);
-  background-size: cover;
+  background-image: url(../images/Panorama-1_bichro.png);
+  background-size: auto 100%;
+  animation: 180s linear 0s infinite alternate both running panPano;
   -webkit-mask-image: radial-gradient(white, black);
 }
 @media screen and (min-aspect-ratio: 1/1) {
