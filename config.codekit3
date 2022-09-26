@@ -816,11 +816,11 @@
     },
     "\/source\/images\/01_basemap_ville.jpg" : {
       "ft" : 16384,
-      "iS" : 288123,
+      "iS" : 0,
       "jF" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/images\/01_basemap_ville.jpg",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
@@ -1053,7 +1053,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets_gray",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 685914164.30711603
+    "lastBuiltDate" : 685919222.81731796
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
