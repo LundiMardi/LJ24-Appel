@@ -3,7 +3,7 @@
 ## Les objectifs 
 -	Préfigurer les tendances émergentes et les transformations à venir (souhaitées ou subies) du territoire lausannois; 
 -	Développer un art paysager innovant afin de rendre la ville non seulement plus belle mais aussi plus résiliente et capable de répondre aux défis climatiques, à la perte de biodiversité et aux pressions d’usages;
--	Sensibiliser le public à la question des ressources, notamment celle de l’eau et de son cycle;
+-	Sensibiliser le public à la question de l’importance de la biodiversité et des ressources naturelles, notamment celle de l’eau et de son cycle;
 -	Identifier les potentiels du paysage des rives du lac en s’appuyant sur l’existant (structures, espaces et usages), révéler et valoriser l’identité des lieux;
 -	Encourager l’appropriation de l’espace public afin de rassembler, stimuler les échanges et favoriser l’inclusion;
 -	Proposer des jardins permettant d’expérimenter de nouvelles pratiques sportives, culturelles, de loisirs et de mobilité;	
@@ -19,7 +19,7 @@ B.	le développement des propositions par les équipes retenues.
 A l’issue du concours, le jury déterminera les projets qui seront réalisés par leurs auteurs dans le cadre de Lausanne Jardins. 
 
 ## Comment participer?
-Le concours est ouvert aux paysagistes, jardiniers, designers, architectes, concepteurs et artistes du monde entier. La formation de groupes interdisciplinaires est vivement encouragée. Le dossier de candidature, de trois pages A4 au maximum, doit réunir:
+Le concours est ouvert aux paysagistes, jardiniers, designers, architectes, conceptrices et artistes du monde entier. La formation de groupes interdisciplinaires est vivement encouragée, chacune devra toutefois compter au moins un professionnel du jardin, faisant la part belle au végétal et matériaux biosourcés. Le dossier de candidature, de trois pages A4 au maximum, doit réunir:
 -	une présentation de l’équipe candidate; 
 -	les motivations de la candidature et les intentions de l’équipe en lien avec un site (1er choix et 2ème choix);
 -	deux à trois références de projets.

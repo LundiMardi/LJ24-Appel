@@ -13,21 +13,21 @@ Monique Keller
 : Curator, architect and journalist
 
 Antoine Vialle
-: urban architect, PhD
+: Urban architect, PhD
 
 Julie Imholz
-: landscape architect, Paysagestion
+: Landscape architect, Paysagestion
 
 Visual identity, cartography and video
 
 Notter+Vigne
-: graphic designers
+: Graphic designers
 
 Philipp Urech
 : PhD architect, cartography
 
 Michael Hartwell
-: architect and video maker
+: Architect and video maker
 
 The SPADOM team  
 (Department of Parks and Gardens of the City of Lausanne)
@@ -39,7 +39,7 @@ Yves Lachavanne
 : Head of the Public Spaces Design Office (BEEP)
 
 Rémy Poisot
-: landscape architect, project manager
+: Landscape architect, project manager
 
 Technical office for the implementation phase
 TBD
@@ -63,7 +63,7 @@ Bank details: IBAN CH39 0900 0000 8746 1488 2, Association Jardin Urbain, Lausan
 
 Agathe Caviale
 : President
-: landscape architect, Interval agency
+: Landscape architect, Interval agency
 
 Natacha Litzistorf
 : Vice-president
@@ -78,11 +78,11 @@ Alexis Georgacopoulos
 : Director of ECAL
 
 Jean-Yves Le Baron
-: landscape architect, Atelier du Paysage
+: Landscape architect, L'Atelier du Paysage
 
 
 Martial Messeiller
-: member of the TL Management	
+: Member of the TL Management	
 
 Nathalie Noverraz
 : General Secretary Prométerre	
@@ -94,10 +94,10 @@ Olivier Rambert
 : Head of Development French-speaking Switzerland, Mobimo
 
 Christiane von Roten
-: architect, PONT12
+: Architect, PONT12
 
 Christina Zoumboulakis
-: architect, farra zoumboulakis & associés
+: Architect, farra zoumboulakis & associés
 
 ## Newsletter
 To be kept informed of the preparations and key events of Lausanne Jardins 2024, subscribe to our newsletter:

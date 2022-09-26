@@ -2,7 +2,7 @@
 
 Avec ses installations éphémères, issues notamment d’un concours international, des travaux des Hautes Écoles et des services de la Ville, Lausanne Jardins se prête de manière idéale à la fonction de laboratoire urbain, en testant, grandeur nature, des propositions d’amélioration de la qualité d’usage et de l’esthétique des sites choisis. Il s’agit de traiter le jardin comme un outil de transformation, d’animation et de fabrication de la ville.
 
-Depuis sa première édition, La Municipalité de Lausanne et l’Association Jardin Urbain (AJU) coorganisent Lausanne Jardins. En renouvelant l’héritage des six précédentes éditions, en 1997, 2000, 2004, 2009, 2014 et 2019, la manifestation contribue à faire rayonner l’image de Lausanne, lui conférant une renommée internationale dans le domaine de l’art du jardin.
+Depuis sa première édition, la Municipalité de Lausanne et l’Association Jardin Urbain (AJU) coorganisent Lausanne Jardins. En renouvelant l’héritage des six précédentes éditions, en 1997, 2000, 2004, 2009, 2014 et 2019, la manifestation contribue à faire rayonner l’image de Lausanne, lui conférant une renommée internationale dans le domaine de l’art du jardin.
 
 
 ## L’équipe de Lausanne Jardins 2024
@@ -29,7 +29,7 @@ Philipp Urech
 Michael Hartwell
 : Architecte et vidéaste
 
-Service des Parcs et Domaines de la Ville de Lausanne (SPADOM)
+Service des parcs et domaines (SPADOM), Ville de Lausanne
 
 Etienne Balestra
 : Chef de service
@@ -66,7 +66,7 @@ Agathe Caviale
 
 Natacha Litzistorf
 : Vice-présidente 
-: Directrice LEA, Ville de Lausanne
+: Municipale, directrice LEA, Ville de Lausanne
 
 Etienne Balestra
 : Chef du Service des parcs et domaines, Ville de Lausanne
@@ -78,16 +78,16 @@ Alexis Georgacopoulos
 : directeur de l'ECAL
 
 Jean-Yves Le Baron
-: Architecte paysagiste, Atelier du Paysage
+: Architecte paysagiste, L'Atelier du Paysage
 
 Martial Messeiller
-: Membre de la direction TL
+: Porte-parole des Transports publics de la région lausannoise (tl)
 
 Nathalie Noverraz
-: Secrétaire générale Prométerre	
+: Secrétaire générale de Prométerre	
 
 Steeve Pasche
-: Directeur Lausanne Tourisme		
+: Directeur de Lausanne Tourisme		
 
 Olivier Rambert
 : Responsable développement Suisse Romande, Mobimo
