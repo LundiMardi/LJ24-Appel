@@ -954,6 +954,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/source\/images\/Panorama-1_bw.jpg" : {
+      "ft" : 16384,
+      "iS" : 330316,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/Panorama-1_bw.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/source\/images\/Placeholder-doc.pdf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1040,7 +1053,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets_gray",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 685661709.12555206
+    "lastBuiltDate" : 685914164.30711603
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

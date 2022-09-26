@@ -151,7 +151,7 @@ section#quick-access {
   display: none;
 }
 
-@keyframes panPano {
+@keyframes panZoomPano {
   0% {
     background-position-x: 100%;
     background-size: auto 120%;
@@ -182,16 +182,24 @@ section#quick-access {
     background-size: auto 115%;
   }
 }
+
+@keyframes panPano {
+  0% {
+    background-position-x: 100%;
+  }
+  100% {
+    background-position-x: 0% ;
+  }
+}
+
 #bt-competition {
   grid-column: 1 / -1 ;
   grid-row:2 / span 6 ;
-    // background-color: #000000;
     transition-property: all;
     transition-duration: 100ms ;
-    // transition-timing-function: --e;
   background-image: url(../images/Panorama-1_bichro.png);
   background-size: auto 100% ;
-  animation: 160s cubic-bezier(.15,0,.85,1) 0s infinite alternate both running panPano;
+  // animation: 160s cubic-bezier(.15,0,.85,1) 0s infinite alternate both running panZoomPano;
 
   -webkit-mask-image: radial-gradient(white, black);
 
@@ -208,6 +216,15 @@ section#quick-access {
     z-index: 1;
     color: var(--green);
   }
+}
+
+#bt-competition--image {
+  align-self: end;
+  height: 100%;
+  width: 98vw;
+  background-image: url(../images/Panorama-1_bichro.png);
+  background-size: auto 100% ;
+  animation: 160s cubic-bezier(.15,0,.85,1) 0s infinite alternate both running panPano;
 }
 
 #bgvid {

@@ -700,7 +700,7 @@ section#quick-access .bt-label {
   display: none;
 }
 
-@keyframes panPano {
+@keyframes panZoomPano {
   0% {
     background-position-x: 100%;
     background-size: auto 120%;
@@ -731,6 +731,14 @@ section#quick-access .bt-label {
     background-size: auto 115%;
   }
 }
+@keyframes panPano {
+  0% {
+    background-position-x: 100%;
+  }
+  100% {
+    background-position-x: 0%;
+  }
+}
 #bt-competition {
   grid-column: 1/-1;
   grid-row: 2/span 6;
@@ -738,7 +746,6 @@ section#quick-access .bt-label {
   transition-duration: 100ms;
   background-image: url(../images/Panorama-1_bichro.png);
   background-size: auto 100%;
-  animation: 160s cubic-bezier(0.15, 0, 0.85, 1) 0s infinite alternate both running panPano;
   -webkit-mask-image: radial-gradient(white, black);
 }
 @media screen and (min-aspect-ratio: 1/1) {
@@ -750,6 +757,15 @@ section#quick-access .bt-label {
   position: absolute;
   z-index: 1;
   color: var(--green);
+}
+
+#bt-competition--image {
+  align-self: end;
+  height: 100%;
+  width: 98vw;
+  background-image: url(../images/Panorama-1_bichro.png);
+  background-size: auto 100%;
+  animation: 160s cubic-bezier(0.15, 0, 0.85, 1) 0s infinite alternate both running panPano;
 }
 
 #bgvid {
