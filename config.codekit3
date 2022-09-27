@@ -118,9 +118,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/build\/documents\/Statuts_Association-Jardin-Urbain_2019.pdf",
-      "oF" : 0
+      "oF" : 1
     },
     "\/source\/en\/_index--body.kit" : {
       "cB" : 0,

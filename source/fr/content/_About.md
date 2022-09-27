@@ -75,7 +75,7 @@ Nicole Christe
 : Cheffe du Service d'architecture, Ville de Lausanne	
 
 Alexis Georgacopoulos
-: directeur de l'ECAL
+: Directeur de l'ECAL
 
 Jean-Yves Le Baron
 : Architecte paysagiste, L'Atelier du Paysage

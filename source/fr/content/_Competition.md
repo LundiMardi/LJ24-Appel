@@ -19,7 +19,7 @@ B.	le développement des propositions par les équipes retenues.
 A l’issue du concours, le jury déterminera les projets qui seront réalisés par leurs auteurs dans le cadre de Lausanne Jardins. 
 
 ## Comment participer?
-Le concours est ouvert aux paysagistes, jardiniers, designers, architectes, conceptrices et artistes du monde entier. La formation de groupes interdisciplinaires est vivement encouragée, chacune devra toutefois compter au moins un professionnel du jardin, faisant la part belle au végétal et matériaux biosourcés. Le dossier de candidature, de trois pages A4 au maximum, doit réunir:
+Le concours est ouvert aux paysagistes, spécialistes du jardin, designers, architectes et artistes du monde entier. La formation de groupes interdisciplinaires est vivement encouragée, chacune devra toutefois compter au moins un ou une professionnelle du jardin, faisant la part belle au végétal et matériaux biosourcés. Le dossier de candidature, de trois pages A4 au maximum, doit réunir:
 -	une présentation de l’équipe candidate; 
 -	les motivations de la candidature et les intentions de l’équipe en lien avec un site (1er choix et 2ème choix);
 -	deux à trois références de projets.
