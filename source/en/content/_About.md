@@ -57,7 +57,7 @@ To become a member of AJU: Just write to us with your name and surname at info@l
 Bank details: IBAN CH39 0900 0000 8746 1488 2, Association Jardin Urbain, Lausanne
 
 <strong><a href="mailto:info@lausannejardins.ch?subject=Membership association Lausanne Jardins&body=Hello,%0D%0A %0D%0AI would like to join the association.%0D%0A %0D%0AName :%0D%0ASurname :%0D%0AProfession :%0D%0ACompany :%0D%0APostale address :">E-mail registration</a></strong>  
-**[Download the statutes (PDF)](../documents/statuts_2018_signe.pdf)**
+**[Download the statutes (PDF)](../documents/Statuts_Association-Jardin-Urbain_2019.pdf)**
 
 ## Members of the Committee
 

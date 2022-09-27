@@ -347,10 +347,14 @@ section#quick-access {
 section#Competition,
 section#Concept,
 section#About {
-  padding-bottom: 20vh;
   @media screen and (MIN-WIDTH: 1880px) {
     padding-top: 25vh;
   }
+}
+
+section#Competition,
+section#About {
+  padding-bottom: 20vh;
 }
 
 @media screen and (MIN-WIDTH: 1000px) {

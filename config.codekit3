@@ -114,6 +114,14 @@
       "oAP" : "\/build\/documents\/statuts_2018_signe.pdf",
       "oF" : 0
     },
+    "\/source\/documents\/Statuts_Association-Jardin-Urbain_2019.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/documents\/Statuts_Association-Jardin-Urbain_2019.pdf",
+      "oF" : 0
+    },
     "\/source\/en\/_index--body.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -816,7 +824,7 @@
     },
     "\/source\/images\/01_basemap_ville.jpg" : {
       "ft" : 16384,
-      "iS" : 0,
+      "iS" : 697079,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/build\/images\/01_basemap_ville.jpg",

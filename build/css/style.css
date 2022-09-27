@@ -870,17 +870,17 @@ section#quick-access .bt-label {
     height: calc(33vh - 18px);
   }
 }
-section#Competition,
-section#Concept,
-section#About {
-  padding-bottom: 20vh;
-}
 @media screen and (MIN-WIDTH: 1880px) {
   section#Competition,
 section#Concept,
 section#About {
     padding-top: 25vh;
   }
+}
+
+section#Competition,
+section#About {
+  padding-bottom: 20vh;
 }
 
 @media screen and (MIN-WIDTH: 1000px) {

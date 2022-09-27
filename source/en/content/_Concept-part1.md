@@ -12,4 +12,4 @@ The event, which is based on a series of contemporary garden art installations, 
 
 Over the last few centuries, as a result of natural processes and human activity, the shoreline has progressively encroached upon the lake. Although the shoreline constitutes a landscape and bioclimatic continuum, it nevertheless offers multiple faces depending on its appropriation. Sixty years after Expo 64, this site also represents an opportunity to reflect on the future challenges of a large urban park.
 
-###### The four sequences that mark out this large urban park raise various issues: ecosystems and ecological infrastructures; the practice of inclusive outdoor sports; the art of live performances accessible to wide audiences; the influence and cohabitation of different types of means of transport in the public space.
+The four sequences that mark out this large urban park raise various issues: ecosystems and ecological infrastructures; the practice of inclusive outdoor sports; the art of live performances accessible to wide audiences; the influence and cohabitation of different types of means of transport in the public space.
