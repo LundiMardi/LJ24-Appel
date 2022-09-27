@@ -6,11 +6,12 @@ La manifestation qui s'appuie sur une série d'installations d’art contemporai
 
 ###### En traitant le jardin comme un outil de transformation stratégique et agile, Lausanne Jardins cherche à renforcer la résilience de la ville et sa capacité d'adaptation – facultés déterminantes pour la qualité de vie future en milieu urbain.
 
-L’édition de 2024 s’installera pour la première fois le long des rives lausannoises du Léman. Le parcours s’étend sur six kilomètres entre les deux rivières qui bordent la Ville, de la Vuachère à l’Est vers la Chamberonne à l’Ouest. 
 
 <img id="plan" src="../images/01_basemap_ville.jpg" alt="Vue aérienne du site 2024">
 <!-- ![Vue aérienne du site 2024](../images/01_basemap_ville.jpg) -->
 
-###### Au cours des derniers siècles, sous l’effet des processus naturels et des activités humaines, la rive s’est avancée progressivement sur le lac, gagnant ainsi en épaisseur. Si la rive constitue un continuum paysager et bioclimatique, elle offre cependant de multiples visages en fonction de son appropriation par les usagers. Soixante ans après Expo 64, ce site représente aussi une occasion de réfléchir aux enjeux futurs d’un grand parc d’agglomération.
+###### L’édition de 2024 s’installera pour la première fois le long des rives lausannoises du Léman. Le parcours s’étend sur six kilomètres entre les deux rivières qui bordent la Ville, de la Vuachère à l’Est vers la Chamberonne à l’Ouest. 
 
-Les quatre séquences qui jalonnent ce grand parc d’agglomération soulèvent divers enjeux: les écosystèmes et les infrastructures écologiques; la pratique du sport inclusif en plein air; l’art du spectacle vivant accessible au plus grand nombre; l’emprise et la cohabitation des différents types de mobilité sur l’espace public. 
+Au cours des derniers siècles, sous l’effet des processus naturels et des activités humaines, la rive s’est avancée progressivement sur le lac, gagnant ainsi en épaisseur. Si la rive constitue un continuum paysager et bioclimatique, elle offre cependant de multiples visages en fonction de son appropriation par les usagers. Soixante ans après Expo 64, ce site représente aussi une occasion de réfléchir aux enjeux futurs d’un grand parc d’agglomération.
+
+Les quatre séquences qui jalonnent ce grand parc soulèvent divers enjeux: les écosystèmes et les infrastructures écologiques; la pratique du sport inclusif en plein air; l’art du spectacle vivant accessible au plus grand nombre; l’emprise et la cohabitation des différents types de mobilité sur l’espace public. 

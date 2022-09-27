@@ -6,10 +6,10 @@ The event, which is based on a series of contemporary garden art installations, 
 
 ###### By addressing gardens as a strategic and flexible transformation tool, Lausanne Jardins seeks to strengthen the city’s resilience and its capacity to adapt – faculties that are crucial for the future quality of life in an urban environment.
 
-The 2024 festival will be held for the first time along the banks of Lake Geneva in Lausanne. The course stretches over six kilometres between the two rivers that border the city, from the Vuachère in the east to the Chamberonne in the west.
-
 <img id="plan" src="../images/01_basemap_ville.jpg" alt="Aerial view of the 2024 location">
 
-###### Over the last few centuries, as a result of natural processes and human activity, the shoreline has progressively encroached upon the lake. Although the shoreline constitutes a landscape and bioclimatic continuum, it nevertheless offers multiple faces depending on its appropriation. Sixty years after Expo 64, this site also represents an opportunity to reflect on the future challenges of a large urban park.
+###### The 2024 festival will be held for the first time along the banks of Lake Geneva in Lausanne. The course stretches over six kilometres between the two rivers that border the city, from the Vuachère in the east to the Chamberonne in the west.
 
-The four sequences that mark out this large urban park raise various issues: ecosystems and ecological infrastructures; the practice of inclusive outdoor sports; the art of live performances accessible to wide audiences; the influence and cohabitation of different types of means of transport in the public space.
+Over the last few centuries, as a result of natural processes and human activity, the shoreline has progressively encroached upon the lake. Although the shoreline constitutes a landscape and bioclimatic continuum, it nevertheless offers multiple faces depending on its appropriation. Sixty years after Expo 64, this site also represents an opportunity to reflect on the future challenges of a large urban park.
+
+###### The four sequences that mark out this large urban park raise various issues: ecosystems and ecological infrastructures; the practice of inclusive outdoor sports; the art of live performances accessible to wide audiences; the influence and cohabitation of different types of means of transport in the public space.
