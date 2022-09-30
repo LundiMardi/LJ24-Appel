@@ -17,6 +17,14 @@
       "oAP" : "\/build\/.gitignore",
       "oF" : 0
     },
+    "\/.vscode\/settings.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/build\/.vscode\/settings-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/build" : {
       "ft" : 65536,
       "oA" : 1,
@@ -76,6 +84,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/source\/css\/_layout.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/css\/_layout.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/source\/css\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -98,7 +121,7 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 1,
+      "ma" : 0,
       "oA" : 0,
       "oAP" : "\/build\/css\/style.css",
       "oF" : 0,
@@ -106,21 +129,29 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/source\/documents\/statuts_2018_signe.pdf" : {
+    "\/source\/documents\/LJ_DescriptionSite_EN.pdf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/documents\/statuts_2018_signe.pdf",
+      "oAP" : "\/build\/documents\/LJ_DescriptionSite_EN.pdf",
+      "oF" : 0
+    },
+    "\/source\/documents\/LJ_DescriptionSite_FR.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/documents\/LJ_DescriptionSite_FR.pdf",
       "oF" : 0
     },
     "\/source\/documents\/Statuts_Association-Jardin-Urbain_2019.pdf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/documents\/Statuts_Association-Jardin-Urbain_2019.pdf",
-      "oF" : 1
+      "oF" : 0
     },
     "\/source\/en\/_index--body.kit" : {
       "cB" : 0,
@@ -835,13 +866,226 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/images\/cover-video.mp4" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+    "\/source\/images\/android-chrome-192x192.png" : {
+      "ft" : 32768,
+      "iS" : 8183,
       "oA" : 0,
-      "oAP" : "\/build\/images\/cover-video.mp4",
-      "oF" : 0
+      "oAP" : "\/build\/images\/android-chrome-192x192.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/android-chrome-512x512.png" : {
+      "ft" : 32768,
+      "iS" : 18637,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/android-chrome-512x512.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/apple-touch-icon-57x57.png" : {
+      "ft" : 32768,
+      "iS" : 2328,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/apple-touch-icon-57x57.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/apple-touch-icon-60x60.png" : {
+      "ft" : 32768,
+      "iS" : 2429,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/apple-touch-icon-60x60.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/apple-touch-icon-72x72.png" : {
+      "ft" : 32768,
+      "iS" : 2933,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/apple-touch-icon-72x72.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/apple-touch-icon-76x76.png" : {
+      "ft" : 32768,
+      "iS" : 3048,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/apple-touch-icon-76x76.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/apple-touch-icon-114x114.png" : {
+      "ft" : 32768,
+      "iS" : 4690,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/apple-touch-icon-114x114.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/apple-touch-icon-120x120.png" : {
+      "ft" : 32768,
+      "iS" : 4927,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/apple-touch-icon-120x120.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/apple-touch-icon-144x144.png" : {
+      "ft" : 32768,
+      "iS" : 5931,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/apple-touch-icon-144x144.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/apple-touch-icon-152x152.png" : {
+      "ft" : 32768,
+      "iS" : 6250,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/apple-touch-icon-152x152.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/apple-touch-icon-167x167.png" : {
+      "ft" : 32768,
+      "iS" : 6959,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/apple-touch-icon-167x167.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/apple-touch-icon-180x180.png" : {
+      "ft" : 32768,
+      "iS" : 7729,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/apple-touch-icon-180x180.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/favicon-16x16.png" : {
+      "ft" : 32768,
+      "iS" : 650,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/favicon-16x16.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/favicon-32x32.png" : {
+      "ft" : 32768,
+      "iS" : 1290,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/favicon-32x32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/favicon-96x96.png" : {
+      "ft" : 32768,
+      "iS" : 3913,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/favicon-96x96.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/favicon-128x128.png" : {
+      "ft" : 32768,
+      "iS" : 5003,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/favicon-128x128.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/favicon-196x196.png" : {
+      "ft" : 32768,
+      "iS" : 8398,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/favicon-196x196.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/source\/images\/icon-cross--32.svg" : {
       "ft" : 2097152,
@@ -923,6 +1167,71 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/source\/images\/mstile-70x70.png" : {
+      "ft" : 32768,
+      "iS" : 2778,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/mstile-70x70.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/mstile-144x144.png" : {
+      "ft" : 32768,
+      "iS" : 5931,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/mstile-144x144.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/mstile-150x150.png" : {
+      "ft" : 32768,
+      "iS" : 6161,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/mstile-150x150.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/mstile-310x150.png" : {
+      "ft" : 32768,
+      "iS" : 4307,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/mstile-310x150.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/images\/mstile-310x310.png" : {
+      "ft" : 32768,
+      "iS" : 14517,
+      "oA" : 0,
+      "oAP" : "\/build\/images\/mstile-310x310.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/source\/images\/Panorama-1_b&w.jpg" : {
       "ft" : 16384,
       "iS" : 3713131,
@@ -983,19 +1292,6 @@
       "oAP" : "\/build\/images\/Placeholder-doc.pdf",
       "oF" : 0
     },
-    "\/source\/images\/RUSH_N&V_Sub_19_1.jpg" : {
-      "ft" : 16384,
-      "iS" : 1417856,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/images\/RUSH_N&V_Sub_19_1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/source\/images\/RUSH_N&V_Sub_21_1.jpg" : {
       "ft" : 16384,
       "iS" : 321312,
@@ -1046,7 +1342,7 @@
       "ft" : 65536,
       "oA" : 2,
       "oAP" : "\/build\/libs\/waypoints-master",
-      "oF" : 1
+      "oF" : 0
     }
   },
   "hooks" : [
@@ -1057,9 +1353,9 @@
   },
   "projectAttributes" : {
     "creationDate" : 679855638.51155901,
-    "displayValue" : "LausanneJardin24-appel",
+    "displayValue" : "LJ24-Appel",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets_gray",
+    "iconImageName" : "\/source\/images\/apple-touch-icon-120x120.png",
     "iconImageWasSetByUser" : 0,
     "lastBuiltDate" : 685919222.81731796
   },

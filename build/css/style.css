@@ -53,28 +53,12 @@
   src: url("../fonts/RiformaLLSub-Regular.woff2") format("woff2");
 }
 @font-face {
-  font-family: "RiformaLLSub-Medium";
-  src: url("../fonts/RiformaLLSub-Medium.woff") format("woff");
-}
-@font-face {
-  font-family: "RiformaLLSub-Medium";
-  src: url("../fonts/RiformaLLSub-Medium.woff2") format("woff2");
-}
-@font-face {
   font-family: "RiformaLLSub-Italic";
   src: url("../fonts/RiformaLLSub-Italic.woff") format("woff");
 }
 @font-face {
   font-family: "RiformaLLSub-Italic";
   src: url("../fonts/RiformaLLSub-Italic.woff2") format("woff2");
-}
-@font-face {
-  font-family: "RiformaLLSub-MediumItalic";
-  src: url("../fonts/RiformaLLSub-MediumItalic.woff") format("woff");
-}
-@font-face {
-  font-family: "RiformaLLSub-MediumItalic";
-  src: url("../fonts/RiformaLLSub-MediumItalic.woff2") format("woff2");
 }
 * {
   box-sizing: border-box;
@@ -136,6 +120,14 @@ h6 + h2 {
 
 h4 + ul {
   margin-top: calc(var(--unit) * -1);
+}
+
+h6 {
+  display: block;
+}
+
+h6 + h6 {
+  margin-top: -1em;
 }
 
 ul {
@@ -578,14 +570,6 @@ article > img {
     outline: 2px solid black;
   }
 }
-h6 {
-  display: block;
-}
-
-h6 + h6 {
-  margin-top: -1em;
-}
-
 html {
   scroll-padding-top: calc(90px + 1rem);
   scroll-snap-type: y proximity;
@@ -617,11 +601,17 @@ h1.section-heading {
   display: flex;
   align-items: center;
   padding-bottom: 0.4rem;
+  margin-top: 0;
   margin-bottom: 20vh;
   background-color: var(--paper);
   box-shadow: -100px 0 0 0 var(--paper), 100px 0 0 0 var(--paper);
   color: var(--accent);
   z-index: 10;
+}
+@media screen and (MIN-WIDTH: 1880px) {
+  h1.section-heading {
+    margin-top: var(--unit);
+  }
 }
 @media screen and (MIN-WIDTH: 1880px) {
   h1.section-heading {
@@ -870,6 +860,11 @@ section#quick-access .bt-label {
     height: calc(33vh - 18px);
   }
 }
+section#Competition,
+section#Concept,
+section#About {
+  padding-top: 1px;
+}
 @media screen and (MIN-WIDTH: 1880px) {
   section#Competition,
 section#Concept,
@@ -1009,5 +1004,3 @@ section#Sponsors {
 .article-content {
   margin-block-end: 3rem;
 }
-
-/*# sourceMappingURL=style.css.map */
