@@ -18,7 +18,7 @@ Antoine Vialle
 Julie Imholz
 : Landscape architect, Paysagestion
 
-Visual identity, cartography and video
+Visual identity, cartography, video and website
 
 Notter+Vigne
 : Graphic designers
@@ -28,6 +28,9 @@ Philipp Urech
 
 Michael Hartwell
 : Architect and video maker
+
+LundiMardi 
+: Interaction designer, web dev
 
 The SPADOM team  
 (Department of Parks and Gardens of the City of Lausanne)

@@ -18,7 +18,7 @@ Antoine Vialle
 Julie Imholz
 : Architecte paysagiste, Paysagestion
 
-Identité visuelle, cartographie et vidéo
+Identité visuelle, cartographie, vidéo et site web
 
 Notter+Vigne
 : Graphistes
@@ -28,6 +28,9 @@ Philipp Urech
 
 Michael Hartwell
 : Architecte et vidéaste
+
+LundiMardi 
+: Designer d'interaction, developpement web
 
 Service des parcs et domaines (SPADOM), Ville de Lausanne
 
