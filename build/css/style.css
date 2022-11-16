@@ -533,6 +533,7 @@ strong a {
   font-style: normal;
   font-size: var(--fs-s);
   padding-top: 2px;
+  text-align: end;
 }
 
 #mobile-menu a.menu--item.is-current {
