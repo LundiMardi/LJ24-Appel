@@ -342,7 +342,8 @@ section#quick-access {
 
 section#Competition,
 section#Concept,
-section#About {
+section#About,
+.section-padding-top  {
   padding-top: 1px; //prevents margins of children from overflowing
   @media screen and (MIN-WIDTH: 1880px) {
     padding-top: 25vh;
@@ -350,15 +351,18 @@ section#About {
 }
 
 section#Competition,
-section#About {
+section#About,
+.section-padding-bottom 
+{
   padding-bottom: 20vh;
 }
 
 @media screen and (MIN-WIDTH: 1000px) {
   
-  section#Sponsors,
-  section#Competition,
-  section#About {
+  // section#Sponsors,
+  // section#Competition,
+  // section#About,
+  .article-and-aside {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;

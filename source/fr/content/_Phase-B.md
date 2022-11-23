@@ -1,0 +1,4 @@
+<!-- ###### As for the previous events, the creation of the works for Lausanne Jardins 2024 is subject to an international competition in order to maintain the level of excellence of the festival and the prestige acquired in the fields of landscape architecture and urban development. The call for applications will be launched on Monday, 3 October 2022. The programme and the description of the competition sites can be downloaded here. -->
+
+## Phase B 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
