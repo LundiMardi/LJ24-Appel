@@ -1,7 +1,7 @@
-- [Carte générale Autocad (dwg)   *22.3 MB*](../documents/Autocad_LJ24.zip)
-- [Cartes A0 Séquences (pdf)  *636 MB*](../documents/Plans_A0_Sequences_LJ24_(pdf).zip)
-- [Cartes A3 Périmètres (pdf)  *2.86 GB*](../documents/Plans_A3_Perimetres_LJ24_(pdf).zip)
-- [Formulaire de contact (docx/pdf)  *2.8 GB*](../documents/Formulaire_de_contact-Contact_form_LJ24.zip)
+- [Plan de site Autocad (dwg) *18 MB*](../documents/Autocad_LJ24.zip)
+- [Plans séquences A0 (pdf)  *30 MB*](../documents/Plans_A0_Sequences_LJ24_(pdf).zip)
+- [Plans périmètres A3 (pdf)  *12 MB*](../documents/Plans_A3_Perimetres_LJ24_(pdf).zip)
+- [Formulaire de contact (docx/pdf)  *0.2 MB*](../documents/Formulaire_de_contact-Contact_form_LJ24.zip)
 
 **[Modèle 3D (Potree)](../../potree/)**
 **[Animation coupes](../../documents/scroll/)**

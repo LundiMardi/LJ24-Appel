@@ -145,6 +145,14 @@
       "oAP" : "\/build\/en\/_menu.html",
       "oF" : 0
     },
+    "\/source\/en\/_phase-b--body.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/en\/_phase-b--body.html",
+      "oF" : 0
+    },
     "\/source\/en\/content\/_About-contact.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -286,6 +294,44 @@
       "oAP" : "\/build\/en\/content\/_menu.html",
       "oF" : 0
     },
+    "\/source\/en\/content\/_Phase-B-downloads.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 0,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/en\/content\/_Phase-B-downloads.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 1,
+      "pHT" : 1,
+      "pME" : 0,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/source\/en\/content\/_Phase-B.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 0,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/en\/content\/_Phase-B.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 1,
+      "pHT" : 1,
+      "pME" : 0,
+      "rFN" : 0,
+      "uCM" : 0
+    },
     "\/source\/en\/content\/_Sponsors.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -311,6 +357,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/build\/en\/index.html",
+      "oF" : 0
+    },
+    "\/source\/en\/phase-b.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/en\/phase-b.html",
       "oF" : 0
     },
     "\/source\/fonts\/01_IMPORTANT_License_Notice_Web.txt" : {
@@ -1387,7 +1441,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/source\/images\/apple-touch-icon-120x120.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 690894387.95149398
+    "lastBuiltDate" : 691080456.38600504
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
