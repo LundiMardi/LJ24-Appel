@@ -22,7 +22,22 @@ html {
   scroll-padding-top: calc(90px + 1rem);
   scroll-snap-type: y proximity;
 }
+
+body {
+  min-height: 100vh;
+}
 section {  scroll-snap-align: start;
+}
+
+body.page-template {
+  display: flex;
+  flex-direction: column;
+
+  .footer {
+    align-self: flex-end;
+    width: 100%;
+    margin-top: auto;
+  }
 }
 
 #body-lining {
@@ -213,6 +228,31 @@ section#quick-access {
     color: var(--green);
   }
 }
+
+
+.header-logo {
+  position: sticky;
+  right: 0;
+  top: 0;
+  z-index: 50;
+  height: 85px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  background-color: var(--paper);
+
+  a {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+  }
+}
+.header-logo img#page-logo {
+  width: 6em;
+  margin: 1em;
+}
+
 
 #bt-competition--image {
   align-self: end;

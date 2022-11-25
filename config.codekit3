@@ -7,7 +7,7 @@
       "uuidString" : "8A0E9E22-FF23-4737-9399-3EFCEBB0DD0C"
     }
   ],
-  "creatorBuild" : "34365",
+  "creatorBuild" : "34434",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -128,30 +128,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/source\/documents\/LJ_DescriptionSite_EN.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/documents\/LJ_DescriptionSite_EN.pdf",
-      "oF" : 0
-    },
-    "\/source\/documents\/LJ_DescriptionSite_FR.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/documents\/LJ_DescriptionSite_FR.pdf",
-      "oF" : 0
-    },
-    "\/source\/documents\/Statuts_Association-Jardin-Urbain_2019.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/documents\/Statuts_Association-Jardin-Urbain_2019.pdf",
-      "oF" : 0
     },
     "\/source\/en\/_index--body.kit" : {
       "cB" : 0,
@@ -2118,7 +2094,8 @@
         "active" : 1
       },
       "no-fallthrough" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-floating-decimal" : {
         "active" : 0
@@ -2280,7 +2257,8 @@
         "optionString" : "'event', 'fdescribe'"
       },
       "no-restricted-imports" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : ""
       },
       "no-restricted-properties" : {
         "active" : 0,
@@ -2908,6 +2886,7 @@
       "createDeclarationFile" : 0,
       "jsxMode" : 0,
       "minifierStyle" : 0,
+      "moduleDetectionType" : 0,
       "moduleResolutionType" : 0,
       "moduleType" : 2,
       "removeComments" : 0,
