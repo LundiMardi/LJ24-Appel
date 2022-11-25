@@ -9,7 +9,7 @@
 
 You will also find links to:
 - a digital 3D model of the entire site (Potree)
-- an animation showing longitudinal and horizontal sections of the site
+- an animation showing longitudinal sections of the site
 - the City of Lausanne's map portal. It allows you to view technical geographical data in the form of interactive maps and to obtain up-to-date information on the entire territory
 
 ## Project submission
@@ -18,9 +18,9 @@ Projects must be submitted by post mail to the organiser by *4:00 pm on 24 Fe
 
 Please include the follwing deliverables:
 
-- 2 A1 boards (not folded, *but can be rolled*)
-- 1 A4 booklet including the location, the project description and the cost estimation (max. 5 pages)
-- 1 sealed envelope featuring the title project on the outside and containing the contact form (download here)
+- 2 horizontal A1 boards (not folded, *but can be rolled*)
+- 1 A4 booklet including the location, the project description and the cost estimation in french (max. 5 pages)
+- 1 sealed envelope featuring the title project on the outside and containing the contact form (see download)
 - 1 sealed envelope for the USB stick including the compétition boards and the A4 booklet (for video projection)
 
 Each document must be labeled with the title project and mention the assigned perimeter.
