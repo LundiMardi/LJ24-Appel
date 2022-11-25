@@ -588,6 +588,9 @@ body.page-template .footer {
   width: 100%;
   margin-top: auto;
 }
+body.page-template section {
+  scroll-margin-top: initial;
+}
 
 #body-lining {
   overflow-y: scroll;
