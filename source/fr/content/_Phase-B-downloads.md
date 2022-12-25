@@ -2,10 +2,14 @@
 - [Plans séquences A0 (pdf)  *30 MB*](../documents/Plans_A0_Sequences_LJ24_(pdf).zip)
 - [Plans périmètres A3 (pdf)  *12 MB*](../documents/Plans_A3_Perimetres_LJ24_(pdf).zip)
 - [Formulaire de contact (docx/pdf)  *0.2 MB*](../documents/Formulaire_de_contact-Contact_form_LJ24.zip)
+- [Questions concours (pdf)  *0.5 MB*](../documents/LJ_Questions_Concours-QA_Competition.pdf)
+- [Plan courbes de niveaux (dwg)  *3 MB*](../documents/LJ_Contour-map-Courbes_de_niveaux.dwg)
 
 **[Modèle 3D (Potree)](../../potree/)**
 **[Animation coupes](../../documents/scroll/)**
 **[Guichet cartographique de la Ville de Lausanne](https://map.lausanne.ch/)**
+**[Guichet cartographique du Canton de Vaud](https://www.geo.vd.ch)**
+**[Géodonnées](https://viageo.ch)**
 
 <!-- ## Vidéos  
 **[Natacha Litzistorf](https://vimeo.com/767195349/3d8cddd684)**
