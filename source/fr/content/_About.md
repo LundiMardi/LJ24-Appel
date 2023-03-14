@@ -7,6 +7,40 @@ Depuis sa première édition, la Municipalité de Lausanne et l’Association Ja
 
 ## L’équipe de Lausanne Jardins 2024
 
+Commissariat
+: Monique Keller
+
+Adjoint à la commissaire 
+: Antoine Vialle
+
+Architectes paysagistes / bureaux conseils
+: Rémy Poisot, Service des parcs et domaines
+: Julie Imholz, Paysagestion (phase concept)
+: Vincent Osselin, Tact Architecture du paysage (phase d’exécution)
+
+Communication
+: Mathilde De Laage
+: Marion De Kerchove
+
+Identité visuelle et graphisme
+: Notter+Vigne 
+
+Modélisation et cartes
+: Philipp Urech
+
+Vidéo et photographies
+: Michael Hartwell
+
+Site web
+: LundiMardi
+
+Service des parcs et domaines (SPADOM)
+: Etienne Balestra, Chef de service
+: Yves Lachavanne, Chef du bureau d’étude des espaces publics (BEEP)
+: Rémy Poisot, Architecte paysagiste, chef de projet
+
+## L’équipe de Lausanne Jardins 2024
+
 Bureau exécutif 
 
 Monique Keller 

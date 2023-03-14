@@ -1,3 +1,27 @@
+<div style="color:var(--accent);">
+<h1>Invitation
+<h6>Nous avons le plaisir de vous inviter à l’annonce officielle des résultats du concours et au vernissage de l'exposition des projets, le samedi 1 avril dès 14h dans les serres du Service des parc et domaine de la Ville de Lausanne.</h6>
+<p>A cette occasion, seront exposés les projets du concours interne du Service des parcs et domaines ainsi que les travaux des étudiant.es de la filière Architecture du paysage de la Haute école du paysage, d'ingénierie et d'architecture de Genève (HEPIA) et de l'Institut d'Architecture de l'École Polytechnique Fédérale de Lausanne (EPFL).</p>
+
+<p>Exposition du lundi 3 au samedi 15 avril</p>
+
+<p>Av. du Chablais 46, 1007 Lausanne
+<br> (Suivre la signalétique jusqu’aux serres)</p>
+
+<p>Horaires</p>
+<dl>
+  <dt>lundi – vendredi</dt>
+  <dd>9h-19h</dd>
+  <dt>samedi</dt>
+  <dd>10h-17h</dd>
+</dl>
+
+<p>dimanche, Vendredi saint et lundi de Pâques fermé.</p>
+</div>
+<p><!-- pour espacement --></p>
+
+## Appel à candidature (fermé)
+
 ###### Comme pour les éditions précédentes, la création des œuvres de l’édition 2024 fait l’objet d’un concours international afin de maintenir le niveau d’excellence de Lausanne Jardins et le prestige acquis dans les milieux de l’architecture du paysage et du développement urbain. L’appel à candidatures est lancé le lundi 3 octobre 2022. Le programme ainsi que le descriptif des sites de concours peuvent être téléchargés ci-contre.
 
 ## Les objectifs 

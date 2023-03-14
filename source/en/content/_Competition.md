@@ -1,3 +1,29 @@
+<div style="color:var(--accent);">
+<h1>Invitation</h1>
+<h6>We are pleased to invite you to the Opening of the exhibition of the 2024 edition of Lausanne Jardins, from 2pm at the Greenhouses of the City of Lausanne.
+The Awards ceremony for the international competition will be attended by Lausanne's City officials and the winners, and will be followed by a cocktail.</h6>
+<p>On this occasion, the projects of the internal competition of the Service des parcs et domaines as well as the work of the students of the Landscape Architecture Department of the Geneva University of Landscape, Engineering and Architecture (HEPIA) and of the Institute of Architecture of the Swiss Federal Institute of Technology (EPFL) will be exhibited.</p>
+
+<p>Exhibition from Monday 3 to Saturday 15 April</p>
+
+<p>Av. du Chablais 46, 1007 Lausanne 
+<br>(follow the signs to the greenhouses)</p>
+
+<p>Opening hours</p>
+
+<dl>
+  <dt>Mon-Fri</dt>
+  <dd>9h-19h</dd>
+  <dt>Sat</dt>
+  <dd>10h-17h</dd>
+</dl>
+
+<p>Sunday, Good Friday and Easter Monday closed.</p>
+</div>
+<p><!-- pour espacement --></p>
+
+## Call for entries (closed)
+
 ###### As for the previous events, the creation of the works for Lausanne Jardins 2024 is subject to an international competition in order to maintain the level of excellence of the festival and the prestige acquired in the fields of landscape architecture and urban development. The call for applications will be launched on Monday, 3 October 2022. The programme and the description of the competition sites can be downloaded here.
 
 ## Objectives 
